@@ -4,7 +4,7 @@
     {
       "id": "github-issues",
       "name": "GitHub Issues",
-      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog; click one to drop a prompt asking the agent to open and review it. The prompt template is editable in settings.",
+      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog with a repository filter; click one to drop a prompt asking the agent to open and review it. The prompt template is editable in settings.",
       "author": "Cockpit",
       "latestVersion": "1.1.0",
       "versions": [
@@ -13,8 +13,8 @@
           "path": "github-issues/github-issues-1.1.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
-          "sha256": "69861752db4783045a27b01d2745ef106ab07c189fb19463e4da6e4e1313d26d",
-          "notes": "gh CLI support, cross-repo issues, searchable/sortable dialog. Settings inputs now have per-field help tooltips."
+          "sha256": "ff3518e191eb3d3eeb905d8d7657505d4167790852bd6b841530957bbf5b376d",
+          "notes": "gh CLI + cross-repo, searchable/sortable dialog with a repository filter (All + per-repo), per-field settings help tooltips."
         },
         {
           "version": "1.0.0",
@@ -38,25 +38,33 @@
           "path": "github-pull-requests/github-pull-requests-1.0.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
-          "sha256": "81c09da660019b93044ea6835780f4dcf86d1d77624ac91c481f938efe7bb28f",
-          "notes": "Inline Open PRs section + all-PRs dialog, gh CLI or single-repo HTTP. Hardened JSON parsing; per-field settings help tooltips."
+          "sha256": "4e1096238cd7773e6c69f15dc19ac161642acd9445a19f4a6815975ae891ddc6",
+          "notes": "Inline Open PRs section + all-PRs dialog, gh CLI or single-repo HTTP. Hardened JSON parsing; per-field settings help tooltips; settings apply live (no restart)."
         }
       ]
     },
     {
       "id": "youtrack",
       "name": "YouTrack",
-      "description": "Shows up to 5 open YouTrack issues inline under the session list for a configured project (over HTTP with a permanent token — YouTrack has no CLI), plus a dialog listing every open issue in a searchable, sortable grid; click one to drop a prompt asking the agent to work on it. The prompt template is editable in settings.",
+      "description": "Connect one or more YouTrack instances and browse their open issues per project over the REST API (permanent token); a dialog with instance/project/state filters lets you narrow down, and clicking an issue drops a prompt asking the agent to work on it. The prompt template is editable in settings.",
       "author": "Cockpit",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.1.0",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "youtrack/youtrack-1.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "7c847b5aa234430d9ffe5ac8febd5700ef74f9729d7459c32c5952b4e4568295",
+          "notes": "Multiple YouTrack instances; left-menu button opening a dialog with instance/project/state filters (All). Per-field settings help tooltips; no personal instance baked in."
+        },
         {
           "version": "1.0.0",
           "path": "youtrack/youtrack-1.0.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
           "sha256": "5ced2b228e3632ca1775d0df8c4cd4bb946ab2267c45b63fdef63ada7eb943d5",
-          "notes": "Per-project open issues over the YouTrack REST API. No personal instance baked in; per-field settings help tooltips."
+          "notes": "Single-instance per-project open issues over the YouTrack REST API."
         }
       ]
     }
