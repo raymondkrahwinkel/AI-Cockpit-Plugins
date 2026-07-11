@@ -48,8 +48,16 @@
       "name": "YouTrack",
       "description": "Connect one or more YouTrack instances and browse their open issues per project over the REST API (permanent token); a dialog with instance/project/state filters lets you narrow down, and clicking an issue drops a prompt asking the agent to work on it. The prompt template is editable in settings.",
       "author": "Cockpit",
-      "latestVersion": "1.1.0",
+      "latestVersion": "1.2.0",
       "versions": [
+        {
+          "version": "1.2.0",
+          "path": "youtrack/youtrack-1.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "057a1e8a6bfd3142838cb328e1b7e308766e9681b961a0e6d4276e65155a921a",
+          "notes": "Registers the JetBrains remote YouTrack MCP server (/mcp, per configured instance) so a session can query YouTrack via tools. Requires YouTrack Cloud 2026.2+ with the MCP server enabled + a permanent token."
+        },
         {
           "version": "1.1.0",
           "path": "youtrack/youtrack-1.1.0.zip",
