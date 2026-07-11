@@ -13,8 +13,8 @@
           "path": "github-issues/github-issues-1.1.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
-          "sha256": "b39b0de45f646027a788eefb4693ab2203215233fdb073c2fc1f742f17b13b9b",
-          "notes": "gh CLI support, cross-repo issues, searchable/sortable dialog."
+          "sha256": "69861752db4783045a27b01d2745ef106ab07c189fb19463e4da6e4e1313d26d",
+          "notes": "gh CLI support, cross-repo issues, searchable/sortable dialog. Settings inputs now have per-field help tooltips."
         },
         {
           "version": "1.0.0",
@@ -38,8 +38,8 @@
           "path": "github-pull-requests/github-pull-requests-1.0.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
-          "sha256": "3f3a3785ba580d39ff729baba9b73c3612df9bd3de0d6ad6040588d6144be6e2",
-          "notes": "Initial release. Inline Open PRs section + all-PRs dialog, gh CLI or single-repo HTTP."
+          "sha256": "81c09da660019b93044ea6835780f4dcf86d1d77624ac91c481f938efe7bb28f",
+          "notes": "Inline Open PRs section + all-PRs dialog, gh CLI or single-repo HTTP. Hardened JSON parsing; per-field settings help tooltips."
         }
       ]
     },
@@ -55,8 +55,8 @@
           "path": "youtrack/youtrack-1.0.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
-          "sha256": "81d75ce6b5c1797f253df7297487026bb3a38efa7a79f2e22067c855240f8ad3",
-          "notes": "Initial release. Per-project open issues over the YouTrack REST API."
+          "sha256": "5ced2b228e3632ca1775d0df8c4cd4bb946ab2267c45b63fdef63ada7eb943d5",
+          "notes": "Per-project open issues over the YouTrack REST API. No personal instance baked in; per-field settings help tooltips."
         }
       ]
     }
