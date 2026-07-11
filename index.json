@@ -112,7 +112,7 @@
           "path": "gemini-provider/gemini-provider-0.1.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
-          "sha256": "19762b45b5edc9969d66c9eccc9e63bb4b0abb111c5dff8b93973e138fd2acec",
+          "sha256": "4706a4ccf2eb5baa129a6cf16ab62c0259cbc874577387e92a4ab4498f27f7cf",
           "notes": "Experimental first provider-plugin (#45 phase A): Gemini + OpenAI via the OpenAI-compatible endpoint over Microsoft.Extensions.AI. Trimmed capability flags; API key redacted from ToString; graceful handling when the provider plugin is missing."
         }
       ]
@@ -135,7 +135,7 @@
           "path": "cli-agent-provider/cli-agent-provider-0.1.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
-          "sha256": "55a0e523f9e9adbb1e42dfe680b15cef33cead525149a96013f7a201ad21d54f",
+          "sha256": "80490664a3d9b2db9a0f5d698d46810f1c6fce28888a2ea47691d1c724371f63",
           "notes": "Phase B1: Codex CLI subprocess provider through the plugin session-driver contract (process-per-turn, resume, stderr-drain, interrupt=kill). Live Codex schema/auth/resume verification pending (B2)."
         }
       ]
@@ -158,7 +158,7 @@
           "path": "github-models-provider/github-models-provider-0.1.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
-          "sha256": "20dc23008040245fd5761a95a8991740a5ddb4f74550db47edd4f6c86afad726",
+          "sha256": "497d7a24240dac32d5a3f7a99e08a2ba3f91415dd4a20307c9e9176c9c1b056f",
           "notes": "GitHub Models via the OpenAI-compatible endpoint over Microsoft.Extensions.AI (same driver as the Gemini/OpenAI provider). Needs a GitHub PAT with models:read."
         }
       ]
