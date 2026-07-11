@@ -3,7 +3,7 @@
 The default plugin store for [AI-Cockpit](https://github.com/raymondkrahwinkel/AI-Cockpit) — the multi-Claude cockpit.
 
 Point the cockpit's plugin store at this repository (Options → Plugins → Plugin stores → add
-`https://github.com/raymondkrahwinkel/cockpit-plugins`) to browse, install and update the plugins
+`https://github.com/raymondkrahwinkel/AI-Cockpit-Plugins`) to browse, install and update the plugins
 below. The cockpit resolves the raw `index.json`, verifies each download against its `sha256`, and
 runs the existing install + consent flow.
 
