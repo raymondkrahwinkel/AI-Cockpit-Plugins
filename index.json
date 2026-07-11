@@ -80,8 +80,8 @@
           "path": "gemini-provider/gemini-provider-0.1.0.zip",
           "abstractionsVersion": 1,
           "minHostVersion": "1.0.0",
-          "sha256": "ca44fb818e51f2917d72935933beee79a970e2c139d57dd5035da9c053f72406",
-          "notes": "Experimental first provider-plugin (#45 phase A): Gemini + OpenAI via the OpenAI-compatible endpoint over Microsoft.Extensions.AI."
+          "sha256": "19762b45b5edc9969d66c9eccc9e63bb4b0abb111c5dff8b93973e138fd2acec",
+          "notes": "Experimental first provider-plugin (#45 phase A): Gemini + OpenAI via the OpenAI-compatible endpoint over Microsoft.Extensions.AI. Trimmed capability flags; API key redacted from ToString; graceful handling when the provider plugin is missing."
         }
       ]
     }
