@@ -84,6 +84,23 @@
           "notes": "Experimental first provider-plugin (#45 phase A): Gemini + OpenAI via the OpenAI-compatible endpoint over Microsoft.Extensions.AI. Trimmed capability flags; API key redacted from ToString; graceful handling when the provider plugin is missing."
         }
       ]
+    },
+    {
+      "id": "cli-agent-provider",
+      "name": "CLI Agent Provider (Codex)",
+      "description": "Adds Codex CLI as a selectable session provider, driven as a subprocess per turn (codex exec --json, resumed for follow-up turns). Requires the codex CLI installed and authenticated on the machine running Cockpit. Experimental (0.x, phase B1) — event mapping is a best-effort reconstruction; verify against your Codex version.",
+      "author": "Cockpit",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "cli-agent-provider/cli-agent-provider-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "55a0e523f9e9adbb1e42dfe680b15cef33cead525149a96013f7a201ad21d54f",
+          "notes": "Phase B1: Codex CLI subprocess provider through the plugin session-driver contract (process-per-turn, resume, stderr-drain, interrupt=kill). Live Codex schema/auth/resume verification pending (B2)."
+        }
+      ]
     }
   ]
 }
