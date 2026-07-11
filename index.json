@@ -139,6 +139,29 @@
           "notes": "Phase B1: Codex CLI subprocess provider through the plugin session-driver contract (process-per-turn, resume, stderr-drain, interrupt=kill). Live Codex schema/auth/resume verification pending (B2)."
         }
       ]
+    },
+    {
+      "id": "github-models-provider",
+      "name": "GitHub Models",
+      "description": "Adds GitHub Models as a selectable session provider over its OpenAI-compatible endpoint (models.github.ai/inference). Configure a GitHub personal access token (models:read scope) and a namespaced model id (e.g. openai/gpt-4.1) per profile. This is GitHub's official models API — a Copilot subscription raises the rate limits.",
+      "author": "Cockpit",
+      "category": "AI providers",
+      "icon": "🐙",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-11",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "github-models-provider/github-models-provider-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "20dc23008040245fd5761a95a8991740a5ddb4f74550db47edd4f6c86afad726",
+          "notes": "GitHub Models via the OpenAI-compatible endpoint over Microsoft.Extensions.AI (same driver as the Gemini/OpenAI provider). Needs a GitHub PAT with models:read."
+        }
+      ]
     }
   ]
 }
