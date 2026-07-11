@@ -1,0 +1,64 @@
+{
+  "name": "Cockpit plugin store",
+  "plugins": [
+    {
+      "id": "github-issues",
+      "name": "GitHub Issues",
+      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog; click one to drop a prompt asking the agent to open and review it. The prompt template is editable in settings.",
+      "author": "Cockpit",
+      "latestVersion": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "path": "github-issues/github-issues-1.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "b39b0de45f646027a788eefb4693ab2203215233fdb073c2fc1f742f17b13b9b",
+          "notes": "gh CLI support, cross-repo issues, searchable/sortable dialog."
+        },
+        {
+          "version": "1.0.0",
+          "path": "github-issues/github-issues-1.0.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "2bcbcdedd5a8eb1aee454f9f6ceba9c4bb33d85e0540b17447c914dbf113ba5a",
+          "notes": "Initial release."
+        }
+      ]
+    },
+    {
+      "id": "github-pull-requests",
+      "name": "GitHub Pull Requests",
+      "description": "Shows up to 5 open GitHub pull requests inline under the session list (via the gh CLI across your repos, or one repo), plus a dialog listing every open PR in a searchable, sortable grid; click one to drop a prompt asking the agent to review it. The prompt template is editable in settings.",
+      "author": "Cockpit",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "github-pull-requests/github-pull-requests-1.0.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "3f3a3785ba580d39ff729baba9b73c3612df9bd3de0d6ad6040588d6144be6e2",
+          "notes": "Initial release. Inline Open PRs section + all-PRs dialog, gh CLI or single-repo HTTP."
+        }
+      ]
+    },
+    {
+      "id": "youtrack",
+      "name": "YouTrack",
+      "description": "Shows up to 5 open YouTrack issues inline under the session list for a configured project (over HTTP with a permanent token — YouTrack has no CLI), plus a dialog listing every open issue in a searchable, sortable grid; click one to drop a prompt asking the agent to work on it. The prompt template is editable in settings.",
+      "author": "Cockpit",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "youtrack/youtrack-1.0.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "81d75ce6b5c1797f253df7297487026bb3a38efa7a79f2e22067c855240f8ad3",
+          "notes": "Initial release. Per-project open issues over the YouTrack REST API."
+        }
+      ]
+    }
+  ]
+}
