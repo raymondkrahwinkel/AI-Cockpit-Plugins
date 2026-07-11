@@ -6,6 +6,12 @@
       "name": "GitHub Issues",
       "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog with a repository filter; click one to drop a prompt asking the agent to open and review it. The prompt template is editable in settings.",
       "author": "Cockpit",
+      "category": "Issue trackers",
+      "icon": "🐛",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": true,
+      "published": "2026-07-11",
       "latestVersion": "1.1.0",
       "versions": [
         {
@@ -31,6 +37,12 @@
       "name": "GitHub Pull Requests",
       "description": "Shows up to 5 open GitHub pull requests inline under the session list (via the gh CLI across your repos, or one repo), plus a dialog listing every open PR in a searchable, sortable grid; click one to drop a prompt asking the agent to review it. The prompt template is editable in settings.",
       "author": "Cockpit",
+      "category": "Issue trackers",
+      "icon": "🔀",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-11",
       "latestVersion": "1.0.0",
       "versions": [
         {
@@ -48,6 +60,12 @@
       "name": "YouTrack",
       "description": "Connect one or more YouTrack instances and browse their open issues per project over the REST API (permanent token); a dialog with instance/project/state filters lets you narrow down, and clicking an issue drops a prompt asking the agent to work on it. The prompt template is editable in settings.",
       "author": "Cockpit",
+      "category": "Issue trackers",
+      "icon": "🎫",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-11",
       "latestVersion": "1.2.0",
       "versions": [
         {
@@ -81,6 +99,12 @@
       "name": "Gemini / OpenAI Provider",
       "description": "Adds Gemini and OpenAI as selectable session providers, both over an OpenAI-compatible chat-completions endpoint (Gemini's own OpenAI-compat endpoint, or api.openai.com directly). Configure an API key and model per profile in Manage profiles. Experimental (0.x) — the provider-plugin mechanism is new; live-verify with a real key.",
       "author": "Cockpit",
+      "category": "AI providers",
+      "icon": "✨",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-11",
       "latestVersion": "0.1.0",
       "versions": [
         {
@@ -98,6 +122,12 @@
       "name": "CLI Agent Provider (Codex)",
       "description": "Adds Codex CLI as a selectable session provider, driven as a subprocess per turn (codex exec --json, resumed for follow-up turns). Requires the codex CLI installed and authenticated on the machine running Cockpit. Experimental (0.x, phase B1) — event mapping is a best-effort reconstruction; verify against your Codex version.",
       "author": "Cockpit",
+      "category": "AI providers",
+      "icon": "🤖",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-11",
       "latestVersion": "0.1.0",
       "versions": [
         {
