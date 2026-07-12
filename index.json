@@ -97,7 +97,7 @@
     {
       "id": "github-pull-requests",
       "name": "GitHub Pull Requests",
-      "description": "Shows up to 5 of your open GitHub pull requests inline under the session list, refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI across your repos or one repo, plus a dialog listing every open PR in a searchable, sortable grid; click one to drop a prompt asking the agent to review it. The prompt template is editable in settings.",
+      "description": "Shows up to 5 of your open GitHub pull requests inline under the session list, refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI across your repos or one repo, plus a dialog listing every open PR in a searchable, sortable grid; left-click a PR to drop a review prompt, or right-click for a menu (add to prompt / open in browser). The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🔀",
@@ -105,8 +105,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.4.0",
+      "latestVersion": "1.5.0",
       "versions": [
+        {
+          "version": "1.5.0",
+          "path": "github-pull-requests/github-pull-requests-1.5.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "ec4ead8b0e7ba031f0592d50088fe6b074332f610c6491edd78eb25b1a14aaa2",
+          "notes": "Added a right-click context menu to the inline PR rows: 'Add to prompt' (the normal left-click action) and 'Open in browser'."
+        },
         {
           "version": "1.4.0",
           "path": "github-pull-requests/github-pull-requests-1.4.0.zip",
