@@ -43,8 +43,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.2.2",
+      "latestVersion": "1.2.3",
       "versions": [
+        {
+          "version": "1.2.3",
+          "path": "prompt-library/prompt-library-1.2.3.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "0abefe1017a667fc3bf1abd8424cf3b179128e219b1c33b618425dd4a4b107d7",
+          "notes": "Clearer selected-item highlight in the quick-insert list."
+        },
         {
           "version": "1.2.2",
           "path": "prompt-library/prompt-library-1.2.2.zip",
