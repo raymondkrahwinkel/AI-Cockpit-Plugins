@@ -160,8 +160,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.3.0",
+      "latestVersion": "1.4.0",
       "versions": [
+        {
+          "version": "1.4.0",
+          "path": "youtrack/youtrack-1.4.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "c6e8efd419c31ed9f8d6586659dcdaa12c2954417c312808f2b5a1ec41496987",
+          "notes": "Added a Shift+Y keyboard shortcut that opens the issues dialog (via the new plugin shortcut SDK). Needs a cockpit build with the keyboard-shortcuts system."
+        },
         {
           "version": "1.3.0",
           "path": "youtrack/youtrack-1.3.0.zip",
