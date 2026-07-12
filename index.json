@@ -43,8 +43,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.2.3",
+      "latestVersion": "1.2.4",
       "versions": [
+        {
+          "version": "1.2.4",
+          "path": "prompt-library/prompt-library-1.2.4.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "55442b932503adf06e6e27937b6688386e2758912a67625632a1257d1fdf1582",
+          "notes": "Quick-insert: subtle hover-grey selection (not the accent), and the search box now takes focus when opened from the shortcut."
+        },
         {
           "version": "1.2.3",
           "path": "prompt-library/prompt-library-1.2.3.zip",
