@@ -35,7 +35,7 @@
     {
       "id": "prompt-library",
       "name": "Prompt Library",
-      "description": "A library of reusable prompt templates in the left menu. Click one to insert it into the active session, filling in any {{variable}} fields first. Create, edit and remove templates in the same dialog.",
+      "description": "A library of reusable prompt templates in the left menu. Click one to insert it into the active session, filling in any {{variable}} fields first. Create, edit and remove templates in the same dialog. Plus a quick-insert palette (\"Insert prompt\" button or the Ctrl+Shift+P shortcut): search your prompts and drop one into the session with a click or Enter.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "📝",
@@ -43,8 +43,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.1.0",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "prompt-library/prompt-library-1.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "e6b9c2b359a3495ba6ac262efbf48355c66f45371558ba718414569b2ae6dad9",
+          "notes": "Clearer selected-template highlight, plus a quick-insert palette (Insert prompt button / Ctrl+Shift+P) to search and drop a prompt into the session. Needs a cockpit build with the plugin shortcut surface."
+        },
         {
           "version": "1.0.0",
           "path": "prompt-library/prompt-library-1.0.0.zip",
