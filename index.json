@@ -43,8 +43,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.2.4",
+      "latestVersion": "1.3.0",
       "versions": [
+        {
+          "version": "1.3.0",
+          "path": "prompt-library/prompt-library-1.3.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "d757b92bfa5f3e8ad53afe4363e77e496be35fdc87fe2340381ac37417d1fbe9",
+          "notes": "Deleting a template now asks for confirmation first. Needs a cockpit build with the confirmation dialog."
+        },
         {
           "version": "1.2.4",
           "path": "prompt-library/prompt-library-1.2.4.zip",
