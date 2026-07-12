@@ -43,8 +43,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.2.0",
+      "latestVersion": "1.2.1",
       "versions": [
+        {
+          "version": "1.2.1",
+          "path": "prompt-library/prompt-library-1.2.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "d290d7ac1fe3ed4ce3f132f7185b979bccb1090923716a2f5748b3bebbb82aa2",
+          "notes": "Fixed the quick-insert search-bar icon rendering as a green emoji on Windows — now a monochrome accent chevron."
+        },
         {
           "version": "1.2.0",
           "path": "prompt-library/prompt-library-1.2.0.zip",
