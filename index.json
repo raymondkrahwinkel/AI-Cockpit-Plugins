@@ -97,8 +97,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.2.0",
+      "latestVersion": "1.3.0",
       "versions": [
+        {
+          "version": "1.3.0",
+          "path": "github-pull-requests/github-pull-requests-1.3.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "2e9cd2d9e26d02e81c271d4802fc2a34065b06c17d0273d01a941f82df2dfd4d",
+          "notes": "Added: the inline PR section auto-refreshes (60s) so PRs appear/disappear on their own as they are opened, merged or closed."
+        },
         {
           "version": "1.2.0",
           "path": "github-pull-requests/github-pull-requests-1.2.0.zip",
