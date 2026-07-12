@@ -2,6 +2,29 @@
   "name": "Cockpit plugin store",
   "plugins": [
     {
+      "id": "git-status",
+      "name": "Git status",
+      "description": "Shows the git status of your configured repositories in one place — branch, uncommitted changes and unpushed/behind commits — in a sortable dialog, and drops a status summary into the active session on click. Manage the repository list in settings.",
+      "author": "Cockpit",
+      "category": "Productivity",
+      "icon": "🌿",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-12",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "git-status/git-status-1.0.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "a6432c79499923a56c8ccd541e7331a94d1350ef8257ecc2805e2e37b4079511",
+          "notes": "Initial release — per-repo branch / uncommitted / unpushed / ahead-behind via 'git status --porcelain --branch', with inject/copy of a summary."
+        }
+      ]
+    },
+    {
       "id": "prompt-library",
       "name": "Prompt Library",
       "description": "A library of reusable prompt templates in the left menu. Click one to insert it into the active session, filling in any {{variable}} fields first. Create, edit and remove templates in the same dialog.",
