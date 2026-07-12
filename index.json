@@ -35,7 +35,7 @@
     {
       "id": "prompt-library",
       "name": "Prompt Library",
-      "description": "A library of reusable prompt templates in the left menu. Click one to insert it into the active session, filling in any {{variable}} fields first. Create, edit and remove templates in the same dialog. Plus a quick-insert palette (\"Insert prompt\" button or the Ctrl+Shift+P shortcut): search your prompts and drop one into the session with a click or Enter.",
+      "description": "A library of reusable prompt templates in the left menu. Click one to insert it into the active session, filling in any {{variable}} fields first. Create, edit and remove templates in the same dialog. Plus a quick-insert palette (the Ctrl+Shift+P shortcut, or the command palette): search your prompts and drop one into the session with a click or Enter.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "📝",
@@ -43,8 +43,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.1.0",
+      "latestVersion": "1.1.1",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "prompt-library/prompt-library-1.1.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "0ce2d5fe3ba034cd71fff3a7aa3dddea64f57cd681d114a93add8e5bd39a22a5",
+          "notes": "Removed the redundant 'Insert prompt' menu button — the quick-insert stays on Ctrl+Shift+P and in the command palette."
+        },
         {
           "version": "1.1.0",
           "path": "prompt-library/prompt-library-1.1.0.zip",
