@@ -35,8 +35,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-11",
-      "latestVersion": "1.1.0",
+      "latestVersion": "1.2.0",
       "versions": [
+        {
+          "version": "1.2.0",
+          "path": "github-issues/github-issues-1.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "c0c5d07f9d3f3b05b08d61bfc5c7602a6997098d1dbdeb4d11f51f206e9d17ee",
+          "notes": "Added an \"Assigned to me\" filter (gh --assignee @me across repos, or the REST assignee filter for a single repo)."
+        },
         {
           "version": "1.1.0",
           "path": "github-issues/github-issues-1.1.0.zip",
@@ -66,8 +74,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.1.0",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "github-pull-requests/github-pull-requests-1.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "71a17e68104c81203dc0acdeb9c6e8cb08b31c8edd5bee21d43a7c8048acf7be",
+          "notes": "Added an \"Assigned to me\" filter (gh --assignee @me across repos, or a client-side assignees filter for a single repo)."
+        },
         {
           "version": "1.0.0",
           "path": "github-pull-requests/github-pull-requests-1.0.0.zip",
@@ -89,8 +105,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.2.0",
+      "latestVersion": "1.3.0",
       "versions": [
+        {
+          "version": "1.3.0",
+          "path": "youtrack/youtrack-1.3.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "ca3ba2a54d55a8226e6572a7fffc7250e6a767b4f8993808ce4e30ac1e74de15",
+          "notes": "Added an \"Assigned to me\" filter (YouTrack's \"for: me\" clause added to the query)."
+        },
         {
           "version": "1.2.0",
           "path": "youtrack/youtrack-1.2.0.zip",
