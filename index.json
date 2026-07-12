@@ -43,8 +43,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.1.1",
+      "latestVersion": "1.2.0",
       "versions": [
+        {
+          "version": "1.2.0",
+          "path": "prompt-library/prompt-library-1.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "07c1d33b2345dc1b3ff7b872d13e976af9e3042bff7df560ef379590943cd4db",
+          "notes": "The quick-insert is now a spotlight-style search bar (rounded pill + accent icon) instead of a plain box."
+        },
         {
           "version": "1.1.1",
           "path": "prompt-library/prompt-library-1.1.1.zip",
