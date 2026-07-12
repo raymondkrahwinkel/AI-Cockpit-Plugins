@@ -4,7 +4,7 @@
     {
       "id": "git-status",
       "name": "Git status",
-      "description": "Shows the git status of your configured repositories in one place — branch, uncommitted changes and unpushed/behind commits — in a sortable dialog, and drops a status summary into the active session on click. Manage the repository list in settings.",
+      "description": "An inline panel that follows the active session — the branch, uncommitted changes and unpushed/behind commits of the repo it is working in, refreshing when the session switches or runs a git command — plus a sortable dialog for the same across all your configured repositories. Click to drop a status summary into the session. Manage the repository list in settings.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "🌿",
@@ -12,8 +12,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.1.0",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "git-status/git-status-1.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "e44266915c155a84ef813224b6aead16edf4690a3b3b70bb4cabd8a9de09f739",
+          "notes": "Added an inline 'Session repo' panel that follows the active session — the git status of the repo it is working in, refreshing when you switch sessions or the session runs a git command. Needs a cockpit build with the session read/observe surface."
+        },
         {
           "version": "1.0.0",
           "path": "git-status/git-status-1.0.0.zip",
@@ -89,7 +97,7 @@
     {
       "id": "github-pull-requests",
       "name": "GitHub Pull Requests",
-      "description": "Shows up to 5 open GitHub pull requests inline under the session list (via the gh CLI across your repos, or one repo), plus a dialog listing every open PR in a searchable, sortable grid; click one to drop a prompt asking the agent to review it. The prompt template is editable in settings.",
+      "description": "Shows up to 5 of your open GitHub pull requests inline under the session list, refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI across your repos or one repo, plus a dialog listing every open PR in a searchable, sortable grid; click one to drop a prompt asking the agent to review it. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🔀",
@@ -97,8 +105,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.3.0",
+      "latestVersion": "1.4.0",
       "versions": [
+        {
+          "version": "1.4.0",
+          "path": "github-pull-requests/github-pull-requests-1.4.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "2239a198b21f371ffac4a2dec843ec54ea6944df0ce7879752948cad18d2d413",
+          "notes": "Smart refresh — the inline section now also refreshes the instant a session opens, merges or closes a PR, by watching session output for a pull url or a merged/closed line (on top of the 60s timer). Needs a cockpit build with the session read/observe surface."
+        },
         {
           "version": "1.3.0",
           "path": "github-pull-requests/github-pull-requests-1.3.0.zip",
