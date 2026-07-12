@@ -97,7 +97,7 @@
     {
       "id": "github-pull-requests",
       "name": "GitHub Pull Requests",
-      "description": "Shows up to 5 of your open GitHub pull requests inline under the session list, refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI across your repos or one repo, plus a dialog listing every open PR in a searchable, sortable grid; left-click a PR to drop a review prompt, or right-click for a menu (add to prompt / open in browser). The prompt template is editable in settings.",
+      "description": "Shows your open GitHub pull requests inline under the session list (how many is configurable, and you can limit it to specific repositories), refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI across your repos or one repo, plus a dialog listing every open PR in a searchable, sortable grid; left-click a PR to drop a review prompt, or right-click for a menu (add to prompt / open in browser). The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🔀",
@@ -105,8 +105,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.5.0",
+      "latestVersion": "1.6.0",
       "versions": [
+        {
+          "version": "1.6.0",
+          "path": "github-pull-requests/github-pull-requests-1.6.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "56c5867a33c4de426a490b6e76939cfaee42797b8ca95a39986308c34774b3de",
+          "notes": "The inline PR count is now configurable (1-20), and you can limit the list to specific repositories (owner/repo per line; blank = all)."
+        },
         {
           "version": "1.5.0",
           "path": "github-pull-requests/github-pull-requests-1.5.0.zip",
