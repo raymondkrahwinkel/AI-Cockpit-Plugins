@@ -43,8 +43,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.2.1",
+      "latestVersion": "1.2.2",
       "versions": [
+        {
+          "version": "1.2.2",
+          "path": "prompt-library/prompt-library-1.2.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "f9047679c55a641918bfe2ebf8a0c34cf7b3e77135392decd15b90b340363111",
+          "notes": "Fixed the quick-insert arrow keys not moving the selection."
+        },
         {
           "version": "1.2.1",
           "path": "prompt-library/prompt-library-1.2.1.zip",
