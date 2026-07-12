@@ -2,6 +2,29 @@
   "name": "Cockpit plugin store",
   "plugins": [
     {
+      "id": "prompt-library",
+      "name": "Prompt Library",
+      "description": "A library of reusable prompt templates in the left menu. Click one to insert it into the active session, filling in any {{variable}} fields first. Create, edit and remove templates in the same dialog.",
+      "author": "Cockpit",
+      "category": "Productivity",
+      "icon": "📝",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-12",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "prompt-library/prompt-library-1.0.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "d3792c24a794cda42a863d105b37d74488c178652dc5d6f5ef174c32967d6812",
+          "notes": "Initial release - reusable prompt templates with {{variable}} substitution, click-to-insert into the active session, in-dialog management, five starter templates."
+        }
+      ]
+    },
+    {
       "id": "github-issues",
       "name": "GitHub Issues",
       "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog with a repository filter; click one to drop a prompt asking the agent to open and review it. The prompt template is editable in settings.",
