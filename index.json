@@ -97,8 +97,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.1.0",
+      "latestVersion": "1.2.0",
       "versions": [
+        {
+          "version": "1.2.0",
+          "path": "github-pull-requests/github-pull-requests-1.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "66e8457f212022e2a4c916c3edebf653a044337739e5c8ae6e2d1daf85308032",
+          "notes": "Fixed: showed no PRs for the default @me owner — now searches --author @me (your PRs across all repos, including org repos) instead of --owner @me (only repos you own)."
+        },
         {
           "version": "1.1.0",
           "path": "github-pull-requests/github-pull-requests-1.1.0.zip",
