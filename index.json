@@ -4,16 +4,24 @@
     {
       "id": "git-status",
       "name": "Git status",
-      "description": "An inline panel that follows the active session — the branch, uncommitted changes and unpushed/behind commits of the repo it is working in, refreshing when the session switches or runs a git command — plus a sortable dialog for the same across all your configured repositories. Click to drop a status summary into the session. Manage the repository list in settings.",
+      "description": "A git indicator in every session's header — a coloured dot and the branch of the repo that session works in, with the uncommitted and unpushed counts on hover, refreshing when the session runs a git command. Click it to drop the summary into that session. Plus a sortable dialog for the same across all your configured repositories; manage the repository list in settings.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "🌿",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-12",
-      "latestVersion": "1.1.0",
+      "published": "2026-07-13",
+      "latestVersion": "1.2.0",
       "versions": [
+        {
+          "version": "1.2.0",
+          "path": "git-status/git-status-1.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "4447cabca1e404978352988bc01a58f592e27f8ba857d3cba09c3d6328b93dd1",
+          "notes": "The git status moved out of the sidebar and into each session's own header: a coloured dot and the branch of the repo that session works in, counts on hover, click to drop the summary into that session. A sidebar section could only ever follow the selected session, which said nothing about the other panes on screen. Needs a cockpit build with the session-header contribution point."
+        },
         {
           "version": "1.1.0",
           "path": "git-status/git-status-1.1.0.zip",
