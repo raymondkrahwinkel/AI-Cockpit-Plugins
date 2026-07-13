@@ -364,7 +364,7 @@
     {
       "id": "transcript-search",
       "name": "Claude Transcript Search",
-      "description": "Search everything you and the agent ever wrote in a Claude CLI session. Scans the JSONL transcripts of every Claude profile you have configured, shows the matching lines with their session and date, and hands a conversation straight to the New-session dialog so you can pick up where you left off.",
+      "description": "Search everything you and the agent ever wrote in a Claude CLI session. Opens on the conversations you worked on last so resuming one is a click, searches back through the rest by any text you or the agent wrote, and hands a conversation straight to the New-session dialog.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "🔎",
@@ -372,8 +372,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.1.0",
+      "latestVersion": "1.2.0",
       "versions": [
+        {
+          "version": "1.2.0",
+          "path": "transcript-search/transcript-search-1.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "ca36743e2933ff9a630447509e416a524cc6c5d5337b81203e323d03d12f7661",
+          "notes": "The dialog now opens on the ten conversations you worked on last, each summarised by the prompt you started it with — resuming one is usually a matter of the last few sessions rather than of remembering a word to search for. Clearing the search box returns to that list."
+        },
         {
           "version": "1.1.0",
           "path": "transcript-search/transcript-search-1.1.0.zip",
