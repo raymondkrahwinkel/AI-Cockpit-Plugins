@@ -360,6 +360,29 @@
           "notes": "GitHub Models via the OpenAI-compatible endpoint over Microsoft.Extensions.AI (same driver as the Gemini/OpenAI provider). Needs a GitHub PAT with models:read."
         }
       ]
+    },
+    {
+      "id": "transcript-search",
+      "name": "Claude Transcript Search",
+      "description": "Search everything you and the agent ever wrote in a Claude CLI session. Scans the JSONL transcripts of every Claude profile you have configured, shows the matching lines with their session and date, and hands a conversation straight to the New-session dialog so you can pick up where you left off.",
+      "author": "Cockpit",
+      "category": "Productivity",
+      "icon": "🔎",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-13",
+      "latestVersion": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "path": "transcript-search/transcript-search-1.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "ac031fa07bb4853affbe672d650a60bb3aefbb26b7af47f1c3ca3f7f7403363c",
+          "notes": "Transcript search moved out of the cockpit's core into this plugin — the JSONL history is Claude's own format, and a multi-provider core has no business parsing it. Keeps the Ctrl+F shortcut and the sidebar button, and adds a picker behind the New-session dialog's Search button so resuming a conversation no longer means typing a session id by hand. Needs a cockpit build with the conversation-picker contribution point."
+        }
+      ]
     }
   ]
 }
