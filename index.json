@@ -12,8 +12,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.2.0",
+      "latestVersion": "1.3.0",
       "versions": [
+        {
+          "version": "1.3.0",
+          "path": "git-status/git-status-1.3.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "0a3dde843aed9e1881658996fc2d1a4cf94f7c44dcec59f5cf9f730d18f9807e",
+          "notes": "Contributes git steps to a workflow: switch to a branch (creating it), commit, push. It refuses to switch branches with uncommitted work, makes no empty commits, and never forces — force, reset and branch deletion are deliberately absent."
+        },
         {
           "version": "1.2.0",
           "path": "git-status/git-status-1.2.0.zip",
@@ -130,7 +138,7 @@
     {
       "id": "github-issues",
       "name": "GitHub Issues",
-      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog with a repository filter; click one to drop a prompt asking the agent to open and review it. The prompt template is editable in settings.",
+      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog, with an \"Assigned to me\" filter; click one to drop a prompt asking the agent to open and review it. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🐛",
@@ -138,8 +146,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-11",
-      "latestVersion": "1.2.0",
+      "latestVersion": "1.7.0",
       "versions": [
+        {
+          "version": "1.7.0",
+          "path": "github-issues/github-issues-1.7.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "f8e36610c50bb5b6e181329ae3aefd9f34797c5c4db95a83adcc88d620775d98",
+          "notes": "The same session badge and picker as YouTrack, with the actions GitHub actually has: assign to me, label, close as completed or not planned. An issue has no status field, so nothing pretends otherwise. Branch-name pattern and picker search terms are yours to set. Contributes a workflow trigger (issue picked) and steps (pick up, comment, close)."
+        },
         {
           "version": "1.2.0",
           "path": "github-issues/github-issues-1.2.0.zip",
@@ -169,7 +185,7 @@
     {
       "id": "github-pull-requests",
       "name": "GitHub Pull Requests",
-      "description": "Shows your open GitHub pull requests inline under the session list (how many is configurable, and you can limit it to specific repositories), refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI across your repos or one repo, plus a dialog listing every open PR in a searchable, sortable grid; left-click a PR to drop a review prompt, or right-click for a menu (add to prompt / open in browser). The prompt template is editable in settings.",
+      "description": "Shows your open GitHub pull requests inline under the session list (how many is configurable, and you can limit it to specific repositories), refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI — the PRs you opened across all your repos, including org repos, or a single repo over HTTP — plus a dialog listing them in a searchable, sortable grid with an \"Assigned to me\" filter; left-click a PR to drop a review prompt, or right-click for a menu (add to prompt / open in browser). Pull requests waiting for your review are listed separately under \"Review requested\", each with an Open button, and a new one raises a toast with an \"Open in browser\" button. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🔀",
@@ -177,8 +193,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.6.0",
+      "latestVersion": "1.9.0",
       "versions": [
+        {
+          "version": "1.9.0",
+          "path": "github-pull-requests/github-pull-requests-1.9.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "eb87b56a00aa5d52b1e8fc0228645dd6a43af1681c4966c93e8bcb90da272fdf",
+          "notes": "Contributes an \"Open a pull request\" step (draft by default) and a \"Pull request merged\" trigger that fires when one of yours goes in — asked of GitHub every few minutes, and silent on the first look, or every merge you ever made would fire at once."
+        },
         {
           "version": "1.6.0",
           "path": "github-pull-requests/github-pull-requests-1.6.0.zip",
@@ -240,7 +264,7 @@
     {
       "id": "youtrack",
       "name": "YouTrack",
-      "description": "Connect one or more YouTrack instances and browse their open issues per project over the REST API (permanent token); a dialog with instance/project/state filters lets you narrow down, and clicking an issue drops a prompt asking the agent to work on it. The prompt template is editable in settings.",
+      "description": "A left-menu button (or the Shift+Y shortcut) opens a dialog listing open issues across one or more configured YouTrack instances (over HTTP with a permanent token per instance — YouTrack has no CLI), with instance/project/state filters and an \"Assigned to me\" filter, in a searchable, sortable grid; click one to drop a prompt asking the agent to work on it. Run the ticket workflow from the cockpit: Start an issue (move it to in progress, assign it to you, and tie it to the session you work in), or move it to any state the board itself allows — including workflow-governed boards, whose allowed transitions are read rather than assumed. A linked issue appears with its status in that session's own header, with quick actions (move state, copy branch name, open in browser). The prompt template is editable in settings. Also registers each instance's JetBrains remote MCP server so sessions can query YouTrack directly as tools.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🎫",
@@ -248,8 +272,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.4.0",
+      "latestVersion": "1.10.0",
       "versions": [
+        {
+          "version": "1.10.0",
+          "path": "youtrack/youtrack-1.10.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "0623bc1ed64ba1ac4bbd62d8877bbd9ee0b8fdf808e6fa6b02522f2ff1900fd4",
+          "notes": "The session header picks the ticket: one menu action per issue tracker instead of a button each, and the badge appears only when a session is actually tracking something. Status moves follow the board's own order — forward, back, or anywhere it allows. The branch-name pattern and which issues the picker shows are yours to set. Contributes a workflow trigger (ticket picked) and a step (set status)."
+        },
         {
           "version": "1.4.0",
           "path": "youtrack/youtrack-1.4.0.zip",
@@ -389,6 +421,29 @@
           "minHostVersion": "1.0.0",
           "sha256": "ac031fa07bb4853affbe672d650a60bb3aefbb26b7af47f1c3ca3f7f7403363c",
           "notes": "Transcript search moved out of the cockpit's core into this plugin — the JSONL history is Claude's own format, and a multi-provider core has no business parsing it. Keeps the Ctrl+F shortcut and the sidebar button, and adds a picker behind the New-session dialog's Search button so resuming a conversation no longer means typing a session id by hand. Needs a cockpit build with the conversation-picker contribution point."
+        }
+      ]
+    },
+    {
+      "id": "workflows",
+      "name": "Workflows",
+      "description": "A visual editor for cockpit workflows, and an engine that runs them: drop triggers, actions and decisions on a canvas, wire them together, configure each step, and press Run. Every run is kept — which step got what, what it produced, how long it took — because \"it did not work\" is not something you can act on. A step this build cannot execute is passed by with a reason, never counted as a success.",
+      "author": "Cockpit",
+      "category": "Automation",
+      "icon": "🔀",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": true,
+      "published": "2026-07-13",
+      "latestVersion": "0.17.0",
+      "versions": [
+        {
+          "version": "0.17.0",
+          "path": "workflows/workflows-0.17.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "ebd844ecf36adbf5f90d25c1098cf6d2f173425a6c52908dea08443f4e39a5b7",
+          "notes": "First release: a canvas where flows are drawn and an engine that runs them. Triggers that fire by themselves (text in a session, a schedule), steps that use what the steps before produced ({output}, {Step.field}), decisions on real expressions ({= …}), a three-pane node dialog showing what comes in and what came out, run history, and Slack/Discord steps. Other plugins contribute their own steps and triggers."
         }
       ]
     }
