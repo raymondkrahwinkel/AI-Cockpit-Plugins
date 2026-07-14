@@ -146,8 +146,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-11",
-      "latestVersion": "1.7.0",
+      "latestVersion": "1.8.0",
       "versions": [
+        {
+          "version": "1.8.0",
+          "path": "github-issues/github-issues-1.8.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "7a1c132afa7297bbcb52f73ed5525198e755b97bc3873213de76b78e917f66ad",
+          "notes": "Catches up with the plugin as it is built in the repo: the store had 1.7.0 while the manifest had moved on, so an installed copy never saw an update at all. Includes the workflow steps and triggers, and the \"assigned to me\" filter."
+        },
         {
           "version": "1.7.0",
           "path": "github-issues/github-issues-1.7.0.zip",
@@ -280,8 +288,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.10.0",
+      "latestVersion": "1.12.0",
       "versions": [
+        {
+          "version": "1.12.0",
+          "path": "youtrack/youtrack-1.12.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "ac1ad5660295de6cb41b07dd1dc0cafa2e0eaabca062ce6a65263dd9f5d24b0b",
+          "notes": "Catches up with the plugin as it is built in the repo (the store stood at 1.10.0, so an installed copy never saw an update): the ticket-status-changed trigger with the statuses read from your board, the workflow templates, and the settings reachable from the dialog itself."
+        },
         {
           "version": "1.10.0",
           "path": "youtrack/youtrack-1.10.0.zip",
@@ -443,8 +459,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-13",
-      "latestVersion": "0.18.0",
+      "latestVersion": "0.20.0",
       "versions": [
+        {
+          "version": "0.20.0",
+          "path": "workflows/workflows-0.20.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "aa127bc33fa61f9fd81825f96f6592f36d336427a5d183ca1a711bc5b5263132",
+          "notes": "Catches up with the plugin as it is built in the repo (the store stood at 0.18.0): the Switch step, an error exit per step, and templates you can export and import."
+        },
         {
           "version": "0.18.0",
           "path": "workflows/workflows-0.18.0.zip",
