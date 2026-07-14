@@ -193,8 +193,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.9.0",
+      "latestVersion": "1.10.0",
       "versions": [
+        {
+          "version": "1.10.0",
+          "path": "github-pull-requests/github-pull-requests-1.10.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "1205ab7a4c586b05025167e5454c22eb35f15e148fef773b9b71248535c7591c",
+          "notes": "Watch a repository: every open pull request in an owner or an owner/repo, whoever opened it. The searches so far all asked \"which of these are mine\" — authored by you, assigned to you, waiting on your review — which is the right question for a personal list and the wrong one for a project you are responsible for: five open pull requests in a repo of yours, none of them yours, showed nothing at all. Also: pull requests in archived repositories are excluded everywhere (the exclusion used to apply only when the view was scoped to a single owner, so your own list and your review requests still showed them — and a pull request in an archived repo cannot be merged, reviewed or closed). Plus the workflow templates the previous build shipped."
+        },
         {
           "version": "1.9.0",
           "path": "github-pull-requests/github-pull-requests-1.9.0.zip",
