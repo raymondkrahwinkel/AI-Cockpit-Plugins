@@ -201,8 +201,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.11.0",
+      "latestVersion": "1.11.1",
       "versions": [
+        {
+          "version": "1.11.1",
+          "path": "github-pull-requests/github-pull-requests-1.11.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "411d003e748eff801a1142b3e9eef1a4fc63cf0140305ff67cedf08b37e5b3e7",
+          "notes": "The list appears in seconds instead of the better part of a minute. The archived-repository list was asked of gh once per owner — three seconds a call, fourteen calls — for an answer already present in the repository list that had just been fetched; those calls are gone. The owner searches now run at once instead of one after another. And the last list is shown the moment the section appears, while the fresh one loads behind it: an empty panel does not read as \"loading\", it reads as \"no open pull requests\"."
+        },
         {
           "version": "1.11.0",
           "path": "github-pull-requests/github-pull-requests-1.11.0.zip",
