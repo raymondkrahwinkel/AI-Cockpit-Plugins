@@ -1,0 +1,84 @@
+{
+  "Id": "health-check",
+  "Name": "Health check → tell me when it is down",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "cockpit.schedule",
+      "Name": "Every hour",
+      "X": 80,
+      "Y": 200,
+      "Parameters": {
+        "When": "*/60"
+      }
+    },
+    {
+      "Id": "h",
+      "TypeId": "cockpit.http",
+      "Name": "Ask the server",
+      "X": 340,
+      "Y": 200,
+      "Parameters": {
+        "Method": "GET",
+        "URL": "https://example.com/health",
+        "Body": ""
+      },
+      "HasErrorPath": true
+    },
+    {
+      "Id": "q",
+      "TypeId": "cockpit.if",
+      "Name": "Is it well?",
+      "X": 640,
+      "Y": 200,
+      "Parameters": {
+        "Condition": "status != '200'"
+      }
+    },
+    {
+      "Id": "n",
+      "TypeId": "cockpit.discord",
+      "Name": "It is not",
+      "X": 920,
+      "Y": 140,
+      "Parameters": {
+        "Message": "Health check failed: {status} {body}",
+        "Webhook URL": ""
+      }
+    },
+    {
+      "Id": "e",
+      "TypeId": "cockpit.discord",
+      "Name": "It did not answer at all",
+      "X": 920,
+      "Y": 300,
+      "Parameters": {
+        "Message": "Health check could not reach the server: {error}",
+        "Webhook URL": ""
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "h"
+    },
+    {
+      "FromNodeId": "h",
+      "FromOutput": 0,
+      "ToNodeId": "q"
+    },
+    {
+      "FromNodeId": "h",
+      "FromOutput": 1,
+      "ToNodeId": "e"
+    },
+    {
+      "FromNodeId": "q",
+      "FromOutput": 0,
+      "ToNodeId": "n"
+    }
+  ]
+}

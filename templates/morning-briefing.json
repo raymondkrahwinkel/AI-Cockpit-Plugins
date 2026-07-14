@@ -1,0 +1,50 @@
+{
+  "Id": "morning-briefing",
+  "Name": "Morning briefing",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "cockpit.schedule",
+      "Name": "Every morning",
+      "X": 80,
+      "Y": 200,
+      "Parameters": {
+        "When": "08:30"
+      }
+    },
+    {
+      "Id": "c",
+      "TypeId": "cockpit.command",
+      "Name": "What happened yesterday",
+      "X": 340,
+      "Y": 200,
+      "Parameters": {
+        "Command": "git log --since=yesterday --oneline --all",
+        "Working directory": ""
+      }
+    },
+    {
+      "Id": "i",
+      "TypeId": "cockpit.inject",
+      "Name": "Hand it to the agent",
+      "X": 660,
+      "Y": 200,
+      "Parameters": {
+        "Text": "Here is what happened since yesterday:\n\n{output}\n\nWhat should I pick up first?"
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "c"
+    },
+    {
+      "FromNodeId": "c",
+      "FromOutput": 0,
+      "ToNodeId": "i"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Id": "ticket-review-to-discord",
+  "Name": "Ticket reaches Review → tell the team",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "youtrack.status-changed",
+      "Name": "Ticket status changed",
+      "X": 80,
+      "Y": 200
+    },
+    {
+      "Id": "q",
+      "TypeId": "cockpit.switch",
+      "Name": "Where did it go?",
+      "X": 360,
+      "Y": 200,
+      "Parameters": {
+        "Value": "{state}",
+        "Cases": "Review, Done"
+      }
+    },
+    {
+      "Id": "r",
+      "TypeId": "cockpit.discord",
+      "Name": "Ready for review",
+      "X": 680,
+      "Y": 120,
+      "Parameters": {
+        "Message": "{ticket} is ready for review: {summary}",
+        "Webhook URL": ""
+      }
+    },
+    {
+      "Id": "d",
+      "TypeId": "cockpit.discord",
+      "Name": "Done",
+      "X": 680,
+      "Y": 280,
+      "Parameters": {
+        "Message": "{ticket} is done: {summary}",
+        "Webhook URL": ""
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "q"
+    },
+    {
+      "FromNodeId": "q",
+      "FromOutput": 0,
+      "ToNodeId": "r"
+    },
+    {
+      "FromNodeId": "q",
+      "FromOutput": 1,
+      "ToNodeId": "d"
+    }
+  ]
+}

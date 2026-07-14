@@ -1,0 +1,64 @@
+{
+  "Id": "build-failure-to-discord",
+  "Name": "Build fails → tell the team",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "cockpit.manual",
+      "Name": "Run it",
+      "X": 80,
+      "Y": 200
+    },
+    {
+      "Id": "b",
+      "TypeId": "cockpit.command",
+      "Name": "Build",
+      "X": 320,
+      "Y": 200,
+      "Parameters": {
+        "Command": "dotnet build -warnaserror",
+        "Working directory": ""
+      },
+      "HasErrorPath": true
+    },
+    {
+      "Id": "ok",
+      "TypeId": "cockpit.notify",
+      "Name": "It built",
+      "X": 620,
+      "Y": 140,
+      "Parameters": {
+        "Message": "Build is green."
+      }
+    },
+    {
+      "Id": "bad",
+      "TypeId": "cockpit.discord",
+      "Name": "Say what broke",
+      "X": 620,
+      "Y": 280,
+      "Parameters": {
+        "Message": "Build failed in {step}: {error}",
+        "Webhook URL": ""
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "b"
+    },
+    {
+      "FromNodeId": "b",
+      "FromOutput": 0,
+      "ToNodeId": "ok"
+    },
+    {
+      "FromNodeId": "b",
+      "FromOutput": 1,
+      "ToNodeId": "bad"
+    }
+  ]
+}

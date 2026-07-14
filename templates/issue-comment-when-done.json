@@ -1,0 +1,36 @@
+{
+  "Id": "issue-comment-when-done",
+  "Name": "Agent says it is done → comment on the issue",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "cockpit.text-match",
+      "Name": "A session says it is done",
+      "X": 80,
+      "Y": 200,
+      "Parameters": {
+        "Pattern": "All tests passed"
+      }
+    },
+    {
+      "Id": "c",
+      "TypeId": "github.comment",
+      "Name": "Say so on the issue",
+      "X": 400,
+      "Y": 200,
+      "Parameters": {
+        "Issue": "{issue}",
+        "Repository": "{repository}",
+        "Comment": "The agent finished: {match}"
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "c"
+    }
+  ]
+}

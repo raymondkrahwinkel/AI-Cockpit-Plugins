@@ -1,0 +1,80 @@
+{
+  "Id": "approve-before-deploy",
+  "Name": "Ask me first, then deploy",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "cockpit.manual",
+      "Name": "Run it",
+      "X": 80,
+      "Y": 200
+    },
+    {
+      "Id": "a",
+      "TypeId": "cockpit.approve",
+      "Name": "Ask me first",
+      "X": 320,
+      "Y": 200,
+      "Parameters": {
+        "Question": "Deploy to production?"
+      }
+    },
+    {
+      "Id": "d",
+      "TypeId": "cockpit.command",
+      "Name": "Deploy",
+      "X": 580,
+      "Y": 200,
+      "Parameters": {
+        "Command": "./deploy.sh production",
+        "Working directory": ""
+      },
+      "HasErrorPath": true
+    },
+    {
+      "Id": "ok",
+      "TypeId": "cockpit.discord",
+      "Name": "Deployed",
+      "X": 860,
+      "Y": 140,
+      "Parameters": {
+        "Message": "Deployed to production.",
+        "Webhook URL": ""
+      }
+    },
+    {
+      "Id": "bad",
+      "TypeId": "cockpit.discord",
+      "Name": "It did not deploy",
+      "X": 860,
+      "Y": 280,
+      "Parameters": {
+        "Message": "Deploy failed: {error}",
+        "Webhook URL": ""
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "a"
+    },
+    {
+      "FromNodeId": "a",
+      "FromOutput": 0,
+      "ToNodeId": "d"
+    },
+    {
+      "FromNodeId": "d",
+      "FromOutput": 0,
+      "ToNodeId": "ok"
+    },
+    {
+      "FromNodeId": "d",
+      "FromOutput": 1,
+      "ToNodeId": "bad"
+    }
+  ]
+}

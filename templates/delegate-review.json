@@ -1,0 +1,64 @@
+{
+  "Id": "delegate-review",
+  "Name": "Delegate a review to a local model",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "cockpit.manual",
+      "Name": "Run it",
+      "X": 80,
+      "Y": 200
+    },
+    {
+      "Id": "d",
+      "TypeId": "cockpit.command",
+      "Name": "The diff",
+      "X": 320,
+      "Y": 200,
+      "Parameters": {
+        "Command": "git diff --staged",
+        "Working directory": ""
+      }
+    },
+    {
+      "Id": "r",
+      "TypeId": "cockpit.delegate",
+      "Name": "Have it reviewed",
+      "X": 600,
+      "Y": 200,
+      "Parameters": {
+        "Profile": "Qwen2.5-Coder:7b",
+        "Prompt": "Review this diff. Say what is wrong, briefly.\n\n{output}",
+        "Working directory": ""
+      }
+    },
+    {
+      "Id": "n",
+      "TypeId": "cockpit.notify",
+      "Name": "What it said",
+      "X": 880,
+      "Y": 200,
+      "Parameters": {
+        "Message": "{result}"
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "d"
+    },
+    {
+      "FromNodeId": "d",
+      "FromOutput": 0,
+      "ToNodeId": "r"
+    },
+    {
+      "FromNodeId": "r",
+      "FromOutput": 0,
+      "ToNodeId": "n"
+    }
+  ]
+}

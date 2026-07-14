@@ -1,0 +1,35 @@
+{
+  "Id": "session-done-notify",
+  "Name": "Session says it is done → tell me",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "cockpit.text-match",
+      "Name": "A session says it is done",
+      "X": 80,
+      "Y": 200,
+      "Parameters": {
+        "Pattern": "All tests passed"
+      }
+    },
+    {
+      "Id": "n",
+      "TypeId": "cockpit.discord",
+      "Name": "Tell me on Discord",
+      "X": 380,
+      "Y": 200,
+      "Parameters": {
+        "Message": "{session} finished: {match}",
+        "Webhook URL": ""
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "n"
+    }
+  ]
+}

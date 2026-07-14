@@ -455,5 +455,116 @@
         }
       ]
     }
+  ],
+  "templates": [
+    {
+      "id": "cockpit.morning-briefing",
+      "name": "Morning briefing",
+      "description": "Every morning: what happened in the repo since yesterday, handed to the agent with \"what should I pick up first?\".",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/morning-briefing.json",
+      "sha256": "681578eb296d6f0815f9036631c672fb6d9c5bc38f51d1585d08e9a20f9e4a3e"
+    },
+    {
+      "id": "cockpit.nightly-tests",
+      "name": "Nightly tests → only tell me if they fail",
+      "description": "Runs the tests at night and says nothing when they pass. A notification you get every night is one you stop reading.",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/nightly-tests.json",
+      "sha256": "2a3b0ab1811e91f4f743f7e8c8478530713de220712b1f79b84351edf314ec19"
+    },
+    {
+      "id": "cockpit.build-failure-to-discord",
+      "name": "Build fails → tell the team",
+      "description": "Runs your build; a failure leaves by the red error wire and lands on Discord with what actually went wrong. The shortest way to see what an error path is for.",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/build-failure-to-discord.json",
+      "sha256": "66f4efd43e7acdbc3401fdeec77272e8c722bd703471a16cf4c1c4824b12fbe3"
+    },
+    {
+      "id": "cockpit.approve-before-deploy",
+      "name": "Ask me first, then deploy",
+      "description": "A deploy that stops and asks you before it runs, and says on Discord whether it worked. For the steps that are not free to undo.",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/approve-before-deploy.json",
+      "sha256": "3666ce47eb9b30fc041e7166cdd6a81bae2bb108ed91fc27e89a4210eb28cde0"
+    },
+    {
+      "id": "cockpit.health-check",
+      "name": "Health check → tell me when it is down",
+      "description": "Asks a URL every hour. A bad status tells you; no answer at all tells you differently — that is the error path, not the same thing.",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/health-check.json",
+      "sha256": "1df0e147657841e6a31967783f0860303f2e3b0e61694ee26876efb45d522815"
+    },
+    {
+      "id": "cockpit.session-done-notify",
+      "name": "Session says it is done → tell me",
+      "description": "Watches your sessions for a line you name (\"All tests passed\") and tells you on Discord. Wait for an agent without watching one.",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/session-done-notify.json",
+      "sha256": "4b9c623ee5a91db58a8a29238685b81c6d1551387457269f222563aef160ba54"
+    },
+    {
+      "id": "cockpit.delegate-review",
+      "name": "Delegate a review to a local model",
+      "description": "Takes your staged diff, hands it to a local model as a background task, and shows you what it said. The review you were not going to do yourself.",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/delegate-review.json",
+      "sha256": "96aec526ea1f138bbfa158d91cd3e71c6d1d5532f1a6bc24766148115ea78e27"
+    },
+    {
+      "id": "cockpit.ticket-to-session",
+      "name": "Ticket picked → open a session on it",
+      "description": "Picking a ticket opens a session in the repo it belongs to, already told what the ticket is.",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/ticket-to-session.json",
+      "sha256": "0fbb87f7f5dc9f3daf15dc3835cc0a3c77f5353438420a862bc64f6e34d6ce14",
+      "requires": [
+        "youtrack"
+      ]
+    },
+    {
+      "id": "cockpit.ticket-review-to-discord",
+      "name": "Ticket reaches Review → tell the team",
+      "description": "When you move a ticket, a Switch sends Review and Done down their own wires, each with its own message on Discord.",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/ticket-review-to-discord.json",
+      "sha256": "b9f36dd0b08d29aae730e5d85586d9e708a81a1159755e2c5c2bbcbde4c2d123",
+      "requires": [
+        "youtrack"
+      ]
+    },
+    {
+      "id": "cockpit.issue-comment-when-done",
+      "name": "Agent says it is done → comment on the issue",
+      "description": "When a session says the work is finished, the issue it belongs to hears about it — where the next person looks.",
+      "author": "Cockpit",
+      "version": "1.0",
+      "category": "Cockpit",
+      "path": "templates/issue-comment-when-done.json",
+      "sha256": "d9610e5463574f66a372d83dbcb5b4d02de903e38dec75eec09bb8a502eb0b68",
+      "requires": [
+        "github-issues"
+      ]
+    }
   ]
 }

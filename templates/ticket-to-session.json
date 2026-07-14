@@ -1,0 +1,33 @@
+{
+  "Id": "ticket-to-session",
+  "Name": "Ticket picked → open a session on it",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "youtrack.picked",
+      "Name": "Ticket picked for a session",
+      "X": 80,
+      "Y": 200
+    },
+    {
+      "Id": "s",
+      "TypeId": "cockpit.start-session",
+      "Name": "Open a session there",
+      "X": 380,
+      "Y": 200,
+      "Parameters": {
+        "Profile": "personal",
+        "Prompt": "Work on {ticket}: {summary}",
+        "Working directory": "{directory}"
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "s"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "Id": "nightly-tests",
+  "Name": "Nightly tests → only tell me if they fail",
+  "IsActive": false,
+  "Nodes": [
+    {
+      "Id": "t",
+      "TypeId": "cockpit.schedule",
+      "Name": "Every night",
+      "X": 80,
+      "Y": 200,
+      "Parameters": {
+        "When": "02:00"
+      }
+    },
+    {
+      "Id": "c",
+      "TypeId": "cockpit.command",
+      "Name": "Run the tests",
+      "X": 340,
+      "Y": 200,
+      "Parameters": {
+        "Command": "dotnet test",
+        "Working directory": ""
+      }
+    },
+    {
+      "Id": "q",
+      "TypeId": "cockpit.if",
+      "Name": "Did they fail?",
+      "X": 640,
+      "Y": 200,
+      "Parameters": {
+        "Condition": "exitCode != '0'"
+      }
+    },
+    {
+      "Id": "n",
+      "TypeId": "cockpit.discord",
+      "Name": "They failed",
+      "X": 920,
+      "Y": 140,
+      "Parameters": {
+        "Message": "Nightly tests failed:\n{output}",
+        "Webhook URL": ""
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "t",
+      "FromOutput": 0,
+      "ToNodeId": "c"
+    },
+    {
+      "FromNodeId": "c",
+      "FromOutput": 0,
+      "ToNodeId": "q"
+    },
+    {
+      "FromNodeId": "q",
+      "FromOutput": 0,
+      "ToNodeId": "n"
+    }
+  ]
+}
