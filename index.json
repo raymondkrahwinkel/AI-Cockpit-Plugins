@@ -201,8 +201,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.10.0",
+      "latestVersion": "1.11.0",
       "versions": [
+        {
+          "version": "1.11.0",
+          "path": "github-pull-requests/github-pull-requests-1.11.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "2ea52b445e972c1bf889d17cfdfadeb81a183a818ea075ea6c11d25248a7c336",
+          "notes": "Watch every repository you are involved with — owned, collaborated on, or reached through an organisation — with no list to maintain: gh works out which repositories those are. The list is ordered by last activity, newest first, and the dialog has an Updated column. Right-click a row to set aside a pull request, or every pull request from a repository that is never your business. A loading bar while gh is fetching, and searching no longer brings back what you ignored."
+        },
         {
           "version": "1.10.0",
           "path": "github-pull-requests/github-pull-requests-1.10.0.zip",
