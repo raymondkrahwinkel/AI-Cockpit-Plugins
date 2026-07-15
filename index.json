@@ -502,6 +502,52 @@
           "notes": "First release: a canvas where flows are drawn and an engine that runs them. Triggers that fire by themselves (text in a session, a schedule), steps that use what the steps before produced ({output}, {Step.field}), decisions on real expressions ({= …}), a three-pane node dialog showing what comes in and what came out, run history, and Slack/Discord steps. Other plugins contribute their own steps and triggers."
         }
       ]
+    },
+    {
+      "id": "clock",
+      "name": "Clock",
+      "description": "The time and date, for a Dashboard workspace. Ships with the cockpit, so a new dashboard has something on it from the start — it is here so you can update it on its own, or put it back if you removed it.",
+      "author": "Cockpit",
+      "category": "Widgets",
+      "icon": "🕐",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-15",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "clock/clock-1.0.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "d8f29de555d45cebb13b413d0f2087c06c2c19000d1622cd74989dea88dc3def",
+          "notes": "Initial release — the time and date on a dashboard. Needs a cockpit build with the widget contribution point (AddWidget)."
+        }
+      ]
+    },
+    {
+      "id": "system-monitor",
+      "name": "System Monitor",
+      "description": "CPU, memory and disk usage for a Dashboard workspace. You pick which of the three in its settings, so two of them side by side can each watch something different.",
+      "author": "Cockpit",
+      "category": "Widgets",
+      "icon": "📈",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-15",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "system-monitor/system-monitor-1.0.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "9e2a522c11675829d3e2ceb47927a388884ad59b31b8be5dacce28e885fee779",
+          "notes": "Initial release — CPU, memory and disk on a dashboard, each of the three toggleable per placed instance. Needs a cockpit build with the widget contribution point (AddWidget)."
+        }
+      ]
     }
   ],
   "templates": [
