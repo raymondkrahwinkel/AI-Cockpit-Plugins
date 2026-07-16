@@ -12,8 +12,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.3.0",
+      "latestVersion": "1.4.0",
       "versions": [
+        {
+          "version": "1.4.0",
+          "path": "git-status/git-status-1.4.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "41a15a3e41d8f6039ee6d0190b81be4944afa727deeec3d89f4c7a7701024602",
+          "notes": "A Browse… button in settings opens a folder picker to add a repository instead of typing its path — it fills the box and adds it in one go. Needs nothing new from the host."
+        },
         {
           "version": "1.3.0",
           "path": "git-status/git-status-1.3.0.zip",
@@ -193,7 +201,7 @@
     {
       "id": "github-pull-requests",
       "name": "GitHub Pull Requests",
-      "description": "Shows your open GitHub pull requests inline under the session list (how many is configurable, and you can limit it to specific repositories), refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI — the PRs you opened across all your repos, including org repos, or a single repo over HTTP — plus a dialog listing them in a searchable, sortable grid with an \"Assigned to me\" filter; left-click a PR to drop a review prompt, or right-click for a menu (add to prompt / open in browser). Pull requests waiting for your review are listed separately under \"Review requested\", each with an Open button, and a new one raises a toast with an \"Open in browser\" button. The prompt template is editable in settings.",
+      "description": "Shows your open GitHub pull requests inline under the session list (how many is configurable, and you can limit it to specific repositories), refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI — the PRs you opened across all your repos, including org repos, or a single repo over HTTP — plus a dialog listing them in a searchable, sortable grid with an \"Assigned to me\" filter, and a Dashboard widget showing the same list as a resizable pane with its own item count; left-click a PR to drop a review prompt, or right-click for a menu (add to prompt / open in browser). Pull requests waiting for your review are listed separately under \"Review requested\", each with an Open button, and a new one raises a toast with an \"Open in browser\" button. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🔀",
@@ -201,8 +209,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.11.1",
+      "latestVersion": "1.12.0",
       "versions": [
+        {
+          "version": "1.12.0",
+          "path": "github-pull-requests/github-pull-requests-1.12.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "4f52e161b7095c5d25e9bf5c736b6545ce687f22582180d675efca54650c50fa",
+          "notes": "Adds a GitHub Pull Requests widget for the Dashboard workspace: the same open-PR list as the side-menu section — number, title, repository, an amber stripe on the ones waiting for your review, left-click to drop a review prompt — as a resizable pane with its own item count (1–20). Needs a cockpit build with the dashboard widget system for the widget to appear; the side-menu section works without it."
+        },
         {
           "version": "1.11.1",
           "path": "github-pull-requests/github-pull-requests-1.11.1.zip",
