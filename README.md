@@ -27,7 +27,9 @@ runs the existing install + consent flow.
 
 ## Layout
 
-- `index.json` — the store catalog: top-level `name` + `plugins[]`, each with
+- `index.json` — the store catalog: top-level `name` + optional `iconUrl` (a store logo shown in
+  **Manage stores** — an `http(s)` URL or a path relative to the index, like `logo.png`) + `plugins[]`,
+  each with
   `id`/`name`/`description`/`author`/`category`/`icon`/`homepage`/`repository`/`featured`/`published`/
   `latestVersion`/`versions[]` (per version: `version`/`path`/`abstractionsVersion`/`minHostVersion`/
   `sha256`/`notes`). Full field-by-field reference:
