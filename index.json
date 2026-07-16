@@ -491,8 +491,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-13",
-      "latestVersion": "0.20.0",
+      "latestVersion": "0.22.0",
       "versions": [
+        {
+          "version": "0.22.0",
+          "path": "workflows/workflows-0.22.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "4217d00aa153bca06c87ce33d08190292db914247a2c5bbe18ed374020bdc43a",
+          "notes": "A workflow MCP (cockpit-workflows) so agents can list, read, run and create/edit workflows through their own tools (AC-12), and a 'Set session status' step that labels the session a flow started with the ticket it picked up (AC-13). Needs a cockpit build with the plugin-MCP endpoint support."
+        },
         {
           "version": "0.20.0",
           "path": "workflows/workflows-0.20.0.zip",
