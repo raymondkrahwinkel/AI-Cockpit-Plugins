@@ -584,8 +584,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-16",
-      "latestVersion": "0.3.0",
+      "latestVersion": "0.3.1",
       "versions": [
+        {
+          "version": "0.3.1",
+          "path": "claude-provider/claude-provider-0.3.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "e7fc169606a7197dbfdc99f07625478dfd867569d43c9deff81f31574f176f33",
+          "notes": "Sets COCKPIT_PANE_ID in the SDK spawn's environment (AC-13), so an SDK-session agent can name its own session to the cockpit-session MCP server's set_status tool — the same identity the TTY route already gets. Needs a cockpit build with the cockpit-session MCP."
+        },
         {
           "version": "0.3.0",
           "path": "claude-provider/claude-provider-0.3.0.zip",
