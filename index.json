@@ -572,6 +572,29 @@
           "notes": "Initial release — CPU, memory and disk on a dashboard, each of the three toggleable per placed instance. Needs a cockpit build with the widget contribution point (AddWidget)."
         }
       ]
+    },
+    {
+      "id": "claude-provider",
+      "name": "Claude (bundled)",
+      "description": "Claude as a provider plugin (Fase 4). Runs the real interactive Claude TUI in a pane (TTY) and, headless, drives it over stream-json (SDK) with the cockpit's permission prompts, live model/permission/effort switching, and usage limits. Bundled and pre-approved: out of the box nothing changes. Requires the claude CLI installed and logged in on the machine running Cockpit.",
+      "author": "Cockpit",
+      "category": "AI providers",
+      "icon": "🧠",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-16",
+      "latestVersion": "0.3.0",
+      "versions": [
+        {
+          "version": "0.3.0",
+          "path": "claude-provider/claude-provider-0.3.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "e704afcc62b7de4a513640a91835c99891df57253c50143038f59a8273d3885e",
+          "notes": "First store release of the bundled Claude provider. Per-profile environment variables (AC-22): declares SupportsEnvVars and applies the profile's variables to the SDK spawn before the driver's own rules, so ANTHROPIC_* stays dropped and CLAUDE_CONFIG_DIR keeps the last word."
+        }
+      ]
     }
   ],
   "templates": [
