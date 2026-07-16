@@ -304,8 +304,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.12.0",
+      "latestVersion": "1.13.0",
       "versions": [
+        {
+          "version": "1.13.0",
+          "path": "youtrack/youtrack-1.13.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "6dc2279634183045bcd68a8e6ac73809e037f013c0006b6a86d61340fc619c0e",
+          "notes": "Plugin-owned MCP (AC-11): the instance's YouTrack MCP server is the plugin's own — it no longer shows in the MCP-servers manager but is offered per-session (uncheckable) in the New-session picker. A per-instance toggle chooses whether an instance contributes its MCP server, and a migration reclaims the entries an earlier version pushed into the registry."
+        },
         {
           "version": "1.12.0",
           "path": "youtrack/youtrack-1.12.0.zip",
