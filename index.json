@@ -406,8 +406,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.2.0",
       "versions": [
+        {
+          "version": "0.2.0",
+          "path": "cli-agent-provider/cli-agent-provider-0.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "62437d6654918eff866912cc2615445371bc3ae1c2d2d380e2b8e2f3f701b75a",
+          "notes": "Per-profile environment variables (AC-22): declares SupportsEnvVars and applies the profile's variables to the app-server spawn, laid under the config's own CODEX_HOME/auth so those keep the last word. Also carries the previously unpublished 0.1.2 executable-resolution fallback (~/.local/bin, ~/.bun/bin) for AppImage/GUI launches."
+        },
         {
           "version": "0.1.0",
           "path": "cli-agent-provider/cli-agent-provider-0.1.0.zip",
