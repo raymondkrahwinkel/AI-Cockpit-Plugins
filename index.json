@@ -515,9 +515,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-07-13",
-      "latestVersion": "0.22.1",
+      "published": "2026-07-17",
+      "latestVersion": "0.23.0",
       "versions": [
+        {
+          "version": "0.23.0",
+          "path": "workflows/workflows-0.23.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "0baa19efdb5df83fbab8e415bafeaea04b76566d0b71522a67e6b5d5e7f85d6e",
+          "notes": "Consent gate (AC-38): a step that acts with your rights — a command, a session hand-off, or egress (http, Slack/Discord) — is put to you for Approve/Deny before it runs, showing the literal action (the command, the URL and body, the full webhook URL). A run you start yourself is never asked; a trigger asks unless you mark the flow Run unattended. An MCP agent cannot create or arm a flow that contains a dangerous step. Plugin-contributed steps declare their own consent in code."
+        },
         {
           "version": "0.22.1",
           "path": "workflows/workflows-0.22.1.zip",
