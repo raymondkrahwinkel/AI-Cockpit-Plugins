@@ -13,8 +13,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.4.0",
+      "latestVersion": "1.4.1",
       "versions": [
+        {
+          "version": "1.4.1",
+          "path": "git-status/git-status-1.4.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "58950b61e0f8c3055c9cb54de1b3ff8da277526868dc62e639dc59c192bef129",
+          "notes": "The branch badge now follows a branch switch made outside the session — another terminal, or the IDE — not only git commands run inside it. It watches the repository's HEAD so a checkout or a deleted branch is reflected within a couple of seconds."
+        },
         {
           "version": "1.4.0",
           "path": "git-status/git-status-1.4.0.zip",
