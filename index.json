@@ -493,8 +493,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.2.0",
+      "latestVersion": "1.2.1",
       "versions": [
+        {
+          "version": "1.2.1",
+          "path": "transcript-search/transcript-search-1.2.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "1.0.0",
+          "sha256": "39d22e4bf2060b240aa6e0be87be4a1493085380ed1af5488c95522afc486589",
+          "notes": "Resuming a conversation from the search picker now starts the session in the folder it ran in, so it finds that conversation's history instead of opening a fresh one — the picker hands the New-session dialog the working directory alongside the id."
+        },
         {
           "version": "1.2.0",
           "path": "transcript-search/transcript-search-1.2.0.zip",
