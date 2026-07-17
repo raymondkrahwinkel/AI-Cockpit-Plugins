@@ -516,8 +516,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-13",
-      "latestVersion": "0.22.0",
+      "latestVersion": "0.22.1",
       "versions": [
+        {
+          "version": "0.22.1",
+          "path": "workflows/workflows-0.22.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "dce9da79b3acbee7d90278c31e50819f9f5f4888c476e98f5148458baded7160",
+          "notes": "Security fix (AC-39): a value substituted from an earlier step into a command step is shell-quoted, so untrusted step data can no longer break out of its argument and run as a command. Operator templates keep their own shell features."
+        },
         {
           "version": "0.22.0",
           "path": "workflows/workflows-0.22.0.zip",
