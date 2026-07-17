@@ -524,8 +524,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-17",
-      "latestVersion": "0.24.0",
+      "latestVersion": "0.24.1",
       "versions": [
+        {
+          "version": "0.24.1",
+          "path": "workflows/workflows-0.24.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "8575cbad0e9d3cb66b599a6ab555d1d1ed01b5313dc1db8aca415b80150f79f1",
+          "notes": "Security fix (AC-62): the run_workflow MCP tool now refuses a disarmed (inactive) flow, so the operator's arm switch gates the agent route too — an agent can no longer run a flow the operator never armed or deliberately disabled. Running a disarmed flow by hand from the editor is unaffected. Complements the AC-38 consent gate."
+        },
         {
           "version": "0.24.0",
           "path": "workflows/workflows-0.24.0.zip",
