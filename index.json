@@ -13,8 +13,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.4.1",
+      "latestVersion": "1.4.2",
       "versions": [
+        {
+          "version": "1.4.2",
+          "path": "git-status/git-status-1.4.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "40259f364b4abd16be66e7ecfdcc0ded5edce6cb8030e824e72171097ce13b04",
+          "notes": "AC-33: the plugin's icons are drawn from the bundled Material Design set, so they render identically on every machine instead of relying on the OS emoji font."
+        },
         {
           "version": "1.4.1",
           "path": "git-status/git-status-1.4.1.zip",
@@ -76,8 +84,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.3.0",
+      "latestVersion": "1.3.1",
       "versions": [
+        {
+          "version": "1.3.1",
+          "path": "prompt-library/prompt-library-1.3.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "072f5169b454ecd5a85c7786a3a705dfafbd2005d170d4939084fd1ec9b8d7c6",
+          "notes": "AC-33: the plugin's icons are drawn from the bundled Material Design set, so they render identically on every machine instead of relying on the OS emoji font."
+        },
         {
           "version": "1.3.0",
           "path": "prompt-library/prompt-library-1.3.0.zip",
@@ -163,8 +179,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-11",
-      "latestVersion": "1.8.0",
+      "latestVersion": "1.8.1",
       "versions": [
+        {
+          "version": "1.8.1",
+          "path": "github-issues/github-issues-1.8.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "7eed48606bd19f2c7634b2c604e8a9b79585321e91681b457defa829249eab6d",
+          "notes": "AC-33: the plugin's icons are drawn from the bundled Material Design set, so they render identically on every machine instead of relying on the OS emoji font."
+        },
         {
           "version": "1.8.0",
           "path": "github-issues/github-issues-1.8.0.zip",
@@ -218,8 +242,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.12.0",
+      "latestVersion": "1.12.1",
       "versions": [
+        {
+          "version": "1.12.1",
+          "path": "github-pull-requests/github-pull-requests-1.12.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "993d0a5cff0d5eb9134dda95658e3fc7341e3f5261dc036e7df122e8c53658db",
+          "notes": "AC-33: the plugin's icons are drawn from the bundled Material Design set, so they render identically on every machine instead of relying on the OS emoji font."
+        },
         {
           "version": "1.12.0",
           "path": "github-pull-requests/github-pull-requests-1.12.0.zip",
@@ -329,8 +361,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.13.0",
+      "latestVersion": "1.13.1",
       "versions": [
+        {
+          "version": "1.13.1",
+          "path": "youtrack/youtrack-1.13.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "6a098e49c84229e3dd6ff480064d631e947d1a53e952d74fb80146092ad01ad5",
+          "notes": "AC-33: the plugin's icons are drawn from the bundled Material Design set, so they render identically on every machine instead of relying on the OS emoji font."
+        },
         {
           "version": "1.13.0",
           "path": "youtrack/youtrack-1.13.0.zip",
@@ -493,8 +533,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.2.1",
+      "latestVersion": "1.2.2",
       "versions": [
+        {
+          "version": "1.2.2",
+          "path": "transcript-search/transcript-search-1.2.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "7842deef9a891d1f65f52704c40e53e66ad92c1e41dbb4ebc7a9d595b52ba718",
+          "notes": "AC-33: the plugin's icons are drawn from the bundled Material Design set, so they render identically on every machine instead of relying on the OS emoji font."
+        },
         {
           "version": "1.2.1",
           "path": "transcript-search/transcript-search-1.2.1.zip",
@@ -532,8 +580,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-17",
-      "latestVersion": "0.24.1",
+      "latestVersion": "0.24.2",
       "versions": [
+        {
+          "version": "0.24.2",
+          "path": "workflows/workflows-0.24.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "c258ce1793470b5b4179bd53d00a0c5e96d49a76ce225fda95ad93a603e7c624",
+          "notes": "AC-33: the plugin's icons are drawn from the bundled Material Design set, so they render identically on every machine instead of relying on the OS emoji font."
+        },
         {
           "version": "0.24.1",
           "path": "workflows/workflows-0.24.1.zip",
@@ -611,8 +667,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-15",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.0.1",
       "versions": [
+        {
+          "version": "1.0.1",
+          "path": "clock/clock-1.0.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "4b8d7982ccc69c3e0432751b96a53f1c4cb2dd739b1d066e7be2a6459dfcba0b",
+          "notes": "AC-33: the plugin's icons are drawn from the bundled Material Design set, so they render identically on every machine instead of relying on the OS emoji font."
+        },
         {
           "version": "1.0.0",
           "path": "clock/clock-1.0.0.zip",
@@ -634,8 +698,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-15",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.0.1",
       "versions": [
+        {
+          "version": "1.0.1",
+          "path": "system-monitor/system-monitor-1.0.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "f4e6c4f241baecebc7fea2b886dd60676a897c21875edf7347e1cb7f05c67664",
+          "notes": "AC-33: the plugin's icons are drawn from the bundled Material Design set, so they render identically on every machine instead of relying on the OS emoji font."
+        },
         {
           "version": "1.0.0",
           "path": "system-monitor/system-monitor-1.0.0.zip",
