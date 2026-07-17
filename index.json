@@ -580,8 +580,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-17",
-      "latestVersion": "0.24.2",
+      "latestVersion": "0.24.3",
       "versions": [
+        {
+          "version": "0.24.3",
+          "path": "workflows/workflows-0.24.3.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "27820f4056bbc9a19e97f9bf9cbb69e54b44450262efc83264088415b14f84e3",
+          "notes": "Fixes the zoom-in button so the whole zoom toolbar is vector icons (it was still a text '+'), and aligns the plugin's internal version with its manifest."
+        },
         {
           "version": "0.24.2",
           "path": "workflows/workflows-0.24.2.zip",
