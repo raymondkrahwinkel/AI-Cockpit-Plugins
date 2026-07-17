@@ -430,9 +430,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-11",
-      "latestVersion": "0.2.0",
+      "published": "2026-07-17",
+      "latestVersion": "0.2.1",
       "versions": [
+        {
+          "version": "0.2.1",
+          "path": "cli-agent-provider/cli-agent-provider-0.2.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "e0e8beea07329dc28e8dac5d2c99933c6e5158e5e962a41e6ba7e7925a2d7a4b",
+          "notes": "AC-40: for a cockpit-hosted MCP the Codex config now points at the COCKPIT_MCP_KEY environment variable (bearer_token_env_var) instead of a literal token, so this run's endpoint key never lands in a config file on disk."
+        },
         {
           "version": "0.2.0",
           "path": "cli-agent-provider/cli-agent-provider-0.2.0.zip",
@@ -516,8 +524,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-17",
-      "latestVersion": "0.23.0",
+      "latestVersion": "0.24.0",
       "versions": [
+        {
+          "version": "0.24.0",
+          "path": "workflows/workflows-0.24.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "f2d108b47a68f45dcef3803d9dc5d747a737700c500db9871ea39abcc3f45f11",
+          "notes": "AC-40: the cockpit-workflows MCP is the cockpit's own loopback endpoint, so it is no longer listed in the MCP-servers manager; a new toggle in the plugin's own settings view turns it on or off for sessions."
+        },
         {
           "version": "0.23.0",
           "path": "workflows/workflows-0.23.0.zip",
@@ -624,9 +640,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-16",
-      "latestVersion": "0.3.1",
+      "published": "2026-07-17",
+      "latestVersion": "0.3.2",
       "versions": [
+        {
+          "version": "0.3.2",
+          "path": "claude-provider/claude-provider-0.3.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "01a797e3312eb9e9bf625870dc572511d8f4f338e7e7e4983edc462656b9923c",
+          "notes": "AC-40: for a cockpit-hosted MCP the Claude mcp-config now references the COCKPIT_MCP_KEY environment variable (Bearer ${COCKPIT_MCP_KEY}) instead of embedding a literal token, so this run's endpoint key never lands in a config file on disk."
+        },
         {
           "version": "0.3.1",
           "path": "claude-provider/claude-provider-0.3.1.zip",
