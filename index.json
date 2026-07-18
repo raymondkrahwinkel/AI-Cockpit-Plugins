@@ -850,6 +850,29 @@
           "notes": "AC-50: initial release — a Review changes action in each session's header shows the uncommitted git diff of that session's working directory (coloured), with one click to ask the session to review its own changes."
         }
       ]
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "description": "Register Kubernetes clusters and give agents scoped, human-approved access to them through an mcp__k8s__* server. The plugin talks to the cluster itself (via the official Kubernetes client) and keeps the credentials — an agent never gets a kubeconfig. Every call is gated: opening a cluster asks for consent, a namespace outside the cluster's allowed list asks each time (reads included), and every change asks afresh and is never remembered. Cluster-scoped resources and exec/port-forward/attach are off until you turn them on per cluster. Configure clusters in the plugin settings; the kubeconfig is stored under the secret layer.",
+      "author": "Cockpit",
+      "category": "Automation",
+      "icon": "☸",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-18",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "kubernetes/kubernetes-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "28db013b23cfdc3a5330f7ed6a5ce12c1891f55bdf0163235ddf6acc1ca8b1bc",
+          "notes": "First release: register clusters and give agents scoped, consent-gated access through an mcp__k8s__* server (read, pod logs, delete/scale/patch, exec)."
+        }
+      ]
     }
   ],
   "templates": [
