@@ -811,6 +811,29 @@
           "notes": "AC-52: initial release — the GitHub Actions status of the branch a session is working in, shown in that session's header (green pass, red fail, amber running), click to open the run on GitHub."
         }
       ]
+    },
+    {
+      "id": "session-review",
+      "name": "Session Review",
+      "description": "A \"Review changes\" action in each session's header opens a panel showing what that session changed — the git diff of its working directory, coloured for reading — with one click to ask the session to review its own changes. Makes the cockpit a review station, not just a runner: the quality guard before an agent's output lands under your name. Requires git installed on the machine running Cockpit.",
+      "author": "Cockpit",
+      "category": "Productivity",
+      "icon": "🔍",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-18",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "session-review/session-review-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "7bfff46c8fd4b209626754a7db3d1cfc13264cf9875aca9a2ffa328bd59b0a1c",
+          "notes": "AC-50: initial release — a Review changes action in each session's header shows the uncommitted git diff of that session's working directory (coloured), with one click to ask the session to review its own changes."
+        }
+      ]
     }
   ],
   "templates": [
