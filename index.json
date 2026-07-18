@@ -479,7 +479,7 @@
     {
       "id": "cli-agent-provider",
       "name": "CLI Agent Provider (Codex)",
-      "description": "Adds Codex CLI as a selectable session provider, driven as a subprocess per turn (codex exec --json, resumed for follow-up turns). Requires the codex CLI installed and authenticated on the machine running Cockpit. Experimental (0.x, phase B1) — event mapping is a best-effort reconstruction; verify against your Codex version.",
+      "description": "Adds the Codex CLI as a session provider, two ways. As a TTY session it runs the real interactive Codex TUI in a pane (its own approval prompts); as an SDK session it is driven headless, a subprocess per turn (codex exec --json, resumed for follow-up turns). Both routes now receive the cockpit's shared MCP servers. Configure the sandbox per profile. Requires the codex CLI installed and authenticated (codex login) on the machine running Cockpit.",
       "author": "Cockpit",
       "category": "AI providers",
       "icon": "🤖",
@@ -487,8 +487,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-17",
-      "latestVersion": "0.3.1",
+      "latestVersion": "0.4.0",
       "versions": [
+        {
+          "version": "0.4.0",
+          "path": "cli-agent-provider/cli-agent-provider-0.4.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "c68fbc4430e0e50793e28eb009638007ac3b294e0d9f4a8c7cf8f1d64e16d424",
+          "notes": "AC-77: the interactive Codex TUI now receives the session's Cockpit MCP servers as `-c mcp_servers.*` config overrides — previously only the headless app-server route got them, so the TUI saw only its own ~/.codex servers. A bearer token rides the process environment, and a cockpit-hosted server references COCKPIT_MCP_KEY, so no secret lands on the command line."
+        },
         {
           "version": "0.3.1",
           "path": "cli-agent-provider/cli-agent-provider-0.3.1.zip",
