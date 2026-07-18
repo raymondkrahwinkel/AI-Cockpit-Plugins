@@ -862,8 +862,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-18",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "versions": [
+        {
+          "version": "0.1.1",
+          "path": "kubernetes/kubernetes-0.1.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "02e9002f3637f5e9fd552f383a198fe16e5dcb5093b6041ef7c4621c81114725",
+          "notes": "Adds a Sessions-toolbar quick action to open Kubernetes settings (AC-91)."
+        },
         {
           "version": "0.1.0",
           "path": "kubernetes/kubernetes-0.1.0.zip",
@@ -871,6 +879,29 @@
           "minHostVersion": "0.3.0",
           "sha256": "aa0771ef68b12cafaeaa197c505a17d85faf6e39c4fa40a85197911a375b141d",
           "notes": "Initial release, hardened after a full code & security review: cluster-scoped consent is remembered per kind (not per cluster), API/exec-auth errors never leak host detail to the agent, a live port-forward survives a settings save, duplicate cluster labels fail closed, and list results flag truncation."
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "description": "Register the local Docker daemon and give agents scoped, human-approved access to containers through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Every call is gated: the first touch of the daemon asks for consent (reads are free after that), and every change — start/stop/restart/remove/run and Compose up/down/build — asks afresh with the literal command shown and is never remembered. Exec and run are off until you turn them on. Detached containers this plugin starts show in the status bar with an operator-only Kill. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
+      "author": "Cockpit",
+      "category": "Automation",
+      "icon": "🐳",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-19",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "docker/docker-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "f3611517b9fb1fd9a81ed4a287ffb1861f6c20bf86f8061eeb894c9f79d2feec",
+          "notes": "Initial release: ps/inspect/logs, start/stop/restart/remove, exec and run (behind an off-by-default capability), and Docker Compose up/down/build/config via the CLI — each gated by a human consent prompt that shows the literal command. Sibling of the Kubernetes plugin; built and hardened alongside a full code & security review. Contributes a Sessions-toolbar quick action to open Docker settings (AC-91)."
         }
       ]
     }
