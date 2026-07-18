@@ -471,8 +471,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-17",
-      "latestVersion": "0.2.1",
+      "latestVersion": "0.3.1",
       "versions": [
+        {
+          "version": "0.3.1",
+          "path": "cli-agent-provider/cli-agent-provider-0.3.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "c4231d36e7ef2755aaa25094bac5a0e12b578e000e91ef3338f5ee2348f47191",
+          "notes": "AC-20: managed provider CLI. The cockpit can install and keep the codex binary up to date in its own location (download → digest verify → extract the release tarball), preferred over PATH yet override-able and removable, with an Install/Update/Remove panel in the profile settings."
+        },
         {
           "version": "0.2.1",
           "path": "cli-agent-provider/cli-agent-provider-0.2.1.zip",
@@ -737,8 +745,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-17",
-      "latestVersion": "0.3.2",
+      "latestVersion": "0.4.0",
       "versions": [
+        {
+          "version": "0.4.0",
+          "path": "claude-provider/claude-provider-0.4.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "1d86fb7a94f8a774cff7c5b4621a26b2acc3bc71ed1f93456c5c00788628d4cf",
+          "notes": "AC-20: managed provider CLI. The cockpit can install and keep the claude binary up to date in its own location (download → SHA-256 verify against the release manifest → place), preferred over PATH yet override-able (pin) and removable, with an Install/Update/Remove panel plus an update check in the profile settings."
+        },
         {
           "version": "0.3.2",
           "path": "claude-provider/claude-provider-0.3.2.zip",
