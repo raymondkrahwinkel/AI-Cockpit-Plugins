@@ -854,7 +854,7 @@
     {
       "id": "kubernetes",
       "name": "Kubernetes",
-      "description": "Register Kubernetes clusters and give agents scoped, human-approved access to them through an mcp__k8s__* server. The plugin talks to the cluster itself (via the official Kubernetes client) and keeps the credentials — an agent never gets a kubeconfig. Every call is gated: opening a cluster asks for consent, a namespace outside the cluster's allowed list asks each time (reads included), and every change asks afresh and is never remembered. Cluster-scoped resources and exec/port-forward/attach are off until you turn them on per cluster. Configure clusters in the plugin settings; the kubeconfig is stored under the secret layer.",
+      "description": "Register Kubernetes clusters and give agents scoped, human-approved access to them through an mcp__cockpit-k8s__* server. The plugin talks to the cluster itself (via the official Kubernetes client) and keeps the credentials — an agent never gets a kubeconfig. Every call is gated: opening a cluster asks for consent, a namespace outside the cluster's allowed list asks each time (reads included), and every change asks afresh and is never remembered. Cluster-scoped resources, exec and port-forward are off until you turn them on per cluster. A port-forward tunnel shows in the status bar with an operator-only Kill and auto-closes. Configure clusters in the plugin settings: point at a kubeconfig file (e.g. ~/.kube/config, read live) and pick a context from it, or paste a kubeconfig which is stored under the secret layer.",
       "author": "Cockpit",
       "category": "Automation",
       "icon": "☸",
@@ -862,39 +862,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-18",
-      "latestVersion": "0.3.1",
+      "latestVersion": "0.1.0",
       "versions": [
-        {
-          "version": "0.3.1",
-          "path": "kubernetes/kubernetes-0.3.1.zip",
-          "abstractionsVersion": 1,
-          "minHostVersion": "0.3.0",
-          "sha256": "59fcc78f7200ae08b540cdd9ca7db21fffa65f031765f93aa361d5b4f24902f8",
-          "notes": "Fixed: the settings dialog no longer tucks the MCP toggle behind the Save/Close footer — the view no longer nests its own scroll inside the host dialogs, so a tall cluster list scrolls the whole view clear."
-        },
-        {
-          "version": "0.3.0",
-          "path": "kubernetes/kubernetes-0.3.0.zip",
-          "abstractionsVersion": 1,
-          "minHostVersion": "0.3.0",
-          "sha256": "0ece8a10a8fce065fcf86c24818340b433d0e1764cf6a89ae2d99b27693e4d9a",
-          "notes": "Point a cluster at a kubeconfig file (e.g. ~/.kube/config, read live) and pick a context from it, next to the paste-a-kubeconfig route (AC-83)."
-        },
-        {
-          "version": "0.2.0",
-          "path": "kubernetes/kubernetes-0.2.0.zip",
-          "abstractionsVersion": 1,
-          "minHostVersion": "0.3.0",
-          "sha256": "8b68eac352ad37a890b2943b910667301f2c5fd99a414bdd59db1ce3727a342e",
-          "notes": "port-forward: open a tunnel to a pod (off per cluster, always consented), shown in the status bar with an operator-only Kill and a 30-minute auto-close (AC-80/AC-82)."
-        },
         {
           "version": "0.1.0",
           "path": "kubernetes/kubernetes-0.1.0.zip",
           "abstractionsVersion": 1,
-          "minHostVersion": "0.1.0",
-          "sha256": "28db013b23cfdc3a5330f7ed6a5ce12c1891f55bdf0163235ddf6acc1ca8b1bc",
-          "notes": "First release: register clusters and give agents scoped, consent-gated access through an mcp__k8s__* server (read, pod logs, delete/scale/patch, exec)."
+          "minHostVersion": "0.3.0",
+          "sha256": "bc3a03c32333bc817a7c2589b13bf194f545708ea68c46859ef8ed748514dd4c",
+          "notes": "Initial release: register clusters and give agents scoped, human-approved access through the gated mcp__cockpit-k8s__* server — consent to open a cluster, to step outside its allowed namespaces, and to every change; cluster-scoped resources, exec and port-forward are off until turned on per cluster."
         }
       ]
     }
