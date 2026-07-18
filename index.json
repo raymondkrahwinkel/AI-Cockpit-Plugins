@@ -788,6 +788,29 @@
           "notes": "First store release of the bundled Claude provider. Per-profile environment variables (AC-22): declares SupportsEnvVars and applies the profile's variables to the SDK spawn before the driver's own rules, so ANTHROPIC_* stays dropped and CLAUDE_CONFIG_DIR keeps the last word."
         }
       ]
+    },
+    {
+      "id": "github-actions",
+      "name": "GitHub Actions",
+      "description": "The GitHub Actions status of the branch a session is working in, shown in that session's header: a coloured dot (green pass, red fail, amber running) for the latest workflow run on the current branch, with the workflow, event and time on hover — click to open the run on GitHub. Completes the GitHub set alongside Issues, Pull Requests and Git status. Uses your existing gh CLI login (no token to paste); requires the GitHub CLI installed and authenticated.",
+      "author": "Cockpit",
+      "category": "Productivity",
+      "icon": "🚦",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-18",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "github-actions/github-actions-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "5b0653a5d271a48c0093349e3894b5d71544b9f953c961bcebc2590453e82ce8",
+          "notes": "AC-52: initial release — the GitHub Actions status of the branch a session is working in, shown in that session's header (green pass, red fail, amber running), click to open the run on GitHub."
+        }
+      ]
     }
   ],
   "templates": [
