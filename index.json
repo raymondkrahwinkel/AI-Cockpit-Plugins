@@ -862,8 +862,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-18",
-      "latestVersion": "0.2.0",
+      "latestVersion": "0.3.0",
       "versions": [
+        {
+          "version": "0.3.0",
+          "path": "kubernetes/kubernetes-0.3.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "0ece8a10a8fce065fcf86c24818340b433d0e1764cf6a89ae2d99b27693e4d9a",
+          "notes": "Point a cluster at a kubeconfig file (e.g. ~/.kube/config, read live) and pick a context from it, next to the paste-a-kubeconfig route (AC-83)."
+        },
         {
           "version": "0.2.0",
           "path": "kubernetes/kubernetes-0.2.0.zip",
