@@ -13,8 +13,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.4.2",
+      "latestVersion": "1.5.0",
       "versions": [
+        {
+          "version": "1.5.0",
+          "path": "git-status/git-status-1.5.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "4521095ca481770769e092b5acce03a77bd3b35d1ea1a76dd2fb1290b37c1751",
+          "notes": "AC-36: a git-status settings option to hide the branch name in the session-header badge — only the coloured status dot stays on screen (branch name in the tooltip), freeing header width. Default on; updates live."
+        },
         {
           "version": "1.4.2",
           "path": "git-status/git-status-1.4.2.zip",
