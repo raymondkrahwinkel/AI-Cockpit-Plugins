@@ -369,8 +369,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.13.1",
+      "latestVersion": "1.14.0",
       "versions": [
+        {
+          "version": "1.14.0",
+          "path": "youtrack/youtrack-1.14.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "133f5fc6bf17e4aca31bf09793f4262c2e3c19b050ee60283f57a454ce7aa2ca",
+          "notes": "AC-14: attach images you send with a message to the issue the session tracks — opt-in per session in the header menu."
+        },
         {
           "version": "1.13.1",
           "path": "youtrack/youtrack-1.13.1.zip",
