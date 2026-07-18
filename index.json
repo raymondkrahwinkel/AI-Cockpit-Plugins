@@ -862,8 +862,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-18",
-      "latestVersion": "0.3.0",
+      "latestVersion": "0.3.1",
       "versions": [
+        {
+          "version": "0.3.1",
+          "path": "kubernetes/kubernetes-0.3.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "59fcc78f7200ae08b540cdd9ca7db21fffa65f031765f93aa361d5b4f24902f8",
+          "notes": "Fixed: the settings dialog no longer tucks the MCP toggle behind the Save/Close footer — the view no longer nests its own scroll inside the host dialogs, so a tall cluster list scrolls the whole view clear."
+        },
         {
           "version": "0.3.0",
           "path": "kubernetes/kubernetes-0.3.0.zip",
