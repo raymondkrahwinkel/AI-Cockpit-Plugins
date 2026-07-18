@@ -862,8 +862,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-18",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.2.0",
       "versions": [
+        {
+          "version": "0.2.0",
+          "path": "kubernetes/kubernetes-0.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "8b68eac352ad37a890b2943b910667301f2c5fd99a414bdd59db1ce3727a342e",
+          "notes": "port-forward: open a tunnel to a pod (off per cluster, always consented), shown in the status bar with an operator-only Kill and a 30-minute auto-close (AC-80/AC-82)."
+        },
         {
           "version": "0.1.0",
           "path": "kubernetes/kubernetes-0.1.0.zip",
