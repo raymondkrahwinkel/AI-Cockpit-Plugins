@@ -869,9 +869,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-18",
-      "latestVersion": "0.1.1",
+      "published": "2026-07-19",
+      "latestVersion": "0.1.2",
       "versions": [
+        {
+          "version": "0.1.2",
+          "path": "kubernetes/kubernetes-0.1.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "c11d3cfa4d49628244217711b46e181c998c3e66e2bb635bdf8dbe789c5c118f",
+          "notes": "Security fix (AC-92): the exec-consent prompt now escapes newlines and tabs visibly, so a multi-line command cannot masquerade as a single, commented-out line while the raw multi-line command runs against the cluster."
+        },
         {
           "version": "0.1.1",
           "path": "kubernetes/kubernetes-0.1.1.zip",
@@ -893,7 +901,7 @@
     {
       "id": "docker",
       "name": "Docker",
-      "description": "Register the local Docker daemon and give agents scoped, human-approved access to containers through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Every call is gated: the first touch of the daemon asks for consent (reads are free after that), and every change — start/stop/restart/remove/run and Compose up/down/build — asks afresh with the literal command shown and is never remembered. Exec and run are off until you turn them on. Detached containers this plugin starts show in the status bar with an operator-only Kill. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
+      "description": "Register the local Docker daemon and give agents scoped, human-approved access to it through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Covers day-to-day dev operations: read the daemon and containers (list, inspect, logs, stats, top, images, volumes, networks, compose ps/config/logs), change state (start/stop/restart/remove, pull, tag, push, compose up/down/build/restart), reclaim disk (prune, remove volume), and build or copy files (build_image, cp) — the last two behind an off-by-default exec capability. Every call is gated: the first touch of the daemon asks for consent (reads are free after that); every change asks afresh with the literal command shown and is never remembered; destructive and exec actions show their target verbatim. Detached containers this plugin starts show in the status bar with an operator-only Kill. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
       "author": "Cockpit",
       "category": "Automation",
       "icon": "🐳",
@@ -901,8 +909,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-19",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.3.0",
       "versions": [
+        {
+          "version": "0.3.0",
+          "path": "docker/docker-0.3.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "12c784e5d14117dcf8843893fc62ad218d2140d2b64e071cb1a780387283116a",
+          "notes": "Rounds out day-to-day dev operations (AC-93): adds logs, compose_logs, list_images, pull_image, inspect, stats, top, list_volumes, list_networks, tag, push, prune, remove_volume, build_image, cp, compose_ps and compose_restart — each with a deliberate consent level (reads free after the one-time daemon consent; changes ask afresh; destructive and exec actions show the target/command). A run against a missing local image now gives a clear 'pull it first' error instead of a misleading daemon-unreachable one."
+        },
         {
           "version": "0.1.0",
           "path": "docker/docker-0.1.0.zip",
