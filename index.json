@@ -486,9 +486,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-17",
-      "latestVersion": "0.4.0",
+      "published": "2026-07-19",
+      "latestVersion": "0.4.1",
       "versions": [
+        {
+          "version": "0.4.1",
+          "path": "cli-agent-provider/cli-agent-provider-0.4.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "d90dd5dc43beb3905f031b31fe53608bf480a2ce0064a18aae9bbd6957864618",
+          "notes": "AC-77 fix: Codex rejected every shared MCP server whose name has a space or colon (\"YouTrack: Personal\", \"SQL Explorer\") with \"Invalid MCP server name: must match pattern ^[a-zA-Z0-9_-]+$\", so 0.4.0 injected the servers but they failed at startup. The server name is now folded to Codex's charset (out-of-set characters become _), so the servers actually start; the Cockpit display name and the Claude route are unchanged."
+        },
         {
           "version": "0.4.0",
           "path": "cli-agent-provider/cli-agent-provider-0.4.0.zip",
