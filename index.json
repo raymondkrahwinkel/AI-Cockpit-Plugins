@@ -784,9 +784,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-17",
-      "latestVersion": "0.4.0",
+      "published": "2026-07-20",
+      "latestVersion": "0.4.1",
       "versions": [
+        {
+          "version": "0.4.1",
+          "path": "claude-provider/claude-provider-0.4.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "18e40a337036826fb67c9259ce3dcc933f5b233b4f818989d3c20d03b4b25755",
+          "notes": "Fix: pasting an image into a Claude SDK chat session is now attached and sent to the model (the provider registration now declares image/vision support)."
+        },
         {
           "version": "0.4.0",
           "path": "claude-provider/claude-provider-0.4.0.zip",
