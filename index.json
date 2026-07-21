@@ -952,6 +952,29 @@
           "notes": "Initial release: ps/inspect/logs, start/stop/restart/remove, exec and run (behind an off-by-default capability), and Docker Compose up/down/build/config via the CLI — each gated by a human consent prompt that shows the literal command. Sibling of the Kubernetes plugin; built and hardened alongside a full code & security review. Contributes a Sessions-toolbar quick action to open Docker settings (AC-91)."
         }
       ]
+    },
+    {
+      "id": "autopilot",
+      "name": "Autopilot",
+      "description": "Operator-triggered \"issue → merge-ready PR\" pipeline. Start a YouTrack or GitHub issue into a visible, self-driving agent session in its own isolated worktree; it works the item behind a quality gate (visual verify, code review, security review, conventions), posts progress and questions back to the issue and moves its stage as it goes, and stops at a merge-ready PR — you approve the run before it starts and always do the merge yourself.",
+      "author": "Cockpit",
+      "category": "Automation",
+      "icon": "🤖",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-21",
+      "latestVersion": "0.2.0",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "path": "autopilot/autopilot-0.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "df63b700678d2894e19cd279fdfa8392672a83497f899921a39e266e7e90566c",
+          "notes": "First full release of Autopilot: the operator-triggered issue → merge-ready-PR pipeline (needs host 0.3.0)."
+        }
+      ]
     }
   ],
   "templates": [
