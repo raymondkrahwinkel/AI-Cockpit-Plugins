@@ -361,16 +361,24 @@
     {
       "id": "youtrack",
       "name": "YouTrack",
-      "description": "Browse open issues across one or more configured YouTrack instances, drop a prompt to work on one, run the ticket workflow (start, move state, branch name) from the session header, and register each instance's JetBrains remote MCP server as tools. Screenshots you send with a message are attached automatically to the issue the agent creates or updates that turn (a global setting, on by default).",
+      "description": "A left-menu button (or the Shift+Y shortcut) opens a dialog listing open issues across one or more configured YouTrack instances (over HTTP with a permanent token per instance — YouTrack has no CLI), with instance/project/state filters and an \"Assigned to me\" filter, in a searchable, sortable grid; click one to drop a prompt asking the agent to work on it. Run the ticket workflow from the cockpit: Start an issue (move it to in progress, assign it to you, and tie it to the session you work in), or move it to any state the board itself allows — including workflow-governed boards, whose allowed transitions are read rather than assumed. A linked issue appears with its status in that session's own header, with quick actions (move state, copy branch name, open in browser). An issue can also be started in Autopilot (the operator-triggered issue → merge-ready-PR pipeline), which posts its progress and moves the issue's stage back through this plugin. The prompt template is editable in settings. Also registers each instance's JetBrains remote MCP server so sessions can query YouTrack directly as tools. Screenshots you send with a message are attached automatically to the issue the agent creates or updates that turn (a global setting, on by default).",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🎫",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-11",
-      "latestVersion": "1.15.0",
+      "published": "2026-07-21",
+      "latestVersion": "1.16.0",
       "versions": [
+        {
+          "version": "1.16.0",
+          "path": "youtrack/youtrack-1.16.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "8e2888622b902c32437e1cf79572ffa4d94bf28a4a279ace1545f9d83a1a0dc5",
+          "notes": "Issues can now be started in Autopilot (posts progress and moves the issue stage); requires host 0.3.0."
+        },
         {
           "version": "1.15.0",
           "path": "youtrack/youtrack-1.15.0.zip",
