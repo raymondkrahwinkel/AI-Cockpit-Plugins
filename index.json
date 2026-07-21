@@ -179,16 +179,24 @@
     {
       "id": "github-issues",
       "name": "GitHub Issues",
-      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog, with an \"Assigned to me\" filter; click one to drop a prompt asking the agent to open and review it. The prompt template is editable in settings.",
+      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog, with an \"Assigned to me\" filter; click one to drop a prompt asking the agent to open and review it. An issue can also be started in Autopilot (the operator-triggered issue → merge-ready-PR pipeline), which posts its progress back as issue comments. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🐛",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-07-11",
-      "latestVersion": "1.8.1",
+      "published": "2026-07-21",
+      "latestVersion": "1.9.0",
       "versions": [
+        {
+          "version": "1.9.0",
+          "path": "github-issues/github-issues-1.9.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "9694bb68f725698cec789af5a62ba87ac10f298d734849e52b2e3bf45c134e82",
+          "notes": "Issues can now be started in Autopilot (posts progress back as issue comments); requires host 0.3.0."
+        },
         {
           "version": "1.8.1",
           "path": "github-issues/github-issues-1.8.1.zip",
