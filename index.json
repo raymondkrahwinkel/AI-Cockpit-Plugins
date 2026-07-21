@@ -784,9 +784,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-20",
-      "latestVersion": "0.4.1",
+      "published": "2026-07-21",
+      "latestVersion": "0.4.2",
       "versions": [
+        {
+          "version": "0.4.2",
+          "path": "claude-provider/claude-provider-0.4.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "0e9f97eb007e553b6af031711c7d32ec11af8b4f078623b786182d5adacdc289",
+          "notes": "0.4.2 — fix: interleaving TTY and SDK sessions no longer lose their MCP servers (atomic ~/.claude.json trust write)"
+        },
         {
           "version": "0.4.1",
           "path": "claude-provider/claude-provider-0.4.1.zip",
