@@ -1026,7 +1026,7 @@
       "icon": "🤖",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
-      "featured": false,
+      "featured": true,
       "published": "2026-07-22",
       "latestVersion": "0.3.0",
       "versions": [
