@@ -566,16 +566,24 @@
     {
       "id": "github-models-provider",
       "name": "GitHub Models",
-      "description": "Adds GitHub Models as a selectable session provider over its OpenAI-compatible endpoint (models.github.ai/inference). Configure a GitHub personal access token (models:read scope) and a namespaced model id (e.g. openai/gpt-4.1) per profile. This is GitHub's official models API — a Copilot subscription raises the rate limits.",
+      "description": "Adds GitHub Models as a selectable session provider, over its OpenAI-compatible chat-completions endpoint (models.github.ai/inference) via Microsoft.Extensions.AI. Configure a GitHub personal access token (models:read scope) and model per profile in Manage profiles. Experimental.",
       "author": "Cockpit",
       "category": "AI providers",
       "icon": "🐙",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-11",
-      "latestVersion": "0.1.0",
+      "published": "2026-07-22",
+      "latestVersion": "0.1.1",
       "versions": [
+        {
+          "version": "0.1.1",
+          "path": "github-models-provider/github-models-provider-0.1.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "41056977f040ec5a4d121f9812baadc94e5cb8e2f9ff8923ed36eca8d3a89273",
+          "notes": "Applies the host's hidden per-session system prompt (embedded run brief)."
+        },
         {
           "version": "0.1.0",
           "path": "github-models-provider/github-models-provider-0.1.0.zip",
