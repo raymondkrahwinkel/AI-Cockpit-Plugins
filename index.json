@@ -480,16 +480,24 @@
     {
       "id": "gemini-provider",
       "name": "Gemini / OpenAI Provider",
-      "description": "Adds Gemini and OpenAI as selectable session providers, both over an OpenAI-compatible chat-completions endpoint (Gemini's own OpenAI-compat endpoint, or api.openai.com directly). Configure an API key and model per profile in Manage profiles. Experimental (0.x) — the provider-plugin mechanism is new; live-verify with a real key.",
+      "description": "Adds Gemini and OpenAI as selectable session providers, both over an OpenAI-compatible chat-completions endpoint (Gemini's own OpenAI-compat endpoint, or api.openai.com directly) via Microsoft.Extensions.AI. Configure an API key and model per profile in Manage profiles.",
       "author": "Cockpit",
       "category": "AI providers",
       "icon": "✨",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-11",
-      "latestVersion": "0.1.0",
+      "published": "2026-07-22",
+      "latestVersion": "0.1.1",
       "versions": [
+        {
+          "version": "0.1.1",
+          "path": "gemini-provider/gemini-provider-0.1.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "0a3216e0181c339beddba0a9884b365eeb9bad04caf895205d26d9c1946f5cc4",
+          "notes": "Applies the host's hidden per-session system prompt (embedded run brief)."
+        },
         {
           "version": "0.1.0",
           "path": "gemini-provider/gemini-provider-0.1.0.zip",
