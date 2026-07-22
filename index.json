@@ -186,9 +186,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-07-21",
-      "latestVersion": "1.9.0",
+      "published": "2026-07-22",
+      "latestVersion": "1.9.1",
       "versions": [
+        {
+          "version": "1.9.1",
+          "path": "github-issues/github-issues-1.9.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "78daddfa536ca3aa77ac57ffb17252c9dbb9dac6cd4c2464ae73e67e386d2625",
+          "notes": "Plan in Autopilot: send a GitHub issue to the Autopilot CEO to plan and run."
+        },
         {
           "version": "1.9.0",
           "path": "github-issues/github-issues-1.9.0.zip",
