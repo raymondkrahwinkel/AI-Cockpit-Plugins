@@ -800,9 +800,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-21",
-      "latestVersion": "0.4.2",
+      "published": "2026-07-22",
+      "latestVersion": "0.4.3",
       "versions": [
+        {
+          "version": "0.4.3",
+          "path": "claude-provider/claude-provider-0.4.3.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "845d60a622a34a591d35c4f892fcf9c05d9f661a7fbcbbb0be575aecabf92685",
+          "notes": "Declares file-access confinement to the working directory, so an isolated Autopilot step on Claude is allowed to run confined."
+        },
         {
           "version": "0.4.2",
           "path": "claude-provider/claude-provider-0.4.2.zip",
