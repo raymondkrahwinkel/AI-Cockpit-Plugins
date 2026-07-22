@@ -376,9 +376,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-21",
-      "latestVersion": "1.16.0",
+      "published": "2026-07-22",
+      "latestVersion": "1.16.1",
       "versions": [
+        {
+          "version": "1.16.1",
+          "path": "youtrack/youtrack-1.16.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "7505711db38b1b6709a324e94243a06268b9138ec526e68d4b58ec41360587b5",
+          "notes": "Plan in Autopilot: send a YouTrack issue to the Autopilot CEO to plan and run."
+        },
         {
           "version": "1.16.0",
           "path": "youtrack/youtrack-1.16.0.zip",
