@@ -1026,10 +1026,18 @@
       "icon": "🤖",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
-      "featured": true,
+      "featured": false,
       "published": "2026-07-22",
-      "latestVersion": "0.3.0",
+      "latestVersion": "0.4.0",
       "versions": [
+        {
+          "version": "0.4.0",
+          "path": "autopilot/autopilot-0.4.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.4.0",
+          "sha256": "de7e611de8423dbc3689cb4f76cccfbd5ee2363b990ae83de886c1a361c3381d",
+          "notes": "Name the folder an Autopilot run works in — pick a recent/pinned folder or browse, and the CEO can propose it. A git repository isolates each step in a worktree; a plain folder (an admin task with no repo) now runs in it directly, confined to that folder, instead of failing at the first step."
+        },
         {
           "version": "0.3.0",
           "path": "autopilot/autopilot-0.3.0.zip",
