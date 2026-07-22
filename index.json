@@ -979,9 +979,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-21",
-      "latestVersion": "0.2.0",
+      "published": "2026-07-22",
+      "latestVersion": "0.3.0",
       "versions": [
+        {
+          "version": "0.3.0",
+          "path": "autopilot/autopilot-0.3.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "6edfc6609ccf2fbe9696e22a52fc24e5eeb6c32ec5ece936f22ec96226430ec8",
+          "notes": "Autopilot CEO: plan a run, approve once, autonomous to merge-ready — each step in the run's own worktree on the model you pick (incl. confined local models), code+security review gates, queue and history, Plan in Autopilot from YouTrack/GitHub."
+        },
         {
           "version": "0.2.0",
           "path": "autopilot/autopilot-0.2.0.zip",
