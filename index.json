@@ -13,8 +13,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.5.0",
+      "latestVersion": "1.5.1",
       "versions": [
+        {
+          "version": "1.5.1",
+          "path": "git-status/git-status-1.5.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "a1af3670e40efc4ee4857f05866908dd4dab93875018454017b055d74af2ed10",
+          "notes": "AC-124: the session-header branch badge now follows a branch switch made outside the session — via an alias, gh, an IDE or an agent tool, none of which print a matching \"git checkout\" — through a debounced backstop that probes the current branch on other session output, with teardown-safe cleanup."
+        },
         {
           "version": "1.5.0",
           "path": "git-status/git-status-1.5.0.zip",
@@ -1085,6 +1093,52 @@
           "minHostVersion": "0.3.0",
           "sha256": "df63b700678d2894e19cd279fdfa8392672a83497f899921a39e266e7e90566c",
           "notes": "First full release of Autopilot: the operator-triggered issue → merge-ready-PR pipeline (needs host 0.3.0)."
+        }
+      ]
+    },
+    {
+      "id": "usage-trend",
+      "name": "Usage Trend",
+      "description": "Charts the context / 5h / weekly usage of your sessions over time, per profile, on a Dashboard workspace.",
+      "author": "Cockpit",
+      "category": "Productivity",
+      "icon": "📈",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-23",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "usage-trend/usage-trend-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "a2fc1c775ba9e02af89bbba7f753ab0200a90d10ad8198ba600b1ef376e26ed1",
+          "notes": "First release: a Dashboard widget that charts each session's context / 5h / weekly usage over time, per profile (AC-54)."
+        }
+      ]
+    },
+    {
+      "id": "example-workspace",
+      "name": "Example Workspace",
+      "description": "A full-surface workspace a plugin draws end to end, with a real host session embedded in it (AC-122).",
+      "author": "Cockpit",
+      "category": "Developer",
+      "icon": "🧩",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-23",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "example-workspace/example-workspace-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "2133f3422b7ec3ccb89108b74ab485280fff693bfb9c0c109ca20b394a574ced",
+          "notes": "First release: an example of a full-surface workspace a plugin draws end to end, with a real host session embedded in it — a reference for the AC-122 workspace-type API."
         }
       ]
     }
