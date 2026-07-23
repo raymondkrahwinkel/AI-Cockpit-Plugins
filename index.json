@@ -187,8 +187,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-22",
-      "latestVersion": "1.9.1",
+      "latestVersion": "1.11.0",
       "versions": [
+        {
+          "version": "1.11.0",
+          "path": "github-issues/github-issues-1.11.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.6.0",
+          "sha256": "e5997202edffffd7e15b049ed59bb778b9fb2c2d327a2a487e59fc08488dcfbd",
+          "notes": "AC-216: the Bug fix and Feature templates now mark a run as a code run that ends with a merge-ready pull request, and tell the agent to commit and push its work with clean commits — no Co-Authored-By trailer and no AI/agent mention."
+        },
         {
           "version": "1.9.1",
           "path": "github-issues/github-issues-1.9.1.zip",
@@ -385,8 +393,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-22",
-      "latestVersion": "1.16.1",
+      "latestVersion": "1.18.0",
       "versions": [
+        {
+          "version": "1.18.0",
+          "path": "youtrack/youtrack-1.18.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.6.0",
+          "sha256": "380e53d4e30a4b66d6a0f8d0533ef01f778816bbb70d007b816b49e777e41a3e",
+          "notes": "AC-212/AC-217: an Epic template that reads a YouTrack epic's child issues (its \"parent for\" links) and plans them as one coherent run to a single pull request, and the tracker's read-tool MCP servers a source-triggered plan scopes the planning CEO to so it can read the issue and pull an epic's children."
+        },
         {
           "version": "1.16.1",
           "path": "youtrack/youtrack-1.16.1.zip",
@@ -841,8 +857,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-22",
-      "latestVersion": "0.4.3",
+      "latestVersion": "0.5.1",
       "versions": [
+        {
+          "version": "0.5.1",
+          "path": "claude-provider/claude-provider-0.5.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.5.0",
+          "sha256": "9e03f511ef66f92ea60dd90e0e0332877f7c731be37f0c76924c1814301ba97d",
+          "notes": "AC-213: the assistant snapshot no longer re-emits the thinking block the stream already sent, so extended reasoning is not rendered twice at the Developer reading level."
+        },
         {
           "version": "0.4.3",
           "path": "claude-provider/claude-provider-0.4.3.zip",
@@ -1028,8 +1052,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-22",
-      "latestVersion": "0.4.0",
+      "latestVersion": "0.6.0",
       "versions": [
+        {
+          "version": "0.6.0",
+          "path": "autopilot/autopilot-0.6.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.6.0",
+          "sha256": "49eb2f6d4ae526342ab7b3a076711a1f6812201c3636026ed8f4e4a624facd84",
+          "notes": "AC-212/AC-214/AC-215/AC-216/AC-217: Autopilot takes a code run to a merge-ready pull request (commit, push, open the PR — you still do the merge), with an up-front preflight when it cannot; an Epic template that plans a YouTrack epic's child issues as one run to a single PR; the planning CEO scoped to the tracker's read tools; the \"CEO is working\" cue as a full-width top bar; and an autonomous run that no longer stalls on permission prompts — its own control tools are pre-authorized and, isolated in a worktree, it runs its work tools without prompting, with an activity-aware step stall so a slow-but-working step is not failed as stuck."
+        },
         {
           "version": "0.4.0",
           "path": "autopilot/autopilot-0.4.0.zip",
