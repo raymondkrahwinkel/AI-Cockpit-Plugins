@@ -187,16 +187,24 @@
     {
       "id": "github-issues",
       "name": "GitHub Issues",
-      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog, with an \"Assigned to me\" filter; click one to drop a prompt asking the agent to open and review it. An issue can also be started in Autopilot (the operator-triggered issue → merge-ready-PR pipeline), which posts its progress back as issue comments. The prompt template is editable in settings.",
+      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog, with an \"Assigned to me\" filter; click one to drop a prompt asking the agent to open and review it — or start it in a new session, which opens the new-session dialog with that prompt ready so you pick the profile and folder yourself. An issue can also be started in Autopilot (the operator-triggered issue → merge-ready-PR pipeline), which posts its progress back as issue comments. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🐛",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-07-22",
-      "latestVersion": "1.11.0",
+      "published": "2026-07-25",
+      "latestVersion": "1.12.0",
       "versions": [
+        {
+          "version": "1.12.0",
+          "path": "github-issues/github-issues-1.12.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "0bf966d6b80f391fa29133ef28f01161979cc9536b1d4e06d107b4c8f6d65afc",
+          "notes": "Start an issue in a new session: the new-session dialog opens with the prompt ready, so you pick the profile and folder yourself. Issue descriptions now render as markdown instead of showing raw ## and **. The dialog is rebuilt around a fixed action toolbar, a repository chip and a collapsible prompt preview, in a roomier window. Fixed: the list keeps the issue you were reading while you type, switch repository or toggle Assigned to me; Add to prompt becomes usable as soon as New session has started one; a failed browser launch is reported instead of swallowed; and an expanded prompt preview no longer takes over the whole panel."
+        },
         {
           "version": "1.11.0",
           "path": "github-issues/github-issues-1.11.0.zip",
