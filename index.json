@@ -195,8 +195,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-25",
-      "latestVersion": "1.12.0",
+      "latestVersion": "1.12.1",
       "versions": [
+        {
+          "version": "1.12.1",
+          "path": "github-issues/github-issues-1.12.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "1e6074e0cfb09d5832563c0a922571036bd3f55b274a533622e7a4781dc07aab",
+          "notes": "Fixes the detail panel showing one issue's heading over another issue's body after a rendering failure, and offering that other issue's prompt for injection (AC-304)."
+        },
         {
           "version": "1.12.0",
           "path": "github-issues/github-issues-1.12.0.zip",
