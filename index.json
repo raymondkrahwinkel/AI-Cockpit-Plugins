@@ -409,8 +409,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-25",
-      "latestVersion": "1.19.0",
+      "latestVersion": "1.19.1",
       "versions": [
+        {
+          "version": "1.19.1",
+          "path": "youtrack/youtrack-1.19.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "34e9a631ba5558dc629ec96af9d1287246337f3717ae9cc3060a8feec184368d",
+          "notes": "Fixes the detail panel showing one issue's heading over another issue's description after a rendering failure, and offering that other issue's prompt for injection (AC-304)."
+        },
         {
           "version": "1.19.0",
           "path": "youtrack/youtrack-1.19.0.zip",
