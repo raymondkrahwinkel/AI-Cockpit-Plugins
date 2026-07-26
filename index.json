@@ -187,7 +187,7 @@
     {
       "id": "github-issues",
       "name": "GitHub Issues",
-      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog, with an \"Assigned to me\" filter; click one to drop a prompt asking the agent to open and review it — or start it in a new session, which opens the new-session dialog with that prompt ready so you pick the profile and folder yourself. An issue can also be started in Autopilot (the operator-triggered issue → merge-ready-PR pipeline), which posts its progress back as issue comments. The prompt template is editable in settings.",
+      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog, with an \"Assigned to me\" filter; click one to drop a prompt asking the agent to open and review it — or start it in a new session, which opens the new-session dialog with that prompt ready so you pick the profile and folder yourself. An issue can also be started in Autopilot (the operator-triggered issue → merge-ready-PR pipeline), which posts its progress back as issue comments. Link a cockpit project to a repository in the project editor, picked from the list gh can see, and this dialog opens on it instead of on every repository you have. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🐛",
@@ -195,8 +195,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-26",
-      "latestVersion": "1.12.2",
+      "latestVersion": "1.13.0",
       "versions": [
+        {
+          "version": "1.13.0",
+          "path": "github-issues/github-issues-1.13.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "baa850f6c000be57e6d087f9458a5881f6a246dbf9d3bc6d177df8529fab6e7d",
+          "notes": "Link a cockpit project to a repository in the project editor, picked from the real list gh can see rather than the repositories that happen to have open issues; the issues dialog then opens on that repository and keeps whatever you pick afterwards."
+        },
         {
           "version": "1.12.2",
           "path": "github-issues/github-issues-1.12.2.zip",
