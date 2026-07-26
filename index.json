@@ -194,9 +194,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-07-25",
-      "latestVersion": "1.12.1",
+      "published": "2026-07-26",
+      "latestVersion": "1.12.2",
       "versions": [
+        {
+          "version": "1.12.2",
+          "path": "github-issues/github-issues-1.12.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "ecf8d886fe5af4830c3c499b1d895cf9412c4d7e7a4b981fb44231d5bcd0a942",
+          "notes": "Sessions started from a GitHub issue are now named after the repository the issue came from (hello-world#42), so the cross-repo view no longer puts two identically named sessions in the sidebar."
+        },
         {
           "version": "1.12.1",
           "path": "github-issues/github-issues-1.12.1.zip",
