@@ -187,7 +187,7 @@
     {
       "id": "github-issues",
       "name": "GitHub Issues",
-      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog, with an \"Assigned to me\" filter; click one to drop a prompt asking the agent to open and review it — or start it in a new session, which opens the new-session dialog with that prompt ready so you pick the profile and folder yourself. An issue can also be started in Autopilot (the operator-triggered issue → merge-ready-PR pipeline), which posts its progress back as issue comments. Link a cockpit project to a repository in the project editor, picked from the list gh can see, and this dialog opens on it instead of on every repository you have. Linking an issue to a session you already have open labels that session: it says what it is working on, and takes the issue as its name unless you gave it one yourself. The prompt template is editable in settings.",
+      "description": "Browse open GitHub issues across your repos (via the gh CLI) or one repo in a searchable, sortable dialog, with an \"Assigned to me\" filter; click one to drop a prompt asking the agent to open and review it — or start it in a new session, which opens the new-session dialog with that prompt ready so you pick the profile and folder yourself. An issue can also be started in Autopilot (the operator-triggered issue → merge-ready-PR pipeline), which posts its progress back as issue comments. Link a cockpit project to a repository in the project editor, picked from the list gh can see, and this dialog opens on it instead of on every repository you have. Linking an issue to a session you already have open labels that session: it says what it is working on, and takes the issue as its name unless you gave it one yourself. Sessions started under a linked project also run with GH_REPO set to that repository, so a gh command the agent runs is about the repository the project is tracked in rather than whichever one its folder happens to be. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
       "icon": "🐛",
@@ -195,8 +195,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-26",
-      "latestVersion": "1.14.0",
+      "latestVersion": "1.15.0",
       "versions": [
+        {
+          "version": "1.15.0",
+          "path": "github-issues/github-issues-1.15.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "70d7b96bca3157283e517ffd12ed2c354c75d9ac795c109b3e099b8c36e9a791"
+        },
         {
           "version": "1.14.0",
           "path": "github-issues/github-issues-1.14.0.zip",
