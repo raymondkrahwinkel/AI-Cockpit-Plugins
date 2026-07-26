@@ -784,9 +784,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-07-17",
-      "latestVersion": "0.24.3",
+      "published": "2026-07-26",
+      "latestVersion": "0.25.0",
       "versions": [
+        {
+          "version": "0.25.0",
+          "path": "workflows/workflows-0.25.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "c0afb48de18f68a867c79db8a71e05586cc50acaa0bb4104b0f4d821633cadeb",
+          "notes": "The Start session step can name the session it opens: fill in Session name and a flow starting a session on a ticket opens it already called after that ticket, instead of opening it as the profile and the clock and renaming it a step later. Leave it empty for the old naming. Needs a cockpit that carries the named start (0.7.0 nightly.59 or later)."
+        },
         {
           "version": "0.24.3",
           "path": "workflows/workflows-0.24.3.zip",
