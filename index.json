@@ -1259,9 +1259,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-26",
-      "latestVersion": "0.1.0",
+      "published": "2026-07-27",
+      "latestVersion": "0.2.0",
       "versions": [
+        {
+          "version": "0.2.0",
+          "path": "kimi-provider/kimi-provider-0.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "3ffafd2a6b1eb38614ba1636aa142513fb4ae90fb353d4e9a0144e7b2ddfc43d",
+          "notes": "Carries an MCP server's custom headers in its headers array, alongside the bearer it already sent."
+        },
         {
           "version": "0.1.0",
           "path": "kimi-provider/kimi-provider-0.1.0.zip",
