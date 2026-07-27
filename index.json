@@ -949,9 +949,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-24",
-      "latestVersion": "0.6.0",
+      "published": "2026-07-27",
+      "latestVersion": "0.7.0",
       "versions": [
+        {
+          "version": "0.7.0",
+          "path": "claude-provider/claude-provider-0.7.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "0eec4bdad53aa1e1507cbff994e3d1e53761deb2314775b1eea69f8d7902ba86",
+          "notes": "Carries an MCP server's custom headers, for a server that wants X-Api-Key or a scheme other than Bearer, alongside the bearer it already sent."
+        },
         {
           "version": "0.6.0",
           "path": "claude-provider/claude-provider-0.6.0.zip",
