@@ -1151,9 +1151,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-26",
-      "latestVersion": "0.7.0",
+      "published": "2026-07-27",
+      "latestVersion": "0.7.1",
       "versions": [
+        {
+          "version": "0.7.1",
+          "path": "autopilot/autopilot-0.7.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "4800aa0e68d96e47656d23c42ec383d3e558ad716b4fd80e567595f46874634f",
+          "notes": "Fixes the CEO validator being refused by the tightened confinement gate, and a run hanging when its reviewing CEO cannot start."
+        },
         {
           "version": "0.7.0",
           "path": "autopilot/autopilot-0.7.0.zip",
