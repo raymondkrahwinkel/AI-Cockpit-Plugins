@@ -100,8 +100,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-12",
-      "latestVersion": "1.3.1",
+      "latestVersion": "1.3.2",
       "versions": [
+        {
+          "version": "1.3.2",
+          "path": "prompt-library/prompt-library-1.3.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "b54ff0bed3f9c558b760fbcb29e68e48d6838305aa4d4ddde5203f176b7fd225",
+          "notes": "Drawn in the cockpit's colours. The spark in the quick-pick's search bar was still the old orange accent, and the bar itself carried its own fill and edge; both come from the theme now. The list's selected row follows the app's own list styling, which covers the states this plugin's copy did not — a row you had just clicked included."
+        },
         {
           "version": "1.3.1",
           "path": "prompt-library/prompt-library-1.3.1.zip",
@@ -195,8 +203,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-26",
-      "latestVersion": "1.15.0",
+      "latestVersion": "1.15.1",
       "versions": [
+        {
+          "version": "1.15.1",
+          "path": "github-issues/github-issues-1.15.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "3e127c2ec055bd004797dbf50c87f6885ab45663f53e40228b969b8cc3a8b0ce",
+          "notes": "Drawn in the cockpit's colours. The thin progress line above the list follows the accent rather than a stand-in left over from when it was orange, the labels on an issue take the app's label shape, and the preview and detail boxes round the same way the app's boxes do."
+        },
         {
           "version": "1.15.0",
           "path": "github-issues/github-issues-1.15.0.zip",
@@ -328,8 +344,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-11",
-      "latestVersion": "1.12.1",
+      "latestVersion": "1.12.2",
       "versions": [
+        {
+          "version": "1.12.2",
+          "path": "github-pull-requests/github-pull-requests-1.12.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "94bc684999eacf513ce5e921f99fcf319d74b5e39a990f6a46d9991e4860c748",
+          "notes": "Drawn in the cockpit's colours. The thin progress line above the list follows the accent rather than a stand-in left over from when it was orange, and the preview and detail boxes round the same way the app's boxes do."
+        },
         {
           "version": "1.12.1",
           "path": "github-pull-requests/github-pull-requests-1.12.1.zip",
@@ -447,8 +471,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-26",
-      "latestVersion": "1.21.0",
+      "latestVersion": "1.21.1",
       "versions": [
+        {
+          "version": "1.21.1",
+          "path": "youtrack/youtrack-1.21.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "75b7696fb322e114066e69672dcef8667949f789a761f3b16b85f07ef34f4728",
+          "notes": "Drawn in the cockpit's colours. The thin progress line above the list follows the accent rather than a stand-in left over from when it was orange, the labels on an issue take the app's label shape, and the preview and detail boxes round the same way the app's boxes do."
+        },
         {
           "version": "1.21.0",
           "path": "youtrack/youtrack-1.21.0.zip",
@@ -746,8 +778,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-13",
-      "latestVersion": "1.2.2",
+      "latestVersion": "1.2.3",
       "versions": [
+        {
+          "version": "1.2.3",
+          "path": "transcript-search/transcript-search-1.2.3.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "8877209174e51f6ef65d800828e60b28df2fcb78150e72d71af415ef8ca350e7",
+          "notes": "Drawn in the cockpit's colours: the role label on a hit takes the app's label shape, and a result card rounds the same way the app's boxes do."
+        },
         {
           "version": "1.2.2",
           "path": "transcript-search/transcript-search-1.2.2.zip",
@@ -793,8 +833,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
       "published": "2026-07-26",
-      "latestVersion": "0.25.0",
+      "latestVersion": "0.25.1",
       "versions": [
+        {
+          "version": "0.25.1",
+          "path": "workflows/workflows-0.25.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "5720b1c7babd54682f595d2ddc371d067edfca79643891e6d108fcc6d233001f",
+          "notes": "The canvas is retuned. A step's leading stripe says what kind of step it is, and the plain one was a muted blue — fine beside an orange accent, and a near-copy of the accent once that turned blue, so the start of a flow stopped standing out among ordinary steps. It is a neutral slate now. The dotted background, the wire labels, the + handle and the ✕ that removes a connection follow the theme instead of each holding a colour of its own. A failed run is reported in red rather than in the amber this app uses for \"waiting for you\" — a run that broke is not waiting for anybody."
+        },
         {
           "version": "0.25.0",
           "path": "workflows/workflows-0.25.0.zip",
@@ -1075,8 +1123,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-18",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "versions": [
+        {
+          "version": "0.1.1",
+          "path": "session-review/session-review-0.1.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "c4da7489272e9a552b2568701aec865097a77c5e4c72f607daab59d562d92d5b",
+          "notes": "The file headers in a diff are lettered in the theme's text colour. They asked for a colour that has never existed under that name, so the lookup could only ever miss and fall through to a flat grey written beside it. Added, removed and hunk lines now track the theme's own green, red and accent rather than near-copies of them."
+        },
         {
           "version": "0.1.0",
           "path": "session-review/session-review-0.1.0.zip",
@@ -1098,8 +1154,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-19",
-      "latestVersion": "0.1.2",
+      "latestVersion": "0.1.3",
       "versions": [
+        {
+          "version": "0.1.3",
+          "path": "kubernetes/kubernetes-0.1.3.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "3bfd551a2e33e37cfdd921d1d727135832a83d2c550692324a77b2e7c0e37b75",
+          "notes": "The warning about a context that authenticates through an external command is drawn in the cockpit's amber rather than a plain orange of its own."
+        },
         {
           "version": "0.1.2",
           "path": "kubernetes/kubernetes-0.1.2.zip",
@@ -1168,8 +1232,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-27",
-      "latestVersion": "0.7.1",
+      "latestVersion": "0.7.2",
       "versions": [
+        {
+          "version": "0.7.2",
+          "path": "autopilot/autopilot-0.7.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "a4666ccaad2b04c29f7e43d97ab73b735550edd511390387fb95bcd3a8c26fa3",
+          "notes": "Drawn in the cockpit's colours. The Continue, Approve and Send buttons and the Cancel beside them are the app's own buttons now rather than hand-mixed copies, so they carry the same fill, corner and padding as every other dialog. The \"needs you\" badge, the \"the CEO is working…\" band and the number inside a step's dot were lettered in a near-black mixed for the old orange accent; they sit on bright fills and now use the colour the theme has for exactly that. The profile and model chips take the app's label shape."
+        },
         {
           "version": "0.7.1",
           "path": "autopilot/autopilot-0.7.1.zip",
@@ -1253,8 +1325,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-23",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "versions": [
+        {
+          "version": "0.1.1",
+          "path": "example-workspace/example-workspace-0.1.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "8d34c7fb61d0bd365fa033214cb97c9fdcd88bc03da9300449faa274f0cfc1e1",
+          "notes": "The header rule under the title uses the cockpit's hairline instead of a translucent grey of its own, so the example a plugin author reads first shows the shape they should copy."
+        },
         {
           "version": "0.1.0",
           "path": "example-workspace/example-workspace-0.1.0.zip",
