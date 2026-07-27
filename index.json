@@ -1232,8 +1232,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-27",
-      "latestVersion": "0.7.2",
+      "latestVersion": "0.8.0",
       "versions": [
+        {
+          "version": "0.8.0",
+          "path": "autopilot/autopilot-0.8.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.8.0",
+          "sha256": "e973fa9724f5c209c10e3f3b7b13dcee722941928edbff974de825bac08cf90a",
+          "notes": "A run's sessions now carry the run they belong to, so what a run spent can be added up afterwards."
+        },
         {
           "version": "0.7.2",
           "path": "autopilot/autopilot-0.7.2.zip",
