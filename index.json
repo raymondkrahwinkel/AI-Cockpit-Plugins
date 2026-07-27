@@ -635,9 +635,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-22",
-      "latestVersion": "0.4.2",
+      "published": "2026-07-27",
+      "latestVersion": "0.5.0",
       "versions": [
+        {
+          "version": "0.5.0",
+          "path": "cli-agent-provider/cli-agent-provider-0.5.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "d8c50388f826eec95499080e87cb9d16ecb23313c90127badb445dbcd453c5ad",
+          "notes": "Carries an MCP server's custom headers through env_http_headers, so the value travels in the environment rather than in a -c argument that every local account can read."
+        },
         {
           "version": "0.4.2",
           "path": "cli-agent-provider/cli-agent-provider-0.4.2.zip",
