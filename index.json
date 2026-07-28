@@ -846,9 +846,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-07-26",
-      "latestVersion": "0.25.1",
+      "published": "2026-07-28",
+      "latestVersion": "0.25.2",
       "versions": [
+        {
+          "version": "0.25.2",
+          "path": "workflows/workflows-0.25.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "0c207ea8e703a7fa38a7d7d7b2cc5249914ccc04175702d665e88e2df54027b8",
+          "notes": "The flow name answers to the pointer and to focus again: it carries a border of its own that stays invisible until you reach for it, now that the cockpit theme no longer lends inputs the stock highlight."
+        },
         {
           "version": "0.25.1",
           "path": "workflows/workflows-0.25.1.zip",
