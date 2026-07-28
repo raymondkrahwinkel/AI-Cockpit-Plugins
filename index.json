@@ -12,9 +12,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-13",
-      "latestVersion": "1.5.1",
+      "published": "2026-07-28",
+      "latestVersion": "1.6.0",
       "versions": [
+        {
+          "version": "1.6.0",
+          "path": "git-status/git-status-1.6.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "a88c5d1d274056e3f1847f14730c235e676b1430f9195bf126ad81518b736d2b"
+        },
         {
           "version": "1.5.1",
           "path": "git-status/git-status-1.5.1.zip",
@@ -92,16 +99,23 @@
     {
       "id": "prompt-library",
       "name": "Prompt Library",
-      "description": "A library of reusable prompt templates in the left menu. Click one to insert it into the active session, filling in any {{variable}} fields first. Create, edit and remove templates in the same dialog. Plus a quick-insert palette (the Ctrl+Shift+P shortcut, or the command palette): search your prompts and drop one into the session with a click or Enter.",
+      "description": "A library of reusable prompt templates in the left menu. Click one to insert it into the active session, filling in any {{variable}} fields first. Create, edit and remove templates in the same dialog. Plus a spotlight-style quick-insert (the Ctrl+Shift+P shortcut, or the command palette): a search bar over your prompts — type, then click or Enter to drop one into the session.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "📝",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-12",
-      "latestVersion": "1.3.2",
+      "published": "2026-07-28",
+      "latestVersion": "1.4.0",
       "versions": [
+        {
+          "version": "1.4.0",
+          "path": "prompt-library/prompt-library-1.4.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "2fdec812124239eda2a113b3ef3aed7ec800763ae63a8378c26d0ea00bb56ba2"
+        },
         {
           "version": "1.3.2",
           "path": "prompt-library/prompt-library-1.3.2.zip",
@@ -357,9 +371,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-11",
-      "latestVersion": "1.12.2",
+      "published": "2026-07-28",
+      "latestVersion": "1.13.0",
       "versions": [
+        {
+          "version": "1.13.0",
+          "path": "github-pull-requests/github-pull-requests-1.13.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "7ed5ce59ac9a891c75175d779d7d918a23c12be9cc95a014e3cea9d5d5bde3cb"
+        },
         {
           "version": "1.12.2",
           "path": "github-pull-requests/github-pull-requests-1.12.2.zip",
@@ -1289,8 +1310,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-28",
-      "latestVersion": "0.9.0",
+      "latestVersion": "0.10.0",
       "versions": [
+        {
+          "version": "0.10.0",
+          "path": "autopilot/autopilot-0.10.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "eb38de6d959d846e47944a9a9ad1c008ec320f5ccdf736798a205ffd00ece6fd",
+          "notes": "Review gates now spend their verification where the verdict is: while a gate is still finding things it builds incrementally and runs the tests around the change, and only the round that finds nothing does the whole-project build with warnings as errors and the complete test suite. Each round is asked to report what it actually built and ran, and the same requirement goes into the gate's acceptance. Also in this version: the Autopilot planner opens once — asking for it again brings the window you have forward instead of building a second one — and its settings window is one per plugin."
+        },
         {
           "version": "0.9.0",
           "path": "autopilot/autopilot-0.9.0.zip",
