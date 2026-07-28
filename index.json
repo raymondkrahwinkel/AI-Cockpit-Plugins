@@ -1324,8 +1324,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-28",
-      "latestVersion": "0.11.1",
+      "latestVersion": "0.12.0",
       "versions": [
+        {
+          "version": "0.12.0",
+          "path": "autopilot/autopilot-0.12.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "b031e3fe1ebe8a089b0e9dfdf42f31f90b2fc2261f565c88c90cd0d3161dc786",
+          "notes": "AC-411: an epic's child is checked against the tracker's own ready-stage and title before it enters an executed plan, in code rather than the CEO's own read of it. (0.11.0 was published under AC-347's content; this corrects the version forward per the immutable-release rule.)"
+        },
         {
           "version": "0.11.1",
           "path": "autopilot/autopilot-0.11.1.zip",
