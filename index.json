@@ -1324,8 +1324,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-28",
-      "latestVersion": "0.11.0",
+      "latestVersion": "0.11.1",
       "versions": [
+        {
+          "version": "0.11.1",
+          "path": "autopilot/autopilot-0.11.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "ae97d755ca7400f321e1af21914f95233271b465b31e2357d509fc7c562c4cc8",
+          "notes": "Fixes a broken \"Needs you\" flow: the pane could keep showing a still-running run while the badge lit up for a different run waiting on you, with no way to reach it. The badge now takes you to the run that needs you (and cycles through several if more than one does), and the blockade panel scrolls so a long question no longer pushes the answer box out of reach."
+        },
         {
           "version": "0.11.0",
           "path": "autopilot/autopilot-0.11.0.zip",
