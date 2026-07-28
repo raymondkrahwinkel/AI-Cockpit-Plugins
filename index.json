@@ -819,16 +819,23 @@
     {
       "id": "transcript-search",
       "name": "Claude Transcript Search",
-      "description": "Search everything you and the agent ever wrote in a Claude CLI session. Opens on the conversations you worked on last so resuming one is a click, searches back through the rest by any text you or the agent wrote, and hands a conversation straight to the New-session dialog.",
+      "description": "Search everything you and the agent ever wrote in a Claude CLI session. Scans the JSONL transcripts of every Claude profile you have configured, opens on the conversations you worked on last so resuming one is a click, and searches back through the rest by any text you or the agent wrote.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "🔎",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-13",
-      "latestVersion": "1.2.3",
+      "published": "2026-07-28",
+      "latestVersion": "1.3.0",
       "versions": [
+        {
+          "version": "1.3.0",
+          "path": "transcript-search/transcript-search-1.3.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "a5f19e763e915d222fe231424f352bb3dffbbd6c35df00d59fcb88f295f1c7e8"
+        },
         {
           "version": "1.2.3",
           "path": "transcript-search/transcript-search-1.2.3.zip",
