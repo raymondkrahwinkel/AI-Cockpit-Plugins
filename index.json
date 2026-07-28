@@ -1324,8 +1324,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-28",
-      "latestVersion": "0.10.0",
+      "latestVersion": "0.11.0",
       "versions": [
+        {
+          "version": "0.11.0",
+          "path": "autopilot/autopilot-0.11.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "0ea5c12ccff8d58c0f21914da1641e7acef0df5ffcea057c9b5c145eb0489854",
+          "notes": "A run's history now says how many runs in a row settled merge-ready without anything having to be put right, and records per step whether a review sent it back, it ran out of attempts, or you corrected it yourself. A run that ended blocked or stopped, or that never opened the pull request it promised, is not counted as clean. A question the run raised and you answered is counted separately and does not count against it. What the count cannot see from the inside — a review finding an agent repairs within its own step — is stated on the figure itself, and any classification can be corrected by right-clicking the step."
+        },
         {
           "version": "0.10.0",
           "path": "autopilot/autopilot-0.10.0.zip",
