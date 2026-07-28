@@ -1490,6 +1490,29 @@
           "notes": "Initial release — Kimi Code over the Agent Client Protocol: streaming text and thinking, tool calls with real Allow/Deny prompts, live model/mode/thinking switching, resume and cancel, and the cockpit's MCP servers handed to the child. Needs the kimi CLI on PATH (or a pinned path) and an API key or its own login. Three documented limits: a failed turn is indistinguishable from a successful one, there is no quota or cost to report, and a system prompt cannot be handed to Kimi — the session says so instead of dropping it."
         }
       ]
+    },
+    {
+      "id": "local-ci",
+      "name": "Local CI",
+      "description": "Tells you whether this machine can run a GitHub workflow job locally, before it promises anything. It reports Docker in three states rather than two — missing, installed but the engine is not answering, or ready — checks that the engine runs Linux containers, and says whether the act runtime is on PATH, naming the install command when it is not. It also reads the project's .github/workflows and says, per job, either that it can run locally or the concrete reason it cannot: a matrix, a runner that is not Linux, artifacts exchanged with another job, or an action that only means something on GitHub. Anything it does not understand it refuses rather than guesses. It runs nothing itself.",
+      "author": "Cockpit",
+      "category": "Automation",
+      "icon": "🧪",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-28",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "local-ci/local-ci-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "3b634dd66595939eee706ccc382c21dd17a33cdaa289be4c8aad2f833e88acb7",
+          "notes": "First release. Reports whether this machine can run a workflow job locally — Docker in three states, Linux containers, the act runtime — and says per job whether it can run locally or the concrete reason it cannot."
+        }
+      ]
     }
   ],
   "templates": [
