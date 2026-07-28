@@ -1282,8 +1282,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-28",
-      "latestVersion": "0.9.0",
+      "latestVersion": "0.10.0",
       "versions": [
+        {
+          "version": "0.10.0",
+          "path": "autopilot/autopilot-0.10.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "eb38de6d959d846e47944a9a9ad1c008ec320f5ccdf736798a205ffd00ece6fd",
+          "notes": "Review gates now spend their verification where the verdict is: while a gate is still finding things it builds incrementally and runs the tests around the change, and only the round that finds nothing does the whole-project build with warnings as errors and the complete test suite. Each round is asked to report what it actually built and ran, and the same requirement goes into the gate's acceptance. Also in this version: the Autopilot planner opens once — asking for it again brings the window you have forward instead of building a second one — and its settings window is one per plugin."
+        },
         {
           "version": "0.9.0",
           "path": "autopilot/autopilot-0.9.0.zip",
