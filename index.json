@@ -506,8 +506,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-28",
-      "latestVersion": "1.23.0",
+      "latestVersion": "1.24.0",
       "versions": [
+        {
+          "version": "1.24.0",
+          "path": "youtrack/youtrack-1.24.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "7a54a8445b628765a01fc1095278a8016d8f04100d5c50c3473ff809a70e8f9f",
+          "notes": "AC-411: an epic's child issue is now checked against the tracker's own ready-stage and title before Autopilot folds it into a plan."
+        },
         {
           "version": "1.23.0",
           "path": "youtrack/youtrack-1.23.0.zip",
