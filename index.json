@@ -1380,8 +1380,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-29",
-      "latestVersion": "0.14.0",
+      "latestVersion": "0.15.0",
       "versions": [
+        {
+          "version": "0.15.0",
+          "path": "autopilot/autopilot-0.15.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.11.0",
+          "sha256": "a6aa0766151d983341ab5107ec27c47b5a19d94341313dfc590bdb4d18aacb96",
+          "notes": "The planning brief described a profile's model list as running cheapest-first while it ran the reverse; the roster now follows the order the provider itself declares and says so plainly when a provider declares none. Adds a cost ceiling that is enforced when a plan is submitted rather than merely asked for in the brief: unless the cost strategy is quality-first, a step that is not a review gate must run on the cheaper end of what its profile offers. Run history now records which profile and model ran each step. Needs cockpit 0.11.0."
+        },
         {
           "version": "0.14.0",
           "path": "autopilot/autopilot-0.14.0.zip",
