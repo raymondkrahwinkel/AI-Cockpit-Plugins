@@ -1125,8 +1125,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-29",
-      "latestVersion": "0.11.1",
+      "latestVersion": "0.12.0",
       "versions": [
+        {
+          "version": "0.12.0",
+          "path": "claude-provider/claude-provider-0.12.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.13.0",
+          "sha256": "ee49e614c0556c5bab84e87247db04547e8dc88efa68debaf6a4d5655563a0b4",
+          "notes": "TTY sessions now feed their token usage into the cockpit's usage history, same as an SDK session already did."
+        },
         {
           "version": "0.11.1",
           "path": "claude-provider/claude-provider-0.11.1.zip",
