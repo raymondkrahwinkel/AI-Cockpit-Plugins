@@ -1125,8 +1125,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-29",
-      "latestVersion": "0.10.0",
+      "latestVersion": "0.11.1",
       "versions": [
+        {
+          "version": "0.11.1",
+          "path": "claude-provider/claude-provider-0.11.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.13.0",
+          "sha256": "7283242fafc9c50ad15198d2e6f736dacd2ecfa81738f3a246390d2b3ea843b3",
+          "notes": "AC-378: headless (delegated) sessions now get --strict-mcp-config, so they see exactly the resolved MCP servers and never fall back to your own full user/project CLI config. Interactive sessions are unaffected."
+        },
         {
           "version": "0.10.0",
           "path": "claude-provider/claude-provider-0.10.0.zip",
