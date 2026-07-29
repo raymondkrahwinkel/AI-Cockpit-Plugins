@@ -1560,6 +1560,29 @@
           "notes": "First release. Reports whether this machine can run a workflow job locally — Docker in three states, Linux containers, the act runtime — and says per job whether it can run locally or the concrete reason it cannot."
         }
       ]
+    },
+    {
+      "id": "depot",
+      "name": "Depot",
+      "description": "Lets a project's memory live in a Depot project instead of a folder: linking a project to a Depot slug tells every session that starts on it to read and write that memory through the Depot MCP.",
+      "author": "Cockpit",
+      "category": "Project tools",
+      "icon": "🗄️",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-29",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "depot/depot-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.10.0",
+          "sha256": "8f2dd43d66cb500a1e2e20de1e88910984ed7999b8e975421c5757d549469221",
+          "notes": "First release. Lets a project's memory live in a Depot project instead of a folder: pick 'Depot project' in the project editor's Memory row, give it the project's slug, and every session started on that project is told to read and write its memory through the Depot MCP. Requires host 0.10.0."
+        }
+      ]
     }
   ],
   "templates": [
