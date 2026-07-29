@@ -1615,6 +1615,28 @@
           "notes": "First release. Lets a project's memory live in a Depot project instead of a folder: pick 'Depot project' in the project editor's Memory row, give it the project's slug, and every session started on that project is told to read and write its memory through the Depot MCP. Requires host 0.10.0."
         }
       ]
+    },
+    {
+      "id": "fan-out",
+      "name": "Fan-out",
+      "description": "Run one task on several agents at once — each in its own worktree, tiled side by side, so you can read the takes against each other.",
+      "author": "Cockpit",
+      "category": "Automation",
+      "icon": "🍴",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-07-29",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "fan-out/fan-out-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.8.0",
+          "sha256": "8c1e15d074f69f212c8c40b4e0e86ab62ecc2ef32a56664790824589ee5c5194"
+        }
+      ]
     }
   ],
   "templates": [
