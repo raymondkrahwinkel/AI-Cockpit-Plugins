@@ -1092,9 +1092,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-28",
-      "latestVersion": "0.8.1",
+      "published": "2026-07-29",
+      "latestVersion": "0.9.0",
       "versions": [
+        {
+          "version": "0.9.0",
+          "path": "claude-provider/claude-provider-0.9.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.10.0",
+          "sha256": "3397b8c29238d42182ca1754f2fdfbee59f9b4c2b72c7cefe7f3ae98e3372878",
+          "notes": "Reports the conversation a session is running under, so the cockpit can offer that session back after a crash — and reports it on the terminal route too, where the conversation has to be recognised rather than announced."
+        },
         {
           "version": "0.8.1",
           "path": "claude-provider/claude-provider-0.8.1.zip",
