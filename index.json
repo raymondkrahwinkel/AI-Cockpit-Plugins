@@ -1388,8 +1388,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-29",
-      "latestVersion": "0.15.0",
+      "latestVersion": "0.16.0",
       "versions": [
+        {
+          "version": "0.16.0",
+          "path": "autopilot/autopilot-0.16.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.11.0",
+          "sha256": "3e375ca85e891f421d9e85ab85f6bdd913cd51be8073d975b192c53e08b84b4b",
+          "notes": "The reviewing session in an autonomous run is now handed an account of what each step actually changed — produced by the cockpit from the run's own git worktree — instead of being told to distrust the step's summary and re-read the files every time. The step neither writes that account nor can alter it, and it arrives fenced off as data. The cockpit also flags what it can see for itself: work reported while the worktree is unchanged, tests reported passing with nothing test-shaped touched, a step already sent back, a retry after an attempt that ended without a verdict, and a file the step only staged that was already lying there. Where there is nothing to observe — a plain folder with no repository, or a review gate judging rather than changing — the previous full inspection is kept unchanged. Test execution is untouched: no test run is added per step."
+        },
         {
           "version": "0.15.0",
           "path": "autopilot/autopilot-0.15.0.zip",
