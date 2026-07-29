@@ -732,9 +732,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-27",
-      "latestVersion": "0.5.0",
+      "published": "2026-07-29",
+      "latestVersion": "0.5.1",
       "versions": [
+        {
+          "version": "0.5.1",
+          "path": "cli-agent-provider/cli-agent-provider-0.5.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.10.0",
+          "sha256": "7726b020f8f2ec9cd648dbb80111178c0084e77d505d43bdb7c89a58630ce273",
+          "notes": "States plainly that a Codex session keeps no conversation you can return to, so a restore offer degrades honestly instead of proposing a resume that would fail."
+        },
         {
           "version": "0.5.0",
           "path": "cli-agent-provider/cli-agent-provider-0.5.0.zip",
