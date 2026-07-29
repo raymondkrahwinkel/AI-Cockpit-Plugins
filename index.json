@@ -1125,8 +1125,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-07-29",
-      "latestVersion": "0.9.0",
+      "latestVersion": "0.10.0",
       "versions": [
+        {
+          "version": "0.10.0",
+          "path": "claude-provider/claude-provider-0.10.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.11.0",
+          "sha256": "895d865f0c541aa592c301b1df4f7b1ce04fc299c43ebf4bd24f48ee4ec9eea8",
+          "notes": "The provider now states what its own models cost, cheapest first, so a consumer that routes work by price no longer has to read an order out of a list that never promised one. The figures are estimates and are labelled as such wherever they appear — they are compiled in, not read from a live feed, and can go out of date. Needs cockpit 0.11.0."
+        },
         {
           "version": "0.9.0",
           "path": "claude-provider/claude-provider-0.9.0.zip",
