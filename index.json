@@ -379,9 +379,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-28",
-      "latestVersion": "1.13.0",
+      "published": "2026-07-29",
+      "latestVersion": "1.14.0",
       "versions": [
+        {
+          "version": "1.14.0",
+          "path": "github-pull-requests/github-pull-requests-1.14.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "a369610173f158ddb60865da20fe7381cd06c1313da26e847b0abcc68a4d8804",
+          "notes": "Epic AC-448: local runs, the session-facing tools, and the pull-request gate."
+        },
         {
           "version": "1.13.0",
           "path": "github-pull-requests/github-pull-requests-1.13.0.zip",
