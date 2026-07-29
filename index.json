@@ -701,9 +701,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-22",
-      "latestVersion": "0.1.1",
+      "published": "2026-07-29",
+      "latestVersion": "0.1.2",
       "versions": [
+        {
+          "version": "0.1.2",
+          "path": "gemini-provider/gemini-provider-0.1.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.10.0",
+          "sha256": "7a222b86a811fead80d78ba28bdebea8ca5fb3fa7e0219e7488e2ef109663273",
+          "notes": "States plainly that this provider keeps a session's history only while it runs, so a restore offer degrades honestly instead of proposing a resume that would fail."
+        },
         {
           "version": "0.1.1",
           "path": "gemini-provider/gemini-provider-0.1.1.zip",
