@@ -811,9 +811,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-22",
-      "latestVersion": "0.1.1",
+      "published": "2026-07-29",
+      "latestVersion": "0.1.2",
       "versions": [
+        {
+          "version": "0.1.2",
+          "path": "github-models-provider/github-models-provider-0.1.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.10.0",
+          "sha256": "e51d624edb68e01e79b1d8914a161e3f0b083636aec9394b1c41700790313bca",
+          "notes": "States plainly that this provider keeps a session's history only while it runs, so a restore offer degrades honestly instead of proposing a resume that would fail."
+        },
         {
           "version": "0.1.1",
           "path": "github-models-provider/github-models-provider-0.1.1.zip",
