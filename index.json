@@ -1436,16 +1436,23 @@
     {
       "id": "docker",
       "name": "Docker",
-      "description": "Register the local Docker daemon and give agents scoped, human-approved access to it through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Covers day-to-day dev operations: read the daemon and containers (list, inspect, logs, stats, top, images, volumes, networks, compose ps/config/logs), change state (start/stop/restart/remove, pull, tag, push, compose up/down/build/restart), reclaim disk (prune, remove volume), and build or copy files (build_image, cp) — the last two behind an off-by-default exec capability. Every call is gated: the first touch of the daemon asks for consent (reads are free after that); every change asks afresh with the literal command shown and is never remembered; destructive and exec actions show their target verbatim. Detached containers this plugin starts show in the status bar with an operator-only Kill. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
+      "description": "Register the local Docker daemon and give agents scoped, human-approved access to containers through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Every call is gated: the first touch of the daemon asks for consent (reads are free after that), and every change (start/stop/remove/run) asks afresh with the literal command shown and is never remembered. Exec is off until you turn it on. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
       "author": "Cockpit",
       "category": "Automation",
       "icon": "🐳",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-19",
-      "latestVersion": "0.3.0",
+      "published": "2026-07-30",
+      "latestVersion": "0.3.1",
       "versions": [
+        {
+          "version": "0.3.1",
+          "path": "docker/docker-0.3.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.3.0",
+          "sha256": "866ab64803f64b31964276800f9fa356ef7f96517ec7e3b52c0d966a7cf0fa9b"
+        },
         {
           "version": "0.3.0",
           "path": "docker/docker-0.3.0.zip",
