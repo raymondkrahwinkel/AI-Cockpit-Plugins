@@ -755,9 +755,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-29",
-      "latestVersion": "0.5.1",
+      "published": "2026-07-30",
+      "latestVersion": "0.5.2",
       "versions": [
+        {
+          "version": "0.5.2",
+          "path": "cli-agent-provider/cli-agent-provider-0.5.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.13.0",
+          "sha256": "970ce8e3b8e18cdc6b7b8f6fd60bd6ea2068800ba4c184770701de5ce48eae99",
+          "notes": "AC-171: fixes the TTY status indicator getting stuck on idle for a Codex session (missing transcript reader, plus an off-by-file-creation-timing bug found in adversarial review), and stops read-aloud from speaking in-progress commentary."
+        },
         {
           "version": "0.5.1",
           "path": "cli-agent-provider/cli-agent-provider-0.5.1.zip",
