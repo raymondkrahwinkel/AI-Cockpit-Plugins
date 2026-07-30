@@ -1667,16 +1667,23 @@
     {
       "id": "depot",
       "name": "Depot",
-      "description": "Lets a project's memory live in a Depot project instead of a folder: linking a project to a Depot slug tells every session that starts on it to read and write that memory through the Depot MCP.",
+      "description": "Lets a project's memory live in a Depot project instead of a folder, and connects one or more Depot instances so a session can reach them.",
       "author": "Cockpit",
       "category": "Project tools",
       "icon": "🗄️",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-29",
-      "latestVersion": "0.1.0",
+      "published": "2026-07-30",
+      "latestVersion": "0.2.0",
       "versions": [
+        {
+          "version": "0.2.0",
+          "path": "depot/depot-0.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.14.0",
+          "sha256": "bf26aaa3e9483cc331199f4857c18f4040f3164ca2f40947e164684ce1e843b4"
+        },
         {
           "version": "0.1.0",
           "path": "depot/depot-0.1.0.zip",
