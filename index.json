@@ -230,9 +230,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-07-30",
-      "latestVersion": "1.19.1",
+      "published": "2026-08-01",
+      "latestVersion": "1.19.2",
       "versions": [
+        {
+          "version": "1.19.2",
+          "path": "github-issues/github-issues-1.19.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "5b52a00faa958305de9390fbaa2c1fa83d183df6b952fcfe36b5f09e129e22b3",
+          "notes": "AC-548: the session picker now respects the repository a session's own project is linked to, instead of searching every repository the owner has."
+        },
         {
           "version": "1.19.1",
           "path": "github-issues/github-issues-1.19.1.zip",
