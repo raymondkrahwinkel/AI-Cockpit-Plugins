@@ -563,9 +563,17 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-30",
-      "latestVersion": "1.26.1",
+      "published": "2026-08-01",
+      "latestVersion": "1.26.2",
       "versions": [
+        {
+          "version": "1.26.2",
+          "path": "youtrack/youtrack-1.26.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "e67f0715e92f8fe4a7da927576b0bf1d84c72b36d5ce57850d69b847c347086a",
+          "notes": "AC-548: the session picker now respects the project a session's own project is linked to, instead of only ever falling back to the instance-wide default."
+        },
         {
           "version": "1.26.1",
           "path": "youtrack/youtrack-1.26.1.zip",
