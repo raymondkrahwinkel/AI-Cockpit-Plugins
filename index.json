@@ -599,9 +599,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-01",
-      "latestVersion": "1.26.2",
+      "published": "2026-08-03",
+      "latestVersion": "1.26.3",
       "versions": [
+        {
+          "version": "1.26.3",
+          "path": "youtrack/youtrack-1.26.3.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "59908376182bcc9a327f1d2ec4ae038e0a422e3b01c2b14f55d6bb66516ccad5"
+        },
         {
           "version": "1.26.2",
           "path": "youtrack/youtrack-1.26.2.zip",
