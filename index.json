@@ -1170,16 +1170,23 @@
     {
       "id": "clock",
       "name": "Clock",
-      "description": "The time and date, for a Dashboard workspace. Ships with the cockpit, so a new dashboard has something on it from the start — it is here so you can update it on its own, or put it back if you removed it.",
+      "description": "The time and date, for a Dashboard workspace.",
       "author": "Cockpit",
       "category": "Widgets",
       "icon": "🕐",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-15",
-      "latestVersion": "1.0.1",
+      "published": "2026-08-03",
+      "latestVersion": "1.0.2",
       "versions": [
+        {
+          "version": "1.0.2",
+          "path": "clock/clock-1.0.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "af3ffbbabd582c92a5d0503a7cab4ca7c844b7af0b90cbdf40047ff5b7479a2c"
+        },
         {
           "version": "1.0.1",
           "path": "clock/clock-1.0.1.zip",
