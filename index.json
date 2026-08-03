@@ -1250,16 +1250,23 @@
     {
       "id": "system-monitor",
       "name": "System Monitor",
-      "description": "CPU, memory and disk usage for a Dashboard workspace. You pick which of the three in its settings, so two of them side by side can each watch something different.",
+      "description": "CPU, memory and disk usage for a Dashboard workspace. You pick which of the three in its settings.",
       "author": "Cockpit",
       "category": "Widgets",
       "icon": "📈",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-07-15",
-      "latestVersion": "1.0.1",
+      "published": "2026-08-03",
+      "latestVersion": "1.0.2",
       "versions": [
+        {
+          "version": "1.0.2",
+          "path": "system-monitor/system-monitor-1.0.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "3e075c19716644a6591d5d8193b5ff2c0fae1077893212a578b7c9eb1fb5aaea"
+        },
         {
           "version": "1.0.1",
           "path": "system-monitor/system-monitor-1.0.1.zip",
