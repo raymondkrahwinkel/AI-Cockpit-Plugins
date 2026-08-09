@@ -866,12 +866,20 @@
       "author": "Cockpit",
       "category": "AI providers",
       "icon": "🤖",
+      "logoAsset": "https://avatars.githubusercontent.com/openai",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-08",
-      "latestVersion": "0.6.0",
+      "published": "2026-08-09",
+      "latestVersion": "0.6.1",
       "versions": [
+        {
+          "version": "0.6.1",
+          "path": "cli-agent-provider/cli-agent-provider-0.6.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.13.0",
+          "sha256": "90e51a3ca3e73937121fac251791323fd84aa11b3a1fbfe0fa11042815114fbb"
+        },
         {
           "version": "0.6.0",
           "path": "cli-agent-provider/cli-agent-provider-0.6.0.zip",
