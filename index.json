@@ -2037,12 +2037,20 @@
       "author": "Cockpit",
       "category": "AI providers",
       "icon": "🌙",
+      "logoAsset": "https://moonshotai.github.io/Branding-Guide/scenarios/04-k-only/k-only-color.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-03",
-      "latestVersion": "0.2.1",
+      "published": "2026-08-09",
+      "latestVersion": "0.2.2",
       "versions": [
+        {
+          "version": "0.2.2",
+          "path": "kimi-provider/kimi-provider-0.2.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.7.0",
+          "sha256": "6cdca4ec33c86a34d1dd6b4948d68c632adb0197aecc8ba8a5e4f6626f2a32ae"
+        },
         {
           "version": "0.2.1",
           "path": "kimi-provider/kimi-provider-0.2.1.zip",
