@@ -1341,12 +1341,20 @@
       "author": "Cockpit",
       "category": "AI providers",
       "icon": "🧠",
+      "logoAsset": "https://claude.ai/favicon.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-09",
-      "latestVersion": "0.18.1",
+      "latestVersion": "0.19.0",
       "versions": [
+        {
+          "version": "0.19.0",
+          "path": "claude-provider/claude-provider-0.19.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.20.0",
+          "sha256": "6f70f9ccfdd8d65a655c7f8d13002bfa994c9a1e6f81adecb6f9c0a2e1bd2493"
+        },
         {
           "version": "0.18.1",
           "path": "claude-provider/claude-provider-0.18.1.zip",
