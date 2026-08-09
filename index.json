@@ -1968,14 +1968,22 @@
       "name": "Usage Trend",
       "description": "Charts the context / 5h / weekly usage of your sessions over time, per profile, on a Dashboard workspace.",
       "author": "Cockpit",
-      "category": "Productivity",
+      "category": "Widgets",
       "icon": "📈",
+      "logoAsset": "usage-trend.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-03",
-      "latestVersion": "0.1.1",
+      "published": "2026-08-09",
+      "latestVersion": "0.1.2",
       "versions": [
+        {
+          "version": "0.1.2",
+          "path": "usage-trend/usage-trend-0.1.2.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "6f5a73f80380cfa0d76cc773a7d740c679e3400b091cf03eb6d29251a9de289c"
+        },
         {
           "version": "0.1.1",
           "path": "usage-trend/usage-trend-0.1.1.zip",
