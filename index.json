@@ -1259,12 +1259,20 @@
       "author": "Cockpit",
       "category": "Widgets",
       "icon": "🕐",
+      "logoAsset": "clock.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-09",
-      "latestVersion": "1.0.3",
+      "latestVersion": "1.0.4",
       "versions": [
+        {
+          "version": "1.0.4",
+          "path": "clock/clock-1.0.4.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.1.0",
+          "sha256": "70d2d5c30e48a748aec27f306e64ff6adb9026e6cf0473d02b9e5a5dc92fd211"
+        },
         {
           "version": "1.0.3",
           "path": "clock/clock-1.0.3.zip",
