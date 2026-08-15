@@ -2577,6 +2577,28 @@
           "sha256": "c3653581b3f27c42e7ca1f355ac32c1ead269d9c904378d470d6713790a51415"
         }
       ]
+    },
+    {
+      "id": "opencode-provider",
+      "name": "opencode Provider (ACP)",
+      "description": "Adds opencode as a session provider, driven over the Agent Client Protocol (JSON-RPC 2.0 over stdio) via `opencode acp` — a persistent process for the whole session, with streaming text/thinking, real tool calls and live permission prompts routed through Cockpit's own consent card. Requires the opencode CLI installed on this machine (opencode.ai/docs); most models also need authentication (an API key, or `opencode auth login`) though opencode's own free-tier models need neither. Live usage/cost figures stream per turn over ACP's usage_update notification. opencode has no way to receive a system prompt over ACP, so a profile identity or project instruction is not applied — the session says so in the transcript rather than dropping it silently.",
+      "author": "Cockpit",
+      "category": "AI providers",
+      "icon": "🔓",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-08-15",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "opencode-provider/opencode-provider-0.1.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.10.0",
+          "sha256": "73565f7cd82993f6d83e641d9d7d167fb7d5031774a4b85fcc8071c09e67bc88"
+        }
+      ]
     }
   ],
   "templates": [
