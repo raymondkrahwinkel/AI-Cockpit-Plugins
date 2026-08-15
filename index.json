@@ -925,7 +925,7 @@
     },
     {
       "id": "cli-agent-provider",
-      "name": "CLI Agent Provider (Codex)",
+      "name": "Codex (ChatGPT)",
       "description": "Adds the Codex CLI as a provider, in two ways. As a TTY session it runs the real interactive Codex TUI in a pane, the same as Claude's — its own interface, its own approval prompts, which the cockpit cannot see into. As an SDK session it is driven headless, a subprocess per turn (`codex exec --json`); that route has no in-band permission channel at all, because Codex sets approval-policy to never in headless mode. Configure the sandbox per profile. Requires the codex CLI installed and authenticated (`codex login`) on the machine running Cockpit.",
       "author": "Cockpit",
       "category": "AI providers",
@@ -934,9 +934,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-12",
-      "latestVersion": "0.7.0",
+      "published": "2026-08-15",
+      "latestVersion": "0.7.1",
       "versions": [
+        {
+          "version": "0.7.1",
+          "path": "cli-agent-provider/cli-agent-provider-0.7.1.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.13.0",
+          "sha256": "e3c1464373f0a841070b27dd6389ce42ecef364aa601910737b2d69d2e3c9a5a"
+        },
         {
           "version": "0.7.0",
           "path": "cli-agent-provider/cli-agent-provider-0.7.0.zip",
