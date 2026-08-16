@@ -2624,6 +2624,24 @@
           "sha256": "aff79dd7ef3e68cb5434a7a73999a9b3049740bf6b46856e2e18ff58db15a1dd"
         }
       ]
+    },
+    {
+      "id": "whiteboard",
+      "name": "Whiteboard",
+      "description": "A freehand whiteboard panel: pencil strokes, shape templates and pasted screenshots on a shared canvas (AC-821, sub of AC-820).",
+      "author": "Cockpit",
+      "featured": false,
+      "published": "2026-08-16",
+      "latestVersion": "0.2.0",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "path": "whiteboard/whiteboard-0.2.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "ece9cb7a3bf2ad53d78dbbcb0c44d16c56d5377c26c2e320259af401ba5363e7"
+        }
+      ]
     }
   ],
   "templates": [
