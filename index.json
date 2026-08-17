@@ -2609,13 +2609,20 @@
     },
     {
       "id": "diagram",
-      "name": "Diagram & Whiteboard",
-      "description": "Opens a Mermaid diagram in its own window, bound to a session you already have running, and a whiteboard window you can invite that session's agent to look along on — and, if you approve it, to draw along on.",
+      "name": "Diagram, Whiteboard & Wireframe",
+      "description": "Opens a Mermaid diagram in its own window, bound to a session you already have running, a whiteboard window you can invite that session's agent to look along on — and, if you approve it, to draw along on — and now a wireframe sketch window coupled the same way.",
       "author": "Cockpit",
       "featured": false,
       "published": "2026-08-17",
-      "latestVersion": "0.19.0",
+      "latestVersion": "0.25.0",
       "versions": [
+        {
+          "version": "0.25.0",
+          "path": "diagram/diagram-0.25.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.23.0",
+          "sha256": "e5be81386e262e180db070ac93e940ce28ea6c25663a5b2d9b8b82717665da17"
+        },
         {
           "version": "0.19.0",
           "path": "diagram/diagram-0.19.0.zip",
