@@ -2620,9 +2620,16 @@
       "description": "Opens a Mermaid diagram in its own window, bound to a session you already have running, a whiteboard window you can invite that session's agent to look along on — and, if you approve it, to draw along on — and now a wireframe sketch window coupled the same way.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-08-17",
-      "latestVersion": "0.25.0",
+      "published": "2026-08-18",
+      "latestVersion": "0.26.0",
       "versions": [
+        {
+          "version": "0.26.0",
+          "path": "diagram/diagram-0.26.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.23.0",
+          "sha256": "98bdf7b456f37a841dfa1e93fa7f51c8faf0700637504535b4472239ef2b10ff"
+        },
         {
           "version": "0.25.0",
           "path": "diagram/diagram-0.25.0.zip",
