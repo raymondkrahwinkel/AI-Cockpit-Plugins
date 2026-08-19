@@ -1539,8 +1539,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-19",
-      "latestVersion": "0.21.3",
+      "latestVersion": "0.21.4",
       "versions": [
+        {
+          "version": "0.21.4",
+          "path": "claude-provider/claude-provider-0.21.4.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.21.0",
+          "sha256": "202de8f890e7a59d1f27495cfb4f6e20004a638bc7cb5d6c9dc21db1b65930e6"
+        },
         {
           "version": "0.21.3",
           "path": "claude-provider/claude-provider-0.21.3.zip",
