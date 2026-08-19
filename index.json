@@ -2677,8 +2677,15 @@
       "author": "Cockpit",
       "featured": false,
       "published": "2026-08-19",
-      "latestVersion": "0.36.1",
+      "latestVersion": "0.40.0",
       "versions": [
+        {
+          "version": "0.40.0",
+          "path": "diagram/diagram-0.40.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.23.0",
+          "sha256": "3561e7e14a6ee29fd558da9e58e0ed713017b3c01cbb0e16d3205657b4efb3fb"
+        },
         {
           "version": "0.36.1",
           "path": "diagram/diagram-0.36.1.zip",
