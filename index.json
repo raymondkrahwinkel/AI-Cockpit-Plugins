@@ -5,7 +5,7 @@
     {
       "id": "git-status",
       "name": "Git status",
-      "description": "A git indicator in every session's header — a coloured dot and the branch of the repo that session works in, with the uncommitted and unpushed counts on hover, refreshing when the session runs a git command. Click it to drop the summary into that session.",
+      "description": "A git indicator in every session's header — a coloured dot and the branch of the repo that session works in, with the uncommitted and unpushed counts on hover, refreshing when the session runs a git command. Click it to review that session's uncommitted changes.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "🌿",
@@ -13,9 +13,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-11",
-      "latestVersion": "1.7.3",
+      "published": "2026-08-20",
+      "latestVersion": "1.8.0",
       "versions": [
+        {
+          "version": "1.8.0",
+          "path": "git-status/git-status-1.8.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "0c75570f931a59eca5f69aec50c42ce85adb31930d2f13178d1243bc18966949"
+        },
         {
           "version": "1.7.3",
           "path": "git-status/git-status-1.7.3.zip",
