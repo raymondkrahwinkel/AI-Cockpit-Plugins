@@ -1855,16 +1855,23 @@
     {
       "id": "session-review",
       "name": "Session Review",
-      "description": "A \"Review changes\" action in each session's header opens a panel showing what that session changed: a tree of changed files on the left, and on the right one file at a time with old and new line numbers, coloured bands behind changed lines, and the changed words picked out within a replaced line. Untracked files are included, so what a session added is visible too. One click asks the session to review its own changes. Makes the cockpit a review station, not just a runner: the quality guard before an agent's output lands under your name. Requires git installed on the machine running Cockpit.",
+      "description": "A \"Review changes\" action in each session's header — and a click on that session's git badge — opens a panel showing what that session changed: a tree of changed files on the left, and on the right one file at a time with old and new line numbers, coloured bands behind changed lines, and the changed words picked out within a replaced line. Untracked files are included, so what a session added is visible too. One click asks the session to review its own changes. Makes the cockpit a review station, not just a runner: the quality guard before an agent's output lands under your name. Requires git installed on the machine running Cockpit.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "🔍",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-11",
-      "latestVersion": "0.3.2",
+      "published": "2026-08-20",
+      "latestVersion": "0.4.0",
       "versions": [
+        {
+          "version": "0.4.0",
+          "path": "session-review/session-review-0.4.0.zip",
+          "abstractionsVersion": 1,
+          "minHostVersion": "0.9.0",
+          "sha256": "1d2c33919bd3743b9b5829f3b0efffc779edc92424953ac461218f31e31e2b2b"
+        },
         {
           "version": "0.3.2",
           "path": "session-review/session-review-0.3.2.zip",
