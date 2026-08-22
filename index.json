@@ -8,17 +8,21 @@
       "description": "A git indicator in every session's header — a coloured dot and the branch of the repo that session works in, with the uncommitted and unpushed counts on hover, refreshing when the session runs a git command. Click it to review that session's uncommitted changes.",
       "author": "Cockpit",
       "category": "Productivity",
-      "audience": [
-        "developer"
-      ],
       "icon": "🌿",
       "logoAsset": "git-status.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-20",
-      "latestVersion": "1.8.0",
+      "published": "2026-08-22",
+      "latestVersion": "1.8.2",
       "versions": [
+        {
+          "version": "1.8.2",
+          "path": "git-status/git-status-1.8.2.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.26.0",
+          "sha256": "0023f19424ddc14e202b621603cee7314dab6d9bca789d5cbe731a26ae26c53c"
+        },
         {
           "version": "1.8.0",
           "path": "git-status/git-status-1.8.0.zip",
