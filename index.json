@@ -2118,8 +2118,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-22",
-      "latestVersion": "0.2.0",
+      "latestVersion": "0.2.1",
       "versions": [
+        {
+          "version": "0.2.1",
+          "path": "kubernetes/kubernetes-0.2.1.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "8ed42dbfd09d929c8542ae69b295997ab207412b0b9559742395f01555845c3f"
+        },
         {
           "version": "0.2.0",
           "path": "kubernetes/kubernetes-0.2.0.zip",
