@@ -1481,9 +1481,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-11",
-      "latestVersion": "1.0.5",
+      "published": "2026-08-22",
+      "latestVersion": "1.0.6",
       "versions": [
+        {
+          "version": "1.0.6",
+          "path": "clock/clock-1.0.6.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.1.0",
+          "sha256": "e9f7d4db48f220b5e5695969c477ed95b76f8f5309fbd0897a6c8be7bc972a84"
+        },
         {
           "version": "1.0.5",
           "path": "clock/clock-1.0.5.zip",
