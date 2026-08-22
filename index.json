@@ -2204,8 +2204,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-22",
-      "latestVersion": "0.17.11",
+      "latestVersion": "0.17.14",
       "versions": [
+        {
+          "version": "0.17.14",
+          "path": "autopilot/autopilot-0.17.14.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "d25ddfecd9214cccb3cc91189d2d9e3a08c0354e352a06c99cb7884bc3f340aa"
+        },
         {
           "version": "0.17.11",
           "path": "autopilot/autopilot-0.17.11.zip",
