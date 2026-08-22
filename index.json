@@ -734,8 +734,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-22",
-      "latestVersion": "1.27.2",
+      "latestVersion": "1.27.3",
       "versions": [
+        {
+          "version": "1.27.3",
+          "path": "youtrack/youtrack-1.27.3.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "a947d73cd1c815d7787d34cfce0c457d1f6d10ce6e4a7ab5128e7e0ca7683717"
+        },
         {
           "version": "1.27.2",
           "path": "youtrack/youtrack-1.27.2.zip",
