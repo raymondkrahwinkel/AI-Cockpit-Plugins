@@ -2462,9 +2462,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-12",
-      "latestVersion": "0.3.0",
+      "published": "2026-08-22",
+      "latestVersion": "0.3.1",
       "versions": [
+        {
+          "version": "0.3.1",
+          "path": "kimi-provider/kimi-provider-0.3.1.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.7.0",
+          "sha256": "aa62c3308a35fdcba5fa6ba3178158827a60123b85088c79aa05bbe867574065"
+        },
         {
           "version": "0.3.0",
           "path": "kimi-provider/kimi-provider-0.3.0.zip",
