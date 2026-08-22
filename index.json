@@ -485,16 +485,20 @@
       "description": "Shows how many open GitHub pull requests are yours in the left menu — a button with a live \"N / M\" badge, your own open PR count next to how many are waiting on your review — refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI — the PRs you opened across all your repos, including org repos, or a single repo over HTTP. Clicking it opens a dialog listing every open PR in a searchable, sortable grid with an \"Assigned to me\" filter, plus a Dashboard widget and a dock-rail panel each showing the same list as a resizable pane with its own item count; left-click a PR to drop a review prompt, or right-click for a menu (add to prompt / open in browser). A pull request that starts waiting for your review raises a toast with an \"Open in browser\" button. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
-      "audience": [
-        "developer"
-      ],
       "icon": "🔀",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-21",
-      "latestVersion": "1.20.0",
+      "published": "2026-08-22",
+      "latestVersion": "1.20.2",
       "versions": [
+        {
+          "version": "1.20.2",
+          "path": "github-pull-requests/github-pull-requests-1.20.2.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.26.0",
+          "sha256": "1a1735afa5655e9964adfa23a74e6cc1d09f2f39fa57beefe1ea9f277fa7b392"
+        },
         {
           "version": "1.20.0",
           "path": "github-pull-requests/github-pull-requests-1.20.0.zip",
