@@ -3030,8 +3030,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-22",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.1.3",
       "versions": [
+        {
+          "version": "0.1.3",
+          "path": "opencode-provider/opencode-provider-0.1.3.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "ec9de7bdc50bd3c626ec148c2867ce8eeaeac5d1c75e65060b7b309ad11ddf37"
+        },
         {
           "version": "0.1.1",
           "path": "opencode-provider/opencode-provider-0.1.1.zip",
