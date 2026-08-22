@@ -3153,6 +3153,24 @@
           "sha256": "d65b391152c175d3174216e847cd9fac1d41962211d49d219f433822c511e8f4"
         }
       ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "description": "Talk to your assistant from Slack — a second door onto the same conversation the chat window shows.",
+      "author": "Cockpit",
+      "featured": false,
+      "published": "2026-08-22",
+      "latestVersion": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "path": "slack/slack-1.1.0.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "139d84945f2b4bec653193f9938e7b27ccd8b6a9d3e0b372a8a47434deef49eb"
+        }
+      ]
     }
   ],
   "templates": [
