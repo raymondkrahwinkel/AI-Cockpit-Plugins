@@ -2913,8 +2913,15 @@
       "author": "Cockpit",
       "featured": false,
       "published": "2026-08-22",
-      "latestVersion": "0.2.1",
+      "latestVersion": "0.2.4",
       "versions": [
+        {
+          "version": "0.2.4",
+          "path": "grok-provider/grok-provider-0.2.4.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "993be69457d15607844417b8f153ed202e46d56a81f445f99907c98e01df7b8e"
+        },
         {
           "version": "0.2.1",
           "path": "grok-provider/grok-provider-0.2.1.zip",
