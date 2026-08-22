@@ -2821,9 +2821,16 @@
       "description": "Adds OpenRouter as a selectable session provider, over its OpenAI-compatible chat-completions endpoint (openrouter.ai/api/v1) via Microsoft.Extensions.AI. Runs the session's MCP tools through the cockpit, which gates every call. Configure an OpenRouter API key and vendor/model id (e.g. anthropic/claude-sonnet-4.5) per profile in Manage profiles. Experimental.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-08-21",
-      "latestVersion": "0.3.0",
+      "published": "2026-08-22",
+      "latestVersion": "0.3.1",
       "versions": [
+        {
+          "version": "0.3.1",
+          "path": "openrouter-provider/openrouter-provider-0.3.1.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.25.0",
+          "sha256": "527d7d024455915e5623a6e8c13d2d9d4ebbf15254325396ccc1342da8cb3e9c"
+        },
         {
           "version": "0.3.0",
           "path": "openrouter-provider/openrouter-provider-0.3.0.zip",
