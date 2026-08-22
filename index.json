@@ -3037,6 +3037,24 @@
           "sha256": "aff79dd7ef3e68cb5434a7a73999a9b3049740bf6b46856e2e18ff58db15a1dd"
         }
       ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "description": "Talk to your assistant from Discord — a second door onto the same conversation the chat window shows.",
+      "author": "Cockpit",
+      "featured": false,
+      "published": "2026-08-22",
+      "latestVersion": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "path": "discord/discord-1.1.0.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "d65b391152c175d3174216e847cd9fac1d41962211d49d219f433822c511e8f4"
+        }
+      ]
     }
   ],
   "templates": [
