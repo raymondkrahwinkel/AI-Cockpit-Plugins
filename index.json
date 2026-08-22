@@ -2971,8 +2971,15 @@
       "author": "Cockpit",
       "featured": false,
       "published": "2026-08-22",
-      "latestVersion": "0.47.15",
+      "latestVersion": "0.47.17",
       "versions": [
+        {
+          "version": "0.47.17",
+          "path": "diagram/diagram-0.47.17.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "d4a875c126e0f7d63cd0fd46786eb7a14c90e0b9ca92a205d098a8cca26ac40e"
+        },
         {
           "version": "0.47.15",
           "path": "diagram/diagram-0.47.15.zip",
