@@ -2818,8 +2818,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-22",
-      "latestVersion": "0.1.5",
+      "latestVersion": "0.1.6",
       "versions": [
+        {
+          "version": "0.1.6",
+          "path": "fan-out/fan-out-0.1.6.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.8.0",
+          "sha256": "36aef8b42e5c8812d92661ad9fc7dbe7c4bf2f23a32a8b18a7437b1b774f9b27"
+        },
         {
           "version": "0.1.5",
           "path": "fan-out/fan-out-0.1.5.zip",
