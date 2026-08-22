@@ -8,7 +8,9 @@
       "description": "A git indicator in every session's header — a coloured dot and the branch of the repo that session works in, with the uncommitted and unpushed counts on hover, refreshing when the session runs a git command. Click it to review that session's uncommitted changes.",
       "author": "Cockpit",
       "category": "Productivity",
-      "audience": ["developer"],
+      "audience": [
+        "developer"
+      ],
       "icon": "🌿",
       "logoAsset": "git-status.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
@@ -476,7 +478,9 @@
       "description": "Shows how many open GitHub pull requests are yours in the left menu — a button with a live \"N / M\" badge, your own open PR count next to how many are waiting on your review — refreshing both on a timer and the instant a session opens/merges/closes a PR (it watches session output for a pull url or a merged/closed line), via the gh CLI — the PRs you opened across all your repos, including org repos, or a single repo over HTTP. Clicking it opens a dialog listing every open PR in a searchable, sortable grid with an \"Assigned to me\" filter, plus a Dashboard widget and a dock-rail panel each showing the same list as a resizable pane with its own item count; left-click a PR to drop a review prompt, or right-click for a menu (add to prompt / open in browser). A pull request that starts waiting for your review raises a toast with an \"Open in browser\" button. The prompt template is editable in settings.",
       "author": "Cockpit",
       "category": "Issue trackers",
-      "audience": ["developer"],
+      "audience": [
+        "developer"
+      ],
       "icon": "🔀",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
@@ -1844,7 +1848,9 @@
       "description": "The GitHub Actions status of the branch a session is working in, shown in that session's header: a coloured dot (green pass, red fail, amber running) for the latest workflow run on the current branch, with the workflow, event and time on hover — click to open the run on GitHub. Completes the GitHub set alongside Issues, Pull Requests and Git status. Uses your existing gh CLI login (no token to paste); requires the GitHub CLI installed and authenticated.",
       "author": "Cockpit",
       "category": "Productivity",
-      "audience": ["developer"],
+      "audience": [
+        "developer"
+      ],
       "icon": "🚦",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
@@ -1889,7 +1895,9 @@
       "description": "A \"Review changes\" action in each session's header — and a click on that session's git badge — opens a panel showing what that session changed: a tree of changed files on the left, and on the right one file at a time with old and new line numbers, coloured bands behind changed lines, and the changed words picked out within a replaced line. Untracked files are included, so what a session added is visible too. One click asks the session to review its own changes. Makes the cockpit a review station, not just a runner: the quality guard before an agent's output lands under your name. Requires git installed on the machine running Cockpit.",
       "author": "Cockpit",
       "category": "Productivity",
-      "audience": ["developer"],
+      "audience": [
+        "developer"
+      ],
       "icon": "🔍",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
@@ -1963,7 +1971,9 @@
       "description": "Register Kubernetes clusters and give agents scoped, human-approved access to them through an mcp__cockpit-k8s__* server. The plugin talks to the cluster itself (via the official Kubernetes client) and keeps the credentials — an agent never gets a kubeconfig. Every call is gated: opening a cluster asks for consent, a namespace outside the cluster's allowed list asks each session (reads included), and every change asks afresh and is never remembered. Cluster-scoped resources, exec and port-forward are off until you turn them on per cluster. A port-forward tunnel shows in the status bar with an operator-only Kill and auto-closes. Configure clusters in the plugin settings: point at a kubeconfig file (e.g. ~/.kube/config, read live) and pick a context from it, or paste a kubeconfig which is stored under the secret layer.",
       "author": "Cockpit",
       "category": "Automation",
-      "audience": ["developer"],
+      "audience": [
+        "developer"
+      ],
       "icon": "☸",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
@@ -2032,7 +2042,9 @@
       "description": "Register the local Docker daemon and give agents scoped, human-approved access to containers through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Every call is gated: the first touch of the daemon asks for consent (reads are free after that), and every change (start/stop/remove/run) asks afresh with the literal command shown and is never remembered. Exec is off until you turn it on. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
       "author": "Cockpit",
       "category": "Automation",
-      "audience": ["developer"],
+      "audience": [
+        "developer"
+      ],
       "icon": "🐳",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
@@ -2085,15 +2097,21 @@
       "description": "Operator-triggered \"issue → merge-ready PR\" pipeline. Start a YouTrack or GitHub issue into a visible, self-driving agent session in its own isolated worktree; it works the item behind a quality gate (visual verify, code review, security review, conventions), posts progress and questions back to the issue and moves its stage as it goes, and stops at a merge-ready PR — you approve the run before it starts and always do the merge yourself.",
       "author": "Cockpit",
       "category": "Automation",
-      "audience": ["developer"],
       "icon": "🤖",
       "logoAsset": "autopilot.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-11",
-      "latestVersion": "0.17.9",
+      "published": "2026-08-22",
+      "latestVersion": "0.17.11",
       "versions": [
+        {
+          "version": "0.17.11",
+          "path": "autopilot/autopilot-0.17.11.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.26.0",
+          "sha256": "d85be953848e303c84da85d97fb524e0f7693684f268197440d6fa1e1da2cc0b"
+        },
         {
           "version": "0.17.9",
           "path": "autopilot/autopilot-0.17.9.zip",
@@ -2435,7 +2453,9 @@
       "description": "Runs your GitHub workflow jobs on this machine's own Docker, from the session that is working on the code. It reports Docker in three states rather than two — missing, installed but the engine is not answering, or ready — checks that the engine runs Linux containers, and says whether the act runtime is on PATH, naming the install command when it is not. It reads the project's .github/workflows and says, per job, either that it can run here or the concrete reason it cannot: a matrix, a runner that is not Linux, artifacts exchanged with another job, or an action that only means something on GitHub. A job runs whole or not at all — anything it does not understand it refuses rather than guesses. A session can start a run itself and read the verdict back, with the operator approving the exact command each time, and a project can be set to hold back its pull requests until a local run has passed. The verdict is about this machine: act's images are not GitHub's, so it predicts the pull-request check rather than replacing it.",
       "author": "Cockpit",
       "category": "Automation",
-      "audience": ["developer"],
+      "audience": [
+        "developer"
+      ],
       "icon": "🧪",
       "logoAsset": "local-ci.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
@@ -2618,7 +2638,9 @@
       "description": "Run one task on several agents at once — each in its own worktree, tiled side by side, so you can read the takes against each other.",
       "author": "Cockpit",
       "category": "Automation",
-      "audience": ["developer"],
+      "audience": [
+        "developer"
+      ],
       "icon": "🍴",
       "logoAsset": "fan-out.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
