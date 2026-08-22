@@ -1329,8 +1329,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-22",
-      "latestVersion": "1.3.4",
+      "latestVersion": "1.3.5",
       "versions": [
+        {
+          "version": "1.3.5",
+          "path": "transcript-search/transcript-search-1.3.5.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.9.0",
+          "sha256": "7d7edc992cf532cf1ddacdf60c33e243ec7e76c8c18f4dea6bf91e2ce8004e95"
+        },
         {
           "version": "1.3.4",
           "path": "transcript-search/transcript-search-1.3.4.zip",
