@@ -2063,16 +2063,20 @@
       "description": "Register the local Docker daemon and give agents scoped, human-approved access to containers through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Every call is gated: the first touch of the daemon asks for consent (reads are free after that), and every change (start/stop/remove/run) asks afresh with the literal command shown and is never remembered. Exec is off until you turn it on. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
       "author": "Cockpit",
       "category": "Automation",
-      "audience": [
-        "developer"
-      ],
       "icon": "🐳",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-11",
-      "latestVersion": "0.3.4",
+      "published": "2026-08-22",
+      "latestVersion": "0.3.6",
       "versions": [
+        {
+          "version": "0.3.6",
+          "path": "docker/docker-0.3.6.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.26.0",
+          "sha256": "957986e391fdceb786d6454f5a04fa6a417a574211d2f29701e135d2611270f9"
+        },
         {
           "version": "0.3.4",
           "path": "docker/docker-0.3.4.zip",
