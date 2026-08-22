@@ -2676,17 +2676,21 @@
       "description": "Run one task on several agents at once — each in its own worktree, tiled side by side, so you can read the takes against each other.",
       "author": "Cockpit",
       "category": "Automation",
-      "audience": [
-        "developer"
-      ],
       "icon": "🍴",
       "logoAsset": "fan-out.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-11",
-      "latestVersion": "0.1.4",
+      "published": "2026-08-22",
+      "latestVersion": "0.1.5",
       "versions": [
+        {
+          "version": "0.1.5",
+          "path": "fan-out/fan-out-0.1.5.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.8.0",
+          "sha256": "f2aef30a529d8a23446290c01203371d29b23e1ac4f4551c45d3194c9e4e5e5d"
+        },
         {
           "version": "0.1.4",
           "path": "fan-out/fan-out-0.1.4.zip",
