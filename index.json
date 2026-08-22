@@ -2528,17 +2528,21 @@
       "description": "Runs your GitHub workflow jobs on this machine's own Docker, from the session that is working on the code. It reports Docker in three states rather than two — missing, installed but the engine is not answering, or ready — checks that the engine runs Linux containers, and says whether the act runtime is on PATH, naming the install command when it is not. It reads the project's .github/workflows and says, per job, either that it can run here or the concrete reason it cannot: a matrix, a runner that is not Linux, artifacts exchanged with another job, or an action that only means something on GitHub. A job runs whole or not at all — anything it does not understand it refuses rather than guesses. A session can start a run itself and read the verdict back, with the operator approving the exact command each time, and a project can be set to hold back its pull requests until a local run has passed. The verdict is about this machine: act's images are not GitHub's, so it predicts the pull-request check rather than replacing it.",
       "author": "Cockpit",
       "category": "Automation",
-      "audience": [
-        "developer"
-      ],
       "icon": "🧪",
       "logoAsset": "local-ci.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-15",
-      "latestVersion": "0.4.2",
+      "published": "2026-08-22",
+      "latestVersion": "0.4.4",
       "versions": [
+        {
+          "version": "0.4.4",
+          "path": "local-ci/local-ci-0.4.4.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.26.0",
+          "sha256": "3ea2421b5683279d012fbe67a88f9d4b7fcfdc193aefb99df0e7676a68211161"
+        },
         {
           "version": "0.4.2",
           "path": "local-ci/local-ci-0.4.2.zip",
