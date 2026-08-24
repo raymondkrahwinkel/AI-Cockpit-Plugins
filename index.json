@@ -3206,6 +3206,24 @@
           "sha256": "139d84945f2b4bec653193f9938e7b27ccd8b6a9d3e0b372a8a47434deef49eb"
         }
       ]
+    },
+    {
+      "id": "proxmox",
+      "name": "Proxmox VE",
+      "description": "Register a Proxmox VE host or cluster and give agents scoped, human-approved access to its nodes, VMs and LXC containers through an mcp__cockpit-proxmox__* server. The plugin talks to the Proxmox REST API itself and keeps the API token — an agent never gets it. Connecting asks for consent once (reads are free after that), and every change (start/stop/shutdown/reboot/snapshot) asks afresh with the literal action shown and is never remembered. Rolling back a snapshot and deleting a VM or LXC container are off until you turn them on. Self-signed certificates are trusted only after you confirm the shown fingerprint in the plugin settings.",
+      "author": "Cockpit",
+      "featured": false,
+      "published": "2026-08-24",
+      "latestVersion": "0.2.0",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "path": "proxmox/proxmox-0.2.0.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.29.0",
+          "sha256": "7e5ad0caa5e4a59c01147cb8259a8d7be8e5e9560d4ddd7ae5418b31c08bde90"
+        }
+      ]
     }
   ],
   "templates": [
