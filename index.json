@@ -3230,9 +3230,16 @@
       "description": "Talk to your assistant from Slack — a second door onto the same conversation the chat window shows.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-08-24",
-      "latestVersion": "1.3.0",
+      "published": "2026-08-25",
+      "latestVersion": "1.3.2",
       "versions": [
+        {
+          "version": "1.3.2",
+          "path": "slack/slack-1.3.2.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.29.0",
+          "sha256": "68ac625247f595db1b0120fc8c3d6e79255edf853ab501a30ed29264cbe360ab"
+        },
         {
           "version": "1.3.0",
           "path": "slack/slack-1.3.0.zip",
