@@ -1075,8 +1075,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-26",
-      "latestVersion": "0.8.0",
+      "latestVersion": "0.8.1",
       "versions": [
+        {
+          "version": "0.8.1",
+          "path": "cli-agent-provider/cli-agent-provider-0.8.1.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "2b4a2212eb10c653be42c65f7856c3ee62ad58b6092cf6396b6c994575d01b2f"
+        },
         {
           "version": "0.8.0",
           "path": "cli-agent-provider/cli-agent-provider-0.8.0.zip",
