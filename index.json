@@ -2741,8 +2741,15 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-08-26",
-      "latestVersion": "0.5.2",
+      "latestVersion": "0.5.3",
       "versions": [
+        {
+          "version": "0.5.3",
+          "path": "local-ci/local-ci-0.5.3.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "df119605dfc3a0fa9100fe0865e127feea8684e95f6c22ed32d63be246cb13e1"
+        },
         {
           "version": "0.5.2",
           "path": "local-ci/local-ci-0.5.2.zip",
