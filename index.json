@@ -2332,9 +2332,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-28",
-      "latestVersion": "0.3.10",
+      "published": "2026-09-07",
+      "latestVersion": "0.3.11",
       "versions": [
+        {
+          "version": "0.3.11",
+          "path": "docker/docker-0.3.11.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "49c66b5595bb867a3d5918c10e6f5f8ccf48cf40918744cd2ec8dc37016693e5"
+        },
         {
           "version": "0.3.10",
           "path": "docker/docker-0.3.10.zip",
