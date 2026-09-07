@@ -3497,6 +3497,24 @@
           "sha256": "7e5ad0caa5e4a59c01147cb8259a8d7be8e5e9560d4ddd7ae5418b31c08bde90"
         }
       ]
+    },
+    {
+      "id": "example-companion-tool",
+      "name": "Example Companion Tool",
+      "description": "A companion-window mini-tool a plugin contributes end to end, with an icon and a click action (AC-240).",
+      "author": "Cockpit",
+      "featured": false,
+      "published": "2026-09-07",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "example-companion-tool/example-companion-tool-0.1.0.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.30.0",
+          "sha256": "246d1f331e5468cd591da70d9aa22e8ebcdeece183122a1aa216f8fa8941f534"
+        }
+      ]
     }
   ],
   "templates": [
