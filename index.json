@@ -2091,16 +2091,23 @@
     {
       "id": "github-actions",
       "name": "GitHub Actions",
-      "description": "The GitHub Actions status of the branch a session is working in, shown in that session's header: a coloured dot (green pass, red fail, amber running) for the latest workflow run on the current branch, with the workflow, event and time on hover — click to open the run on GitHub. Completes the GitHub set alongside Issues, Pull Requests and Git status. Uses your existing gh CLI login (no token to paste); requires the GitHub CLI installed and authenticated.",
+      "description": "The GitHub Actions status of the branch a session is working in, shown in that session's header: a coloured dot (green pass, red fail, amber running) for the latest workflow run on the current branch, with the workflow, event and time on hover — click to open the run on GitHub. Completes the GitHub set alongside Issues, Pull Requests and Git status. Also offers a Dashboard widget and a dock-rail panel listing the branch's recent runs (workflow, branch, status, duration), each with its own per-instance run count. Uses your existing gh CLI login (no token to paste); requires the GitHub CLI installed and authenticated.",
       "author": "Cockpit",
       "category": "Productivity",
       "icon": "🚦",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-22",
-      "latestVersion": "0.1.4",
+      "published": "2026-09-07",
+      "latestVersion": "0.2.0",
       "versions": [
+        {
+          "version": "0.2.0",
+          "path": "github-actions/github-actions-0.2.0.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.1.0",
+          "sha256": "d6f94775e277285a309297d4f23b5f89c9fd1f53b3e4e664bfbda8c4110df90e"
+        },
         {
           "version": "0.1.4",
           "path": "github-actions/github-actions-0.1.4.zip",
