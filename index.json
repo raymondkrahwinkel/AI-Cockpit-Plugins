@@ -3373,9 +3373,16 @@
       "description": "Talk to your assistant from Discord — a second door onto the same conversation the chat window shows.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-08-28",
-      "latestVersion": "1.3.3",
+      "published": "2026-09-07",
+      "latestVersion": "1.4.0",
       "versions": [
+        {
+          "version": "1.4.0",
+          "path": "discord/discord-1.4.0.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.29.0",
+          "sha256": "a66c8a342006555117bee63633c2d44c6b99a3bb24c676f8d394d3edffcbe29d"
+        },
         {
           "version": "1.3.3",
           "path": "discord/discord-1.3.3.zip",
