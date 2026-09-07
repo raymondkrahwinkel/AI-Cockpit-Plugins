@@ -3529,6 +3529,23 @@
           "sha256": "246d1f331e5468cd591da70d9aa22e8ebcdeece183122a1aa216f8fa8941f534"
         }
       ]
+    },
+    {
+      "id": "kind",
+      "name": "Kind",
+      "description": "Disposable local kind (Kubernetes-in-Docker) clusters, through an mcp__cockpit-kind__* server. kind_create spins one up, kind_list shows what this plugin made (name, age, owning session, kubeconfig path, whether it is pinned, whether it is still running) and kind_delete tears one down — never a cluster made outside the cockpit. Create and delete each ask the operator afresh, showing the literal kind command, and an approval is never remembered. A cluster is disposable by design: a non-pinned one is torn down when its owning session closes, when the cockpit exits, or when its configurable lifetime (default 4 hours) runs out, so a forgotten one never lingers. Pinning is the operator's exception to all three, and no agent has a tool to set it. Needs the kind binary and a container runtime (Docker or Podman) already on the machine — the cockpit does not install either, and says which one is missing instead of guessing. Previously part of the Kubernetes plugin; installing this one alongside it gives the same three tools under their own server, and a cluster it creates registers itself with that plugin automatically. Without the Kubernetes plugin it works just as well: kind_create then hands you the kubeconfig path and context name instead.",
+      "featured": false,
+      "published": "2026-09-07",
+      "latestVersion": "0.2.0",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "path": "kind/kind-0.2.0.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "effe884144cd5df462859d7ac655bf556a37be5b532af1848c008a2ae29efc4f"
+        }
+      ]
     }
   ],
   "templates": [
