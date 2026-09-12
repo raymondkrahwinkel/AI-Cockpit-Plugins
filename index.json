@@ -3232,16 +3232,23 @@
       "author": "Cockpit",
       "category": "Automation",
       "audience": [
-        "developer"
+        "planning-and-tracking-work"
       ],
       "icon": "🍴",
       "logoAsset": "fan-out.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-22",
-      "latestVersion": "0.1.6",
+      "published": "2026-09-12",
+      "latestVersion": "0.1.7",
       "versions": [
+        {
+          "version": "0.1.7",
+          "path": "fan-out/fan-out-0.1.7.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.8.0",
+          "sha256": "afb696c20901c01daa8eec9e95918c7d5692a95300103f302670f2f472794004"
+        },
         {
           "version": "0.1.6",
           "path": "fan-out/fan-out-0.1.6.zip",
