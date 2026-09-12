@@ -1548,13 +1548,23 @@
       "description": "A visual editor for cockpit workflows, and an engine that runs them: drop triggers, actions and decisions on a canvas, wire them together, configure each step, and press Run. Every run is kept — which step got what, what it produced, how long it took — because \"it did not work\" is not something you can act on. A step this build cannot execute is passed by with a reason, never counted as a success.",
       "author": "Cockpit",
       "category": "Automation",
+      "audience": [
+        "planning-and-tracking-work"
+      ],
       "icon": "🔀",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-09-09",
-      "latestVersion": "0.27.5",
+      "published": "2026-09-12",
+      "latestVersion": "0.27.6",
       "versions": [
+        {
+          "version": "0.27.6",
+          "path": "workflows/workflows-0.27.6.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "825552e1a6062d25f8b7c469cb8af1e6a551029f93de19dccd3932a2ec95fc2b"
+        },
         {
           "version": "0.27.5",
           "path": "workflows/workflows-0.27.5.zip",
