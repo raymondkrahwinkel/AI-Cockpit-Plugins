@@ -1794,13 +1794,23 @@
       "description": "CPU, memory and disk usage for a Dashboard workspace. You pick which of the three in its settings.",
       "author": "Cockpit",
       "category": "Widgets",
+      "audience": [
+        "running-systems"
+      ],
       "icon": "📈",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-22",
-      "latestVersion": "1.0.6",
+      "published": "2026-09-12",
+      "latestVersion": "1.0.7",
       "versions": [
+        {
+          "version": "1.0.7",
+          "path": "system-monitor/system-monitor-1.0.7.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.26.0",
+          "sha256": "46c267940b525d20c35cfb1bc2c8e1c703c2cfa2ff954c8beadd1f85063cc175"
+        },
         {
           "version": "1.0.6",
           "path": "system-monitor/system-monitor-1.0.6.zip",
