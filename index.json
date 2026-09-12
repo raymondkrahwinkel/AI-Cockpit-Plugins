@@ -162,13 +162,23 @@
       "description": "A library of reusable prompt templates in the left menu. Click one to insert it into the active session, filling in any {{variable}} fields first. Create, edit and remove templates in the same dialog. Plus a spotlight-style quick-insert (the Ctrl+Shift+P shortcut, or the command palette): a search bar over your prompts — type, then click or Enter to drop one into the session.",
       "author": "Cockpit",
       "category": "Productivity",
+      "audience": [
+        "documents-and-design"
+      ],
       "icon": "📝",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-22",
-      "latestVersion": "1.4.4",
+      "published": "2026-09-12",
+      "latestVersion": "1.4.5",
       "versions": [
+        {
+          "version": "1.4.5",
+          "path": "prompt-library/prompt-library-1.4.5.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.9.0",
+          "sha256": "869cb30653b7c7c8aa95943ed4c40981ca785523718116ae42f32e5532f890dc"
+        },
         {
           "version": "1.4.4",
           "path": "prompt-library/prompt-library-1.4.4.zip",
