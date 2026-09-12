@@ -2490,16 +2490,23 @@
       "author": "Cockpit",
       "category": "Automation",
       "audience": [
-        "developer"
+        "planning-and-tracking-work"
       ],
       "icon": "🤖",
       "logoAsset": "autopilot.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-09-09",
-      "latestVersion": "0.18.8",
+      "published": "2026-09-12",
+      "latestVersion": "0.18.9",
       "versions": [
+        {
+          "version": "0.18.9",
+          "path": "autopilot/autopilot-0.18.9.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.30.0",
+          "sha256": "dc6e58651503c6b6b570c13bd2d13b8771cc71666bae45f3039273fc506b2bc2"
+        },
         {
           "version": "0.18.8",
           "path": "autopilot/autopilot-0.18.8.zip",
