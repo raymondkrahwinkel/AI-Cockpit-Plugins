@@ -2828,14 +2828,24 @@
       "description": "Charts the context / 5h / weekly usage of your sessions over time, per profile, on a Dashboard workspace.",
       "author": "Cockpit",
       "category": "Widgets",
+      "audience": [
+        "planning-and-tracking-work"
+      ],
       "icon": "📈",
       "logoAsset": "usage-trend.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-09-09",
-      "latestVersion": "0.1.5",
+      "published": "2026-09-12",
+      "latestVersion": "0.1.6",
       "versions": [
+        {
+          "version": "0.1.6",
+          "path": "usage-trend/usage-trend-0.1.6.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.1.0",
+          "sha256": "995691fbafcb2da1971fb02d58aa9f5dccd3daf3a0fa851e7646d8889c0dcd78"
+        },
         {
           "version": "0.1.5",
           "path": "usage-trend/usage-trend-0.1.5.zip",
