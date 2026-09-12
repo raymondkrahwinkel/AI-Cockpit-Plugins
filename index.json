@@ -2400,15 +2400,22 @@
       "author": "Cockpit",
       "category": "Automation",
       "audience": [
-        "developer"
+        "running-systems"
       ],
       "icon": "🐳",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-09-07",
-      "latestVersion": "0.3.11",
+      "published": "2026-09-12",
+      "latestVersion": "0.3.12",
       "versions": [
+        {
+          "version": "0.3.12",
+          "path": "docker/docker-0.3.12.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "40fb70740f2d340a77a16acb975a0906a287514d8bbae84e4048742b08a3169d"
+        },
         {
           "version": "0.3.11",
           "path": "docker/docker-0.3.11.zip",
