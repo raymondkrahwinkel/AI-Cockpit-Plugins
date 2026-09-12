@@ -3085,14 +3085,24 @@
       "description": "Lets a project's memory live in a Depot project instead of a folder, and connects one or more Depot instances so a session can reach them.",
       "author": "Cockpit",
       "category": "Project tools",
+      "audience": [
+        "documents-and-design"
+      ],
       "icon": "🗄️",
       "logoAsset": "depot.svg",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-08-26",
-      "latestVersion": "0.11.6",
+      "published": "2026-09-12",
+      "latestVersion": "0.11.7",
       "versions": [
+        {
+          "version": "0.11.7",
+          "path": "depot/depot-0.11.7.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "b465ea8c801fa63d55f65ff37dba63bc6c8502f42f95fd6dcb29c606446e6d74"
+        },
         {
           "version": "0.11.6",
           "path": "depot/depot-0.11.6.zip",
