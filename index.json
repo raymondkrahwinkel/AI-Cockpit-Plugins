@@ -2325,15 +2325,22 @@
       "author": "Cockpit",
       "category": "Automation",
       "audience": [
-        "developer"
+        "running-systems"
       ],
       "icon": "☸",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-09-07",
-      "latestVersion": "0.7.1",
+      "published": "2026-09-12",
+      "latestVersion": "0.7.2",
       "versions": [
+        {
+          "version": "0.7.2",
+          "path": "kubernetes/kubernetes-0.7.2.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.28.0",
+          "sha256": "1e7cd4e1fbf696d96e645df646153f35b50e02a046c82a91253429592cc1d15c"
+        },
         {
           "version": "0.7.1",
           "path": "kubernetes/kubernetes-0.7.1.zip",
