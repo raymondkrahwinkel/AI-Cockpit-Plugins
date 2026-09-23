@@ -2526,7 +2526,7 @@
     {
       "id": "docker",
       "name": "Docker",
-      "description": "Register the local Docker daemon and give agents scoped, human-approved access to containers through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Every call is gated: the first touch of the daemon asks for consent (reads are free after that), and every change (start/stop/remove/run) asks afresh with the literal command shown and is never remembered. Exec is off until you turn it on. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
+      "description": "Register the local Docker daemon and give agents scoped, human-approved access to containers through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Every call is gated: the first touch of the daemon asks for consent (reads are free after that), and every change (start/stop/remove/run) asks afresh with the literal command shown and is never remembered. Exec is off until you turn it on. A per-daemon consent mode (Always ask / Read-free / All-free) can pre-approve reads or everything, visibly, in the plugin settings. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
       "author": "Cockpit",
       "category": "Automation",
       "audience": [
@@ -2536,9 +2536,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-09-12",
-      "latestVersion": "0.3.12",
+      "published": "2026-09-23",
+      "latestVersion": "0.4.0",
       "versions": [
+        {
+          "version": "0.4.0",
+          "path": "docker/docker-0.4.0.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.35.0",
+          "sha256": "253c91398e8834bcea8c27632a51223bda939fc37b637d5b9c2d8f3f66a117f2"
+        },
         {
           "version": "0.3.12",
           "path": "docker/docker-0.3.12.zip",
