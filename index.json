@@ -3718,12 +3718,19 @@
     {
       "id": "discord",
       "name": "Discord",
-      "description": "Talk to your assistant from Discord — a second door onto the same conversation the chat window shows.",
+      "description": "Talk to your assistant from Discord, in direct messages or one channel — a second door onto the same conversation the chat window shows. Adds a flow step that DMs you.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-09-07",
-      "latestVersion": "1.4.0",
+      "published": "2026-09-24",
+      "latestVersion": "1.5.0",
       "versions": [
+        {
+          "version": "1.5.0",
+          "path": "discord/discord-1.5.0.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.38.0",
+          "sha256": "b0dd350eee9ecdeba6b6ae5d092037c3679fdfbf553eabf5ff8acc9163bb14f6"
+        },
         {
           "version": "1.4.0",
           "path": "discord/discord-1.4.0.zip",
