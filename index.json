@@ -3770,9 +3770,16 @@
       "description": "Talk to your assistant from Discord, in direct messages or one channel — a second door onto the same conversation the chat window shows. Adds a flow step that DMs you.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-09-24",
-      "latestVersion": "1.5.0",
+      "published": "2026-09-29",
+      "latestVersion": "1.5.1",
       "versions": [
+        {
+          "version": "1.5.1",
+          "path": "discord/discord-1.5.1.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.41.0",
+          "sha256": "e89c82db612f2ceb6db47ff208ee7c8a448f4130cc674b21cda275d246aafe59"
+        },
         {
           "version": "1.5.0",
           "path": "discord/discord-1.5.0.zip",
