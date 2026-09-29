@@ -4005,9 +4005,16 @@
         "running-systems"
       ],
       "featured": false,
-      "published": "2026-09-12",
-      "latestVersion": "0.2.4",
+      "published": "2026-09-29",
+      "latestVersion": "0.2.5",
       "versions": [
+        {
+          "version": "0.2.5",
+          "path": "proxmox/proxmox-0.2.5.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.41.0",
+          "sha256": "906b4bf03e80c239eb2fc879e825880207809b35996d55f3ae7abcc8ede51743"
+        },
         {
           "version": "0.2.4",
           "path": "proxmox/proxmox-0.2.4.zip",
