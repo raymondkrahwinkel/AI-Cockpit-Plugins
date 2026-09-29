@@ -3946,9 +3946,16 @@
       "description": "A companion-window mini-tool a plugin contributes end to end, with an icon and a click action (AC-240).",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-09-07",
-      "latestVersion": "0.1.0",
+      "published": "2026-09-29",
+      "latestVersion": "0.1.1",
       "versions": [
+        {
+          "version": "0.1.1",
+          "path": "example-companion-tool/example-companion-tool-0.1.1.zip",
+          "abstractionsVersion": 2,
+          "minHostVersion": "0.42.0",
+          "sha256": "15d42d551dbd896782a1a0dd991afe2df320c569e944e1880ca4e8667a673653"
+        },
         {
           "version": "0.1.0",
           "path": "example-companion-tool/example-companion-tool-0.1.0.zip",
