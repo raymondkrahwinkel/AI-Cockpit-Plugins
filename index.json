@@ -3857,9 +3857,16 @@
         "documents-and-design"
       ],
       "featured": false,
-      "published": "2026-09-29",
-      "latestVersion": "0.47.22",
+      "published": "2026-10-01",
+      "latestVersion": "0.47.23",
       "versions": [
+        {
+          "version": "0.47.23",
+          "path": "diagram/diagram-0.47.23.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.46.0",
+          "sha256": "e236860bd9a5a71dece723cb150f4c0ba4776284127899786cc5ed975835c6a9"
+        },
         {
           "version": "0.47.22",
           "path": "diagram/diagram-0.47.22.zip",
