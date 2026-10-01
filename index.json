@@ -3157,9 +3157,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-09-29",
-      "latestVersion": "0.1.7",
+      "published": "2026-10-01",
+      "latestVersion": "0.1.8",
       "versions": [
+        {
+          "version": "0.1.8",
+          "path": "usage-trend/usage-trend-0.1.8.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.46.0",
+          "sha256": "9783a53d9c79930b3e0b0951bcfaf9ab51b9cc54d704975dcd307c6c27c02a89"
+        },
         {
           "version": "0.1.7",
           "path": "usage-trend/usage-trend-0.1.7.zip",
