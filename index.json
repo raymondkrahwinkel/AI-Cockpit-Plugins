@@ -2006,9 +2006,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-09-29",
-      "latestVersion": "1.0.8",
+      "published": "2026-10-01",
+      "latestVersion": "1.0.9",
       "versions": [
+        {
+          "version": "1.0.9",
+          "path": "system-monitor/system-monitor-1.0.9.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.46.0",
+          "sha256": "b0c70ec658cb09e8621014749b681f834eed9164c2784f91058a5b651bc89c25"
+        },
         {
           "version": "1.0.8",
           "path": "system-monitor/system-monitor-1.0.8.zip",
