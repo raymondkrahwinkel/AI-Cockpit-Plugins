@@ -4530,6 +4530,27 @@
           "sha256": "effe884144cd5df462859d7ac655bf556a37be5b532af1848c008a2ae29efc4f"
         }
       ]
+    },
+    {
+      "id": "schedules",
+      "name": "Schedules",
+      "description": "Scheduled tasks with their own engine: a cron schedule in a required time zone, a policy per task for runs missed while the machine slept, and every slot fired at most once, also across a restart or the daylight-saving switch. The first action is a fixed notification.",
+      "author": "Cockpit",
+      "audience": [
+        "planning-and-tracking-work"
+      ],
+      "featured": false,
+      "published": "2026-10-17",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "schedules/schedules-0.1.0.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.92.0",
+          "sha256": "12c199648f451cced71844e910011e9e5a066b74f4d7ed628b7417376dd9dae1"
+        }
+      ]
     }
   ],
   "templates": [
