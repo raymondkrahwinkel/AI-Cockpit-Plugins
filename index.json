@@ -4411,9 +4411,16 @@
         "running-systems"
       ],
       "featured": false,
-      "published": "2026-10-01",
-      "latestVersion": "0.2.6",
+      "published": "2026-10-21",
+      "latestVersion": "0.2.7",
       "versions": [
+        {
+          "version": "0.2.7",
+          "path": "proxmox/proxmox-0.2.7.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.46.0",
+          "sha256": "50ab981e6b259af05469c6220ceb1487d071dd9de8ebd96532473606311d038d"
+        },
         {
           "version": "0.2.6",
           "path": "proxmox/proxmox-0.2.6.zip",
