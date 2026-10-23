@@ -4583,15 +4583,22 @@
     {
       "id": "schedules",
       "name": "Schedules",
-      "description": "Scheduled tasks with their own engine: a cron schedule in a required time zone, a policy per task for runs missed while the machine slept, and every slot fired at most once, also across a restart or the daylight-saving switch. The first action is a fixed notification.",
+      "description": "Scheduled tasks with their own engine: a cron schedule in a required time zone, a policy per task for runs missed while the machine slept, and every slot fired at most once, also across a restart or the daylight-saving switch. A task delivers a fixed notification or an agent's answer to a prompt, and an agent that may change files asks first unless the task runs unattended.",
       "author": "Cockpit",
       "audience": [
         "planning-and-tracking-work"
       ],
       "featured": false,
-      "published": "2026-10-17",
-      "latestVersion": "0.1.0",
+      "published": "2026-10-23",
+      "latestVersion": "0.6.0",
       "versions": [
+        {
+          "version": "0.6.0",
+          "path": "schedules/schedules-0.6.0.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.100.0",
+          "sha256": "06035e75b6fd6da41ea7bf7581aff9d5819bc43fdb32abb54d36fc5462705d9f"
+        },
         {
           "version": "0.1.0",
           "path": "schedules/schedules-0.1.0.zip",
