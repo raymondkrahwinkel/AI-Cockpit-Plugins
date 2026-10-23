@@ -4271,12 +4271,19 @@
     {
       "id": "discord",
       "name": "Discord",
-      "description": "Talk to your assistant from Discord, in direct messages or one channel — a second door onto the same conversation the chat window shows. Adds a flow step that DMs you.",
+      "description": "Talk to your assistant from Discord, in direct messages or one channel — a second door onto the same conversation the chat window shows. Adds a flow step that DMs you, and lets other plugins such as Schedules reach you there, with buttons to answer.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-10-04",
-      "latestVersion": "1.6.0",
+      "published": "2026-10-23",
+      "latestVersion": "1.7.0",
       "versions": [
+        {
+          "version": "1.7.0",
+          "path": "discord/discord-1.7.0.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.99.0",
+          "sha256": "c2ce174b25632a84a0831d4bb1af66f898bc3778a0f4e2b5cfa706e5f2ccee07"
+        },
         {
           "version": "1.6.0",
           "path": "discord/discord-1.6.0.zip",
