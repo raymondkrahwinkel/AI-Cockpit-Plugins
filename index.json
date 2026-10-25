@@ -4380,12 +4380,19 @@
     {
       "id": "slack",
       "name": "Slack",
-      "description": "Talk to your assistant from Slack — a second door onto the same conversation the chat window shows.",
+      "description": "Talk to your assistant in a private Slack DM linked to your account.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-10-01",
-      "latestVersion": "1.4.3",
+      "published": "2026-10-25",
+      "latestVersion": "2.0.0",
       "versions": [
+        {
+          "version": "2.0.0",
+          "path": "slack/slack-2.0.0.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.106.0",
+          "sha256": "144034783ecc2a0430319b2940f9b062315fee5d64d341597808043466a90f9f"
+        },
         {
           "version": "1.4.3",
           "path": "slack/slack-1.4.3.zip",
