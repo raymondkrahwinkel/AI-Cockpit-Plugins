@@ -4285,12 +4285,19 @@
     {
       "id": "discord",
       "name": "Discord",
-      "description": "Talk to your assistant from Discord, in direct messages or one channel — a second door onto the same conversation the chat window shows. Adds a flow step that DMs you, and lets other plugins such as Schedules reach you there, with buttons to answer.",
+      "description": "Talk to your assistant from Discord in direct messages with your linked account — a second door onto the same conversation the chat window shows. Adds a flow step that DMs you, and lets other plugins such as Schedules reach you there, with buttons to answer.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-10-23",
-      "latestVersion": "1.7.0",
+      "published": "2026-10-25",
+      "latestVersion": "2.0.0",
       "versions": [
+        {
+          "version": "2.0.0",
+          "path": "discord/discord-2.0.0.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.106.0",
+          "sha256": "09d1cf7add9c83482006faf4e741ade1a563114bbb743c1d69ee94a0dbbe114d"
+        },
         {
           "version": "1.7.0",
           "path": "discord/discord-1.7.0.zip",
