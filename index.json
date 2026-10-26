@@ -4745,6 +4745,31 @@
           }
         }
       ]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "description": "Record your time and review time, tokens and costs by project, ticket and session over a selected range.",
+      "author": "Cockpit",
+      "category": "Productivity",
+      "audience": [
+        "planning-and-tracking-work"
+      ],
+      "icon": "⏱️",
+      "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
+      "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
+      "featured": false,
+      "published": "2026-10-26",
+      "latestVersion": "0.6.2",
+      "versions": [
+        {
+          "version": "0.6.2",
+          "path": "productivity/productivity-0.6.2.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.122.0",
+          "sha256": "a0b09a81e618b17ce4ed22c5fd4e91e63da467f204bd8c4c155ce67a7803e6aa"
+        }
+      ]
     }
   ],
   "templates": [
