@@ -4905,8 +4905,15 @@
       ],
       "featured": false,
       "published": "2026-10-27",
-      "latestVersion": "0.6.2",
+      "latestVersion": "0.6.3",
       "versions": [
+        {
+          "version": "0.6.3",
+          "path": "schedules/schedules-0.6.3.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.120.0",
+          "sha256": "72d4b20fe11259062d0d995e0c7e56c9d7cdc1cfee2f44defbea74336685e76e"
+        },
         {
           "version": "0.6.2",
           "path": "schedules/schedules-0.6.2.zip",
