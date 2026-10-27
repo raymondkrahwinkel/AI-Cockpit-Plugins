@@ -1817,9 +1817,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-10-05",
-      "latestVersion": "0.35.0",
+      "published": "2026-10-27",
+      "latestVersion": "0.35.1",
       "versions": [
+        {
+          "version": "0.35.1",
+          "path": "workflows/workflows-0.35.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.126.0",
+          "sha256": "380553b9535156f166114053d48f59373afcbb836fae036db6263c7c986d0f55"
+        },
         {
           "version": "0.35.0",
           "path": "workflows/workflows-0.35.0.zip",
