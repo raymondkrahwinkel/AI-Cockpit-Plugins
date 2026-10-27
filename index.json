@@ -4794,8 +4794,33 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-10-27",
-      "latestVersion": "0.8.2",
+      "latestVersion": "0.8.3",
       "versions": [
+        {
+          "version": "0.8.3",
+          "path": "browser/browser-0.8.3-win-x64.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.121.0",
+          "sha256": "4f3bda1c0edcb0c9ba93d58ba6218ab187b3671309619e022a2e50576cf55d9b",
+          "packages": {
+            "win-x64": {
+              "path": "browser/browser-0.8.3-win-x64.zip",
+              "sha256": "4f3bda1c0edcb0c9ba93d58ba6218ab187b3671309619e022a2e50576cf55d9b"
+            },
+            "win-arm64": {
+              "path": "browser/browser-0.8.3-win-arm64.zip",
+              "sha256": "39639e187f27d140fbd5fc00404bf6f70df21ec9487271c99b7a3d3b754975ac"
+            },
+            "linux-x64": {
+              "path": "browser/browser-0.8.3-linux-x64.zip",
+              "sha256": "923632787186a80c1bdce6d745f14ae26852a9b5c45db3fb80e77ced2494a727"
+            },
+            "linux-arm64": {
+              "path": "browser/browser-0.8.3-linux-arm64.zip",
+              "sha256": "f8de635b5664b5f815e2456481c149d47bbcd24f4f4d4b19a6261365f9be333c"
+            }
+          }
+        },
         {
           "version": "0.8.2",
           "path": "browser/browser-0.8.2-win-x64.zip",
