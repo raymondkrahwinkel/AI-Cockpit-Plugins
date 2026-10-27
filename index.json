@@ -4354,8 +4354,15 @@
       "author": "Cockpit",
       "featured": false,
       "published": "2026-10-27",
-      "latestVersion": "0.5.3",
+      "latestVersion": "0.5.5",
       "versions": [
+        {
+          "version": "0.5.5",
+          "path": "openrouter-provider/openrouter-provider-0.5.5.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.83.0",
+          "sha256": "0d84d12053d970366e68972a11a40f9dab0c0851bb46c7f14110e6cd6434bea6"
+        },
         {
           "version": "0.5.3",
           "path": "openrouter-provider/openrouter-provider-0.5.3.zip",
