@@ -5065,9 +5065,16 @@
         "running-systems"
       ],
       "featured": false,
-      "published": "2026-10-27",
-      "latestVersion": "0.3.4",
+      "published": "2026-10-28",
+      "latestVersion": "0.3.5",
       "versions": [
+        {
+          "version": "0.3.5",
+          "path": "kind/kind-0.3.5.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.46.0",
+          "sha256": "635190040ca0f9b2f241118a09cd333e3212df56353a1a24d8a5eb91353fe206"
+        },
         {
           "version": "0.3.4",
           "path": "kind/kind-0.3.4.zip",
