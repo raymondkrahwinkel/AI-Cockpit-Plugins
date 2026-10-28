@@ -3982,9 +3982,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-27",
-      "latestVersion": "0.26.0",
+      "published": "2026-10-28",
+      "latestVersion": "0.26.1",
       "versions": [
+        {
+          "version": "0.26.1",
+          "path": "depot/depot-0.26.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.130.0",
+          "sha256": "13d42ae6bb1b8860de3aefe93af88aa1908dd0f29609d4d103624fbc51320937"
+        },
         {
           "version": "0.26.0",
           "path": "depot/depot-0.26.0.zip",
