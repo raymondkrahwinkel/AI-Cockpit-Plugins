@@ -197,9 +197,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-27",
-      "latestVersion": "1.4.8",
+      "published": "2026-10-28",
+      "latestVersion": "1.4.9",
       "versions": [
+        {
+          "version": "1.4.9",
+          "path": "prompt-library/prompt-library-1.4.9.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.126.0",
+          "sha256": "43b3791fe15b6ec8f4277e33877cca824cd00eff286ad0b7f02b8a62bf9e0d8d"
+        },
         {
           "version": "1.4.8",
           "path": "prompt-library/prompt-library-1.4.8.zip",
