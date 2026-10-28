@@ -4212,9 +4212,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-27",
-      "latestVersion": "0.1.10",
+      "published": "2026-10-28",
+      "latestVersion": "0.1.11",
       "versions": [
+        {
+          "version": "0.1.11",
+          "path": "fan-out/fan-out-0.1.11.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.46.0",
+          "sha256": "1c25c175d0e9365b48763e6f6cc369326bd35459397a2204aed45ee08dec4dfe"
+        },
         {
           "version": "0.1.10",
           "path": "fan-out/fan-out-0.1.10.zip",
