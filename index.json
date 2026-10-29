@@ -3053,9 +3053,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-28",
-      "latestVersion": "0.8.4",
+      "published": "2026-10-29",
+      "latestVersion": "0.8.5",
       "versions": [
+        {
+          "version": "0.8.5",
+          "path": "kubernetes/kubernetes-0.8.5.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.151.0",
+          "sha256": "50cbfd6cda3e27f657e338908b838bfc9841ecb9b61e171cf04b6d090d595e90"
+        },
         {
           "version": "0.8.4",
           "path": "kubernetes/kubernetes-0.8.4.zip",
