@@ -5013,9 +5013,16 @@
       "description": "Talk to your assistant in a private Slack DM linked to your account.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-10-28",
-      "latestVersion": "2.0.2",
+      "published": "2026-10-29",
+      "latestVersion": "2.0.3",
       "versions": [
+        {
+          "version": "2.0.3",
+          "path": "slack/slack-2.0.3.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.151.0",
+          "sha256": "8d2be53fbbc7a0c47682b12f8e82dae68915020219e07e3669f373755ea45f5f"
+        },
         {
           "version": "2.0.2",
           "path": "slack/slack-2.0.2.zip",
