@@ -4862,9 +4862,16 @@
       "description": "Talk to your assistant from Discord in direct messages with your linked account — a second door onto the same conversation the chat window shows. Adds a flow step that DMs you, and lets other plugins such as Schedules reach you there, with buttons to answer.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-10-28",
-      "latestVersion": "2.0.2",
+      "published": "2026-10-29",
+      "latestVersion": "2.0.4",
       "versions": [
+        {
+          "version": "2.0.4",
+          "path": "discord/discord-2.0.4.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.151.0",
+          "sha256": "e4fc0aae58c382adad307250127a7f4c975188e4b9e928e56b129221d6a6c5b5"
+        },
         {
           "version": "2.0.2",
           "path": "discord/discord-2.0.2.zip",
