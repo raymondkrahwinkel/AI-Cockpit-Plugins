@@ -4580,9 +4580,16 @@
       "description": "Adds Grok (xAI) as a selectable session provider, over its OpenAI-compatible legacy chat-completions endpoint (api.x.ai/v1) via Microsoft.Extensions.AI. Runs the session's MCP tools through the cockpit, which gates every call. Configure an xAI API key and model (e.g. grok-4.6) per profile in Manage profiles. Experimental.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-10-30",
-      "latestVersion": "0.4.9",
+      "published": "2026-10-31",
+      "latestVersion": "0.4.14",
       "versions": [
+        {
+          "version": "0.4.14",
+          "path": "grok-provider/grok-provider-0.4.14.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.83.0",
+          "sha256": "c64630866567251d8e555dbac92dff9b8ac50b476e06552def4301fce28f4d4f"
+        },
         {
           "version": "0.4.9",
           "path": "grok-provider/grok-provider-0.4.9.zip",
