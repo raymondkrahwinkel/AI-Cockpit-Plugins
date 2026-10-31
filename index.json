@@ -4844,16 +4844,23 @@
     {
       "id": "opencode-provider",
       "name": "opencode Provider (ACP)",
-      "description": "Adds opencode as a session provider, driven over the Agent Client Protocol (JSON-RPC 2.0 over stdio) via `opencode acp` — a persistent process for the whole session, with streaming text/thinking, real tool calls and live permission prompts routed through Cockpit's own consent card. Requires the opencode CLI installed on this machine (opencode.ai/docs); most models also need authentication (an API key, or `opencode auth login`) though opencode's own free-tier models need neither. Live usage/cost figures stream per turn over ACP's usage_update notification. opencode has no way to receive a system prompt over ACP, so a profile identity or project instruction is not applied — the session says so in the transcript rather than dropping it silently.",
+      "description": "Adds opencode as a session provider, driven over the Agent Client Protocol (JSON-RPC 2.0 over stdio) via `opencode acp` — a persistent process for the whole session, with streaming text/thinking, real tool calls and live permission prompts routed through Cockpit's own consent card. Requires the opencode CLI installed on this machine (opencode.ai/docs); most models also need authentication (an API key, or `opencode auth login`) though opencode's own free-tier models need neither. Live usage/cost figures stream per turn over ACP's usage_update notification. opencode has no way to receive a system prompt over ACP, so a profile identity or project instruction is not applied — the session says so in the transcript rather than dropping it silently. The one exception is a brain chosen for the profile, project or assistant: it goes to opencode as the first message of a new session.",
       "author": "Cockpit",
       "category": "AI providers",
       "icon": "🔓",
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-30",
-      "latestVersion": "0.1.12",
+      "published": "2026-10-31",
+      "latestVersion": "0.1.20",
       "versions": [
+        {
+          "version": "0.1.20",
+          "path": "opencode-provider/opencode-provider-0.1.20.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.46.0",
+          "sha256": "c194d15610a835e48bed5377cec8c0aee499548e195d3430522818fcb58fe019"
+        },
         {
           "version": "0.1.12",
           "path": "opencode-provider/opencode-provider-0.1.12.zip",
