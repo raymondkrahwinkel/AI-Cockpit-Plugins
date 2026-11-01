@@ -1439,9 +1439,34 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-30",
-      "latestVersion": "0.10.12",
+      "published": "2026-11-01",
+      "latestVersion": "0.11.3",
       "versions": [
+        {
+          "version": "0.11.3",
+          "path": "cli-agent-provider/cli-agent-provider-0.11.3-win-x64.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.129.0",
+          "sha256": "d776ef85024d39c9129cfd6a3d07e912649935f874000457fe4eb2431bf5914a",
+          "packages": {
+            "win-x64": {
+              "path": "cli-agent-provider/cli-agent-provider-0.11.3-win-x64.zip",
+              "sha256": "d776ef85024d39c9129cfd6a3d07e912649935f874000457fe4eb2431bf5914a"
+            },
+            "win-arm64": {
+              "path": "cli-agent-provider/cli-agent-provider-0.11.3-win-arm64.zip",
+              "sha256": "7bb10807ce3c6f37e00513eef1a97cd44fcf09b6a6f2b4a46f550ddf418d786a"
+            },
+            "linux-x64": {
+              "path": "cli-agent-provider/cli-agent-provider-0.11.3-linux-x64.zip",
+              "sha256": "3fc6b0571b32aa7fb2b92cd50c098940fefb369ecca963e49a4326d340d77a35"
+            },
+            "linux-arm64": {
+              "path": "cli-agent-provider/cli-agent-provider-0.11.3-linux-arm64.zip",
+              "sha256": "19c086e8cc60248adb7fa312f128a3bbbf2e1d7668fb45398d9795c5b8afd20d"
+            }
+          }
+        },
         {
           "version": "0.10.12",
           "path": "cli-agent-provider/cli-agent-provider-0.10.12.zip",
