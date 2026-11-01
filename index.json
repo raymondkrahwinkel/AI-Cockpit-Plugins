@@ -2497,9 +2497,34 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-31",
-      "latestVersion": "0.30.2",
+      "published": "2026-11-01",
+      "latestVersion": "0.30.3",
       "versions": [
+        {
+          "version": "0.30.3",
+          "path": "claude-provider/claude-provider-0.30.3-win-x64.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.155.0",
+          "sha256": "4ed7c753808fcb45b60faffff7f932e1a4cddae65d13536d8f9cb193b75172f4",
+          "packages": {
+            "win-x64": {
+              "path": "claude-provider/claude-provider-0.30.3-win-x64.zip",
+              "sha256": "4ed7c753808fcb45b60faffff7f932e1a4cddae65d13536d8f9cb193b75172f4"
+            },
+            "win-arm64": {
+              "path": "claude-provider/claude-provider-0.30.3-win-arm64.zip",
+              "sha256": "48627d7a77c70447dc4d7c54402922de3fa38917d941f0217e38a17e1b5bc5fb"
+            },
+            "linux-x64": {
+              "path": "claude-provider/claude-provider-0.30.3-linux-x64.zip",
+              "sha256": "55159b9e4d1da13f90f21914626e17d725b06cef55232be36107948bd3041037"
+            },
+            "linux-arm64": {
+              "path": "claude-provider/claude-provider-0.30.3-linux-arm64.zip",
+              "sha256": "312c8c0bcc9f30ba824d7fa96a49cdf03ecb4a3b7b6a9207b81832414a84ae6b"
+            }
+          }
+        },
         {
           "version": "0.30.2",
           "path": "claude-provider/claude-provider-0.30.2-win-x64.zip",
