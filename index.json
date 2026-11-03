@@ -5719,9 +5719,34 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-02",
-      "latestVersion": "0.10.0",
+      "published": "2026-11-03",
+      "latestVersion": "0.12.0",
       "versions": [
+        {
+          "version": "0.12.0",
+          "path": "browser/browser-0.12.0-win-x64.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.152.0",
+          "sha256": "82a59bf4f02839944accbaba150d489f288c91ec8f09d87a1d0b93f198ca16f9",
+          "packages": {
+            "win-x64": {
+              "path": "browser/browser-0.12.0-win-x64.zip",
+              "sha256": "82a59bf4f02839944accbaba150d489f288c91ec8f09d87a1d0b93f198ca16f9"
+            },
+            "win-arm64": {
+              "path": "browser/browser-0.12.0-win-arm64.zip",
+              "sha256": "62c69a1d667261e6262d7a5e484e8e67563f1d6e19c05b40e551933c08cf10b8"
+            },
+            "linux-x64": {
+              "path": "browser/browser-0.12.0-linux-x64.zip",
+              "sha256": "bd80c857aca2e7fcc1977c3ef26fa1fd5174e3fe57c1985d4412d57313426d31"
+            },
+            "linux-arm64": {
+              "path": "browser/browser-0.12.0-linux-arm64.zip",
+              "sha256": "aa04ccc5390a41e637970808bd677b7115a87f3404d76f159223f898cbf8132a"
+            }
+          }
+        },
         {
           "version": "0.10.0",
           "path": "browser/browser-0.10.0-win-x64.zip",
