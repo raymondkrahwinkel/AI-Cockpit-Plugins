@@ -6177,9 +6177,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-29",
-      "latestVersion": "0.8.3",
+      "published": "2026-11-05",
+      "latestVersion": "0.8.4",
       "versions": [
+        {
+          "version": "0.8.4",
+          "path": "productivity/productivity-0.8.4.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.126.0",
+          "sha256": "808d5ec09c984a2707d23133a1fd3e9be19a25ef395777e58e50c35300454b9b"
+        },
         {
           "version": "0.8.3",
           "path": "productivity/productivity-0.8.3.zip",
