@@ -5632,16 +5632,23 @@
     },
     {
       "id": "proxmox",
-      "name": "Proxmox VE",
-      "description": "Register a Proxmox VE host or cluster and give agents scoped, human-approved access to its nodes, VMs and LXC containers through an mcp__cockpit-proxmox__* server. The plugin talks to the Proxmox REST API itself and keeps the API token — an agent never gets it. Connecting asks for consent once (reads are free after that), and every change (start/stop/shutdown/reboot/snapshot) asks afresh with the literal action shown and is never remembered. Rolling back a snapshot and deleting a VM or LXC container are off until you turn them on. Self-signed certificates are trusted only after you confirm the shown fingerprint in the plugin settings.",
+      "name": "Proxmox VE & Backup Server",
+      "description": "Register Proxmox VE hosts or clusters and Proxmox Backup Servers, then give agents scoped, human-approved access through an mcp__cockpit-proxmox__* server. The plugin keeps API tokens private, asks consent once per target for reads, and asks afresh for every action. PBS support covers datastores, backups, tasks, jobs, verify-job starts and garbage collection; it never deletes, prunes or changes backup protection. Self-signed certificates are trusted only after you confirm the shown fingerprint in the plugin settings.",
       "author": "Cockpit",
       "audience": [
         "running-systems"
       ],
       "featured": false,
       "published": "2026-11-05",
-      "latestVersion": "0.3.0",
+      "latestVersion": "0.4.0",
       "versions": [
+        {
+          "version": "0.4.0",
+          "path": "proxmox/proxmox-0.4.0.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.151.0",
+          "sha256": "216f9e8dadec6e0af7359a4645d3588e1eb01645d54848a11cd3106e5bb44e95"
+        },
         {
           "version": "0.3.0",
           "path": "proxmox/proxmox-0.3.0.zip",
