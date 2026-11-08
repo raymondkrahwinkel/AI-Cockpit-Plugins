@@ -3566,7 +3566,7 @@
     {
       "id": "docker",
       "name": "Docker",
-      "description": "Register the local Docker daemon and give agents scoped, human-approved access to containers through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Every call is gated: the first touch of the daemon asks for consent (reads are free after that), and every change (start/stop/remove/run) asks afresh with the literal command shown and is never remembered. Exec is off until you turn it on. A per-daemon consent mode (Always ask / Read-free / All-free) can pre-approve reads or everything, visibly, in the plugin settings. Configure the daemon endpoint in the plugin settings (blank uses the local default socket).",
+      "description": "Register the local Docker daemon and give agents scoped, human-approved access to containers through an mcp__cockpit-docker__* server. The plugin talks to the Docker Engine API itself (via Docker.DotNet) and keeps the connection — an agent never gets the Docker socket. Every call is gated: the first touch of the daemon asks for consent (reads are free after that), and every change (start/stop/remove/run) asks afresh with the literal command shown and is never remembered. Exec is off until you turn it on. A per-daemon consent mode (Always ask / Read-free / All-free) can pre-approve reads or everything, visibly, in the plugin settings. Remote hosts are not supported yet. SDK operations use the local default socket; CLI operations use the Docker CLI environment and context. Saved endpoint overrides are ignored.",
       "author": "Cockpit",
       "category": "Automation",
       "audience": [
@@ -3576,9 +3576,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-29",
-      "latestVersion": "0.4.5",
+      "published": "2026-11-08",
+      "latestVersion": "0.4.6",
       "versions": [
+        {
+          "version": "0.4.6",
+          "path": "docker/docker-0.4.6.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.151.0",
+          "sha256": "d7f4d7b6c7a1e651c4a67bd8a073ae794c9ffaa015145bd544145a453fb37a15"
+        },
         {
           "version": "0.4.5",
           "path": "docker/docker-0.4.5.zip",
