@@ -5986,9 +5986,16 @@
         "planning-and-tracking-work"
       ],
       "featured": false,
-      "published": "2026-11-03",
-      "latestVersion": "0.8.0",
+      "published": "2026-11-08",
+      "latestVersion": "0.8.2",
       "versions": [
+        {
+          "version": "0.8.2",
+          "path": "schedules/schedules-0.8.2.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.160.0",
+          "sha256": "63b9d91fa5d9c1fdc923421ebb7d547f3ab1c3eafccbd6d3055b97fd196df7a4"
+        },
         {
           "version": "0.8.0",
           "path": "schedules/schedules-0.8.0.zip",
