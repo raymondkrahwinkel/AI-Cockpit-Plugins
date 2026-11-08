@@ -1265,9 +1265,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-05",
-      "latestVersion": "0.8.0",
+      "published": "2026-11-08",
+      "latestVersion": "0.8.1",
       "versions": [
+        {
+          "version": "0.8.1",
+          "path": "gemini-provider/gemini-provider-0.8.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.155.0",
+          "sha256": "03de5c015cb38edff492b99d60e42019df67f34d10ddfaf0a739ccf3dc52821f"
+        },
         {
           "version": "0.8.0",
           "path": "gemini-provider/gemini-provider-0.8.0.zip",
