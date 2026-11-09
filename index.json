@@ -6548,6 +6548,27 @@
           "sha256": "02bffd5cf532ba4a6b4053d4fcb0a6837263de6d7c1c489f32bb812269d77e2a"
         }
       ]
+    },
+    {
+      "id": "remote-files",
+      "name": "Remote files",
+      "description": "Browse, view and edit files on SFTP, FTPS, FTP and WebDAV servers in Cockpit's file browser. A server's host key or certificate is shown to you and trusted before anything of your login is sent, and a changed key is refused. Passwords and keys are stored as secrets. Each connection is read only until you allow writing. On a Cockpit server, the connection runs from the server.",
+      "author": "Cockpit",
+      "audience": [
+        "documents-and-design"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "latestVersion": "0.2.1",
+      "versions": [
+        {
+          "version": "0.2.1",
+          "path": "remote-files/remote-files-0.2.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.170.0",
+          "sha256": "e2297ec66e59a19a9b286d356790524af9effcefdb4c22b392a2fc35c42e1239"
+        }
+      ]
     }
   ],
   "templates": [
