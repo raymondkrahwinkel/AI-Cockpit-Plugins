@@ -6795,9 +6795,16 @@
         "documents-and-design"
       ],
       "featured": false,
-      "published": "2026-11-09",
-      "latestVersion": "0.1.1",
+      "published": "2026-11-10",
+      "latestVersion": "0.1.2",
       "versions": [
+        {
+          "version": "0.1.2",
+          "path": "local-files/local-files-0.1.2.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.170.0",
+          "sha256": "828e7a7a12f8d8d77a8a6c941494a67b9f4d42ef5eaea8e25d6e00c55dc63693"
+        },
         {
           "version": "0.1.1",
           "path": "local-files/local-files-0.1.1.zip",
