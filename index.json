@@ -16,9 +16,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-10-29",
-      "latestVersion": "1.9.7",
+      "published": "2026-11-10",
+      "latestVersion": "1.9.8",
       "versions": [
+        {
+          "version": "1.9.8",
+          "path": "git-status/git-status-1.9.8.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.46.0",
+          "sha256": "bc445b4c972f8c573fc400088f246a155623b87571a8062d63233b69b4519b15"
+        },
         {
           "version": "1.9.7",
           "path": "git-status/git-status-1.9.7.zip",
