@@ -4864,8 +4864,16 @@
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
       "published": "2026-11-10",
-      "latestVersion": "0.65.0",
+      "latestVersion": "0.65.1",
       "versions": [
+        {
+          "version": "0.65.1",
+          "path": "depot/depot-0.65.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.179.0",
+          "sha256": "c8775cf8272f9189a7fe86319815dc49a8525951f9d84dd2b8d0acd6e9b62514",
+          "notes": "AC-2304: Depot gateway has its own sign-in and no longer overwrites the Depot connection's authorization."
+        },
         {
           "version": "0.65.0",
           "path": "depot/depot-0.65.0.zip",
