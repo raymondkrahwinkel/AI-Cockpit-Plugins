@@ -6858,9 +6858,16 @@
         "documents-and-design"
       ],
       "featured": false,
-      "published": "2026-11-09",
-      "latestVersion": "0.2.1",
+      "published": "2026-11-10",
+      "latestVersion": "0.2.2",
       "versions": [
+        {
+          "version": "0.2.2",
+          "path": "remote-files/remote-files-0.2.2.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.170.0",
+          "sha256": "148c494b8379ed22c6b3d73a73c487d158943e2a0af1cf3a2e7ff73af6f31afa"
+        },
         {
           "version": "0.2.1",
           "path": "remote-files/remote-files-0.2.1.zip",
