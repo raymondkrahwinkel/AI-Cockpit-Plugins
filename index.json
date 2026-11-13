@@ -1314,9 +1314,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-10",
-      "latestVersion": "0.8.2",
+      "published": "2026-11-13",
+      "latestVersion": "0.8.3",
       "versions": [
+        {
+          "version": "0.8.3",
+          "path": "gemini-provider/gemini-provider-0.8.3.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.155.0",
+          "sha256": "ff0fd79cbec5c8c4d5c44c82f24c5f1ae5f283649b58015a44db076caacdb0cd"
+        },
         {
           "version": "0.8.2",
           "path": "gemini-provider/gemini-provider-0.8.2.zip",
@@ -2320,9 +2327,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": true,
-      "published": "2026-11-10",
-      "latestVersion": "0.36.4",
+      "published": "2026-11-13",
+      "latestVersion": "0.36.5",
       "versions": [
+        {
+          "version": "0.36.5",
+          "path": "workflows/workflows-0.36.5.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.158.0",
+          "sha256": "05be42f303e7b71d894a99dd98b8ddf6578b92091bc2dec696e88d82d564a05a"
+        },
         {
           "version": "0.36.4",
           "path": "workflows/workflows-0.36.4.zip",
@@ -4863,9 +4877,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-10",
-      "latestVersion": "0.65.2",
+      "published": "2026-11-13",
+      "latestVersion": "0.66.1",
       "versions": [
+        {
+          "version": "0.66.1",
+          "path": "depot/depot-0.66.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.181.0",
+          "sha256": "ac2137f4a26fd33fd53abed26659bc9ae09bba826218a764e5cad1b87f69a7eb"
+        },
         {
           "version": "0.65.2",
           "path": "depot/depot-0.65.2.zip",
@@ -5273,9 +5294,16 @@
       "description": "Adds Grok (xAI) as a selectable session provider, over its OpenAI-compatible legacy chat-completions endpoint (api.x.ai/v1) via Microsoft.Extensions.AI. Runs the session's MCP tools through the cockpit, which gates every call. Configure an xAI API key and model (e.g. grok-4.6) per profile in Manage profiles. Experimental.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-11-10",
-      "latestVersion": "0.5.2",
+      "published": "2026-11-13",
+      "latestVersion": "0.5.3",
       "versions": [
+        {
+          "version": "0.5.3",
+          "path": "grok-provider/grok-provider-0.5.3.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.155.0",
+          "sha256": "39e783f66ae52aa4e487e9885de0971f49e0effaaa4988f8debf430540693260"
+        },
         {
           "version": "0.5.2",
           "path": "grok-provider/grok-provider-0.5.2.zip",
@@ -5431,9 +5459,16 @@
       "description": "Adds OpenRouter as a selectable session provider, over its OpenAI-compatible chat-completions endpoint (openrouter.ai/api/v1) via Microsoft.Extensions.AI. Runs the session's MCP tools through the cockpit, which gates every call. Configure an OpenRouter API key and vendor/model id (e.g. anthropic/claude-sonnet-4.5) per profile in Manage profiles. Experimental.",
       "author": "Cockpit",
       "featured": false,
-      "published": "2026-11-10",
-      "latestVersion": "0.5.20",
+      "published": "2026-11-13",
+      "latestVersion": "0.5.21",
       "versions": [
+        {
+          "version": "0.5.21",
+          "path": "openrouter-provider/openrouter-provider-0.5.21.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.155.0",
+          "sha256": "43508831711d5d166fbad60f3260f5698a82eecf7220250de6461ca419570197"
+        },
         {
           "version": "0.5.20",
           "path": "openrouter-provider/openrouter-provider-0.5.20.zip",
@@ -6353,9 +6388,16 @@
         "planning-and-tracking-work"
       ],
       "featured": false,
-      "published": "2026-11-10",
-      "latestVersion": "0.8.3",
+      "published": "2026-11-13",
+      "latestVersion": "0.9.1",
       "versions": [
+        {
+          "version": "0.9.1",
+          "path": "schedules/schedules-0.9.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.176.0",
+          "sha256": "a0386991e0abf984673ba7012f1d74504db66cbc3518e6c08b026d9d69d2fcac"
+        },
         {
           "version": "0.8.3",
           "path": "schedules/schedules-0.8.3.zip",
@@ -6438,9 +6480,34 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-10",
-      "latestVersion": "0.12.5",
+      "published": "2026-11-13",
+      "latestVersion": "0.12.6",
       "versions": [
+        {
+          "version": "0.12.6",
+          "path": "browser/browser-0.12.6-win-x64.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.152.0",
+          "sha256": "2cfb163bc0b9cb0938565485a6f342bea1d5bdb020d7ff5c9e217b42ffcefc34",
+          "packages": {
+            "win-x64": {
+              "path": "browser/browser-0.12.6-win-x64.zip",
+              "sha256": "2cfb163bc0b9cb0938565485a6f342bea1d5bdb020d7ff5c9e217b42ffcefc34"
+            },
+            "win-arm64": {
+              "path": "browser/browser-0.12.6-win-arm64.zip",
+              "sha256": "021dc08c521e4d3232940f4911b16872afa95587b21ea38aeebae641ead9fd87"
+            },
+            "linux-x64": {
+              "path": "browser/browser-0.12.6-linux-x64.zip",
+              "sha256": "8c0ba0af3fd212bad9a70dcb387ffbf957aae95adfc6051d12d436c2a4b5fa8d"
+            },
+            "linux-arm64": {
+              "path": "browser/browser-0.12.6-linux-arm64.zip",
+              "sha256": "1f471a5d2cdf5f89b5659da4d205ea217eb4227972de2b82c524d53ff7a84c49"
+            }
+          }
+        },
         {
           "version": "0.12.5",
           "path": "browser/browser-0.12.5-win-x64.zip",
@@ -6945,6 +7012,69 @@
           "abstractionsVersion": 3,
           "minHostVersion": "0.170.0",
           "sha256": "e2297ec66e59a19a9b286d356790524af9effcefdb4c22b392a2fc35c42e1239"
+        }
+      ]
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "description": "Connects one Bitwarden Secrets Manager project to Cockpit's vault, so agents can use its secrets without ever seeing a value: vault_run starts a command you approve with the secret in its environment. Uses a machine account through the official `bws` CLI, which Cockpit can install (SHA-256 verified) or which you pin on PATH. The machine account must read exactly one project, ideally a separate one such as \"Agents\"; a token that reads more is refused. Needs Cockpit's credential encryption to be on: the token is stored encrypted by the vault and handed to `bws` only as BWS_ACCESS_TOKEN in its environment.",
+      "author": "Cockpit",
+      "audience": [
+        "running-systems"
+      ],
+      "featured": false,
+      "published": "2026-11-13",
+      "latestVersion": "0.1.1",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "path": "bitwarden/bitwarden-0.1.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.182.0",
+          "sha256": "2aad10333034dc7245adcbb9e072119c76aefe3624adae2db16cee7e48f2fc90"
+        }
+      ]
+    },
+    {
+      "id": "matomo",
+      "name": "Matomo",
+      "description": "Give agents read-only access to the reports of your own Matomo server through an mcp__cockpit-matomo__* server. The plugin calls the Matomo Reporting API itself with a token that has view rights only, and keeps that token private: an agent never sees it. You choose which sites agents may read. Nothing is ever written to Matomo.",
+      "author": "Cockpit",
+      "audience": [
+        "running-systems"
+      ],
+      "featured": false,
+      "published": "2026-11-13",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "path": "matomo/matomo-0.1.0.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.151.0",
+          "sha256": "65c4b3a6fda9eb501a3d9a4ce8cba2aa087703698af21569bdfa60c50dcc86b4"
+        }
+      ]
+    },
+    {
+      "id": "onepassword",
+      "name": "1Password",
+      "description": "Connects one 1Password vault to Cockpit's vault, so agents can use its items without ever seeing a value: vault_run starts a command you approve with the secret in its environment. Uses a 1Password service account through the official `op` CLI (version 2.18.0 or later, installed on this machine or pinned on PATH). The service account must read exactly one vault, ideally a separate one such as \"Agents\"; a token that reads more is refused. Needs Cockpit's credential encryption to be on: the token is stored encrypted by the vault and handed to `op` only as OP_SERVICE_ACCOUNT_TOKEN in its environment.",
+      "author": "Cockpit",
+      "audience": [
+        "running-systems"
+      ],
+      "featured": false,
+      "published": "2026-11-13",
+      "latestVersion": "0.1.1",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "path": "onepassword/onepassword-0.1.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.182.0",
+          "sha256": "a93b9c7d04f833be1b0f0a0158c2af5d868479283ef48f47331ec4980688d781"
         }
       ]
     }
