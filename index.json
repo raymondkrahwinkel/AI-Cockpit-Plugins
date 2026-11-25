@@ -2807,9 +2807,34 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-10",
-      "latestVersion": "0.36.2",
+      "published": "2026-11-25",
+      "latestVersion": "0.36.3",
       "versions": [
+        {
+          "version": "0.36.3",
+          "path": "claude-provider/claude-provider-0.36.3-win-x64.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.174.0",
+          "sha256": "c6b06b13e58c47e42e0da6515ed1e79036875731f75c33b10e613e0dadebe1c0",
+          "packages": {
+            "win-x64": {
+              "path": "claude-provider/claude-provider-0.36.3-win-x64.zip",
+              "sha256": "c6b06b13e58c47e42e0da6515ed1e79036875731f75c33b10e613e0dadebe1c0"
+            },
+            "win-arm64": {
+              "path": "claude-provider/claude-provider-0.36.3-win-arm64.zip",
+              "sha256": "8645ced940605fce3ae49bc8c65faba4de8ac25e17d53b4c3e2877e71538dc1c"
+            },
+            "linux-x64": {
+              "path": "claude-provider/claude-provider-0.36.3-linux-x64.zip",
+              "sha256": "94dbaec0c287f09e1627fa70694829dd86c5f9485f7836babb6f9efe1af033ec"
+            },
+            "linux-arm64": {
+              "path": "claude-provider/claude-provider-0.36.3-linux-arm64.zip",
+              "sha256": "a6514a9d5185a8934df034ba11e13784d2defd3b1227e8a28648ffabbb052c28"
+            }
+          }
+        },
         {
           "version": "0.36.2",
           "path": "claude-provider/claude-provider-0.36.2-win-x64.zip",
@@ -4877,9 +4902,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-13",
-      "latestVersion": "0.66.1",
+      "published": "2026-11-25",
+      "latestVersion": "0.66.2",
       "versions": [
+        {
+          "version": "0.66.2",
+          "path": "depot/depot-0.66.2.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.181.0",
+          "sha256": "be82144facfe2e32c9cb39d23d0462da467bb002ece798cd26a10eaa97a39c5e"
+        },
         {
           "version": "0.66.1",
           "path": "depot/depot-0.66.1.zip",
@@ -6480,9 +6512,34 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-13",
-      "latestVersion": "0.12.6",
+      "published": "2026-11-25",
+      "latestVersion": "0.12.7",
       "versions": [
+        {
+          "version": "0.12.7",
+          "path": "browser/browser-0.12.7-win-x64.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.152.0",
+          "sha256": "7edaa4fd73a541403bc06a82e271acca3cf326d19a06a92e8f8f30722676c063",
+          "packages": {
+            "win-x64": {
+              "path": "browser/browser-0.12.7-win-x64.zip",
+              "sha256": "7edaa4fd73a541403bc06a82e271acca3cf326d19a06a92e8f8f30722676c063"
+            },
+            "win-arm64": {
+              "path": "browser/browser-0.12.7-win-arm64.zip",
+              "sha256": "cca30c61917722e2de10f226d26d29f484771c28d77e3e061b5ead4d27e30f86"
+            },
+            "linux-x64": {
+              "path": "browser/browser-0.12.7-linux-x64.zip",
+              "sha256": "89f3ccab40d79626486349c4421ddb31fe19a7d533c53cc779a059d01a52f6b5"
+            },
+            "linux-arm64": {
+              "path": "browser/browser-0.12.7-linux-arm64.zip",
+              "sha256": "49646a7da2812c618574003590ad6c5d924b8ab34bf88bb2451c92d33593cc54"
+            }
+          }
+        },
         {
           "version": "0.12.6",
           "path": "browser/browser-0.12.6-win-x64.zip",
@@ -7024,9 +7081,16 @@
         "running-systems"
       ],
       "featured": false,
-      "published": "2026-11-13",
-      "latestVersion": "0.1.1",
+      "published": "2026-11-25",
+      "latestVersion": "0.2.0",
       "versions": [
+        {
+          "version": "0.2.0",
+          "path": "bitwarden/bitwarden-0.2.0.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.184.0",
+          "sha256": "50584f41bf3a2fb3914b609ceb1b12826d78b7880cd5af871bba6f57e794d4af"
+        },
         {
           "version": "0.1.1",
           "path": "bitwarden/bitwarden-0.1.1.zip",
@@ -7060,15 +7124,22 @@
     {
       "id": "onepassword",
       "name": "1Password",
-      "description": "Connects one 1Password vault to Cockpit's vault, so agents can use its items without ever seeing a value: vault_run starts a command you approve with the secret in its environment. Uses a 1Password service account through the official `op` CLI (version 2.18.0 or later, installed on this machine or pinned on PATH). The service account must read exactly one vault, ideally a separate one such as \"Agents\"; a token that reads more is refused. Needs Cockpit's credential encryption to be on: the token is stored encrypted by the vault and handed to `op` only as OP_SERVICE_ACCOUNT_TOKEN in its environment.",
+      "description": "Connects one 1Password vault to Cockpit's vault, so agents can use its items without ever seeing a value: vault_run starts a command you approve with the secret in its environment. Uses a 1Password service account through the official `op` CLI (version 2.23.0 or later, installed and updated by Cockpit after signature verification). The service account must read exactly one vault, ideally a separate one such as \"Agents\"; a token that reads more is refused. Needs Cockpit's credential encryption to be on: the token is stored encrypted by the vault and handed to `op` only as OP_SERVICE_ACCOUNT_TOKEN in its environment.",
       "author": "Cockpit",
       "audience": [
         "running-systems"
       ],
       "featured": false,
-      "published": "2026-11-13",
-      "latestVersion": "0.1.1",
+      "published": "2026-11-25",
+      "latestVersion": "0.3.0",
       "versions": [
+        {
+          "version": "0.3.0",
+          "path": "onepassword/onepassword-0.3.0.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.184.0",
+          "sha256": "1c880b9b04ae2ad623d4d0c93c65944602389ed375e95d555fde32f226b4599e"
+        },
         {
           "version": "0.1.1",
           "path": "onepassword/onepassword-0.1.1.zip",
