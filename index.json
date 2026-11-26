@@ -7130,9 +7130,16 @@
         "running-systems"
       ],
       "featured": false,
-      "published": "2026-11-25",
-      "latestVersion": "0.3.0",
+      "published": "2026-11-26",
+      "latestVersion": "0.3.1",
       "versions": [
+        {
+          "version": "0.3.1",
+          "path": "onepassword/onepassword-0.3.1.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.184.0",
+          "sha256": "1f6da889dc684978dfb81adf3368214a00889efd87b70e01f1efce8592f23345"
+        },
         {
           "version": "0.3.0",
           "path": "onepassword/onepassword-0.3.0.zip",
