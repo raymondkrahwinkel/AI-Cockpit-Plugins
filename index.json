@@ -1543,9 +1543,34 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-10",
-      "latestVersion": "0.13.4",
+      "published": "2026-11-26",
+      "latestVersion": "0.13.5",
       "versions": [
+        {
+          "version": "0.13.5",
+          "path": "cli-agent-provider/cli-agent-provider-0.13.5-win-x64.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.155.0",
+          "sha256": "798fa4fad0f20157cfc6e5592a90b3b7fe726b6f68b227a635a3da2fab58e7bf",
+          "packages": {
+            "win-x64": {
+              "path": "cli-agent-provider/cli-agent-provider-0.13.5-win-x64.zip",
+              "sha256": "798fa4fad0f20157cfc6e5592a90b3b7fe726b6f68b227a635a3da2fab58e7bf"
+            },
+            "win-arm64": {
+              "path": "cli-agent-provider/cli-agent-provider-0.13.5-win-arm64.zip",
+              "sha256": "a9ec509c8a05e8fc4a90344e00def9f580b394feba6f2e3e361c060b99e6dcf1"
+            },
+            "linux-x64": {
+              "path": "cli-agent-provider/cli-agent-provider-0.13.5-linux-x64.zip",
+              "sha256": "f6d786a08624b98fa6f682ccc91ebb5c9b68b8e139f5b97698bf8b773596b2a4"
+            },
+            "linux-arm64": {
+              "path": "cli-agent-provider/cli-agent-provider-0.13.5-linux-arm64.zip",
+              "sha256": "12bffe55d80f1e0d303e446ccea264154fb906bfa28008074b47d7290ff000e7"
+            }
+          }
+        },
         {
           "version": "0.13.4",
           "path": "cli-agent-provider/cli-agent-provider-0.13.4-win-x64.zip",
@@ -4902,9 +4927,16 @@
       "homepage": "https://github.com/raymondkrahwinkel/AI-Cockpit/tree/main/docs/plugins",
       "repository": "https://github.com/raymondkrahwinkel/AI-Cockpit",
       "featured": false,
-      "published": "2026-11-25",
-      "latestVersion": "0.66.2",
+      "published": "2026-11-26",
+      "latestVersion": "0.66.3",
       "versions": [
+        {
+          "version": "0.66.3",
+          "path": "depot/depot-0.66.3.zip",
+          "abstractionsVersion": 3,
+          "minHostVersion": "0.181.0",
+          "sha256": "45648749916ba45d72b78dd1450a437e111daa02e9c4cc11388ea8a3dcfe065b"
+        },
         {
           "version": "0.66.2",
           "path": "depot/depot-0.66.2.zip",
